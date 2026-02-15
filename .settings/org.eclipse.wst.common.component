@@ -397,7 +397,8 @@
         
         
         
-        <property name="java-output-path" value="/Hello-World-22.0/target/classes"/>
+        
+        <property name="java-output-path" value="/Acme-Starters-C/target/classes"/>
                 
         <property name="context-root" value="Acme-Starters"/>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
