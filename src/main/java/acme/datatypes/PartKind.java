@@ -1,5 +1,5 @@
 
-package acme.entities.inventions;
+package acme.datatypes;
 
 public enum PartKind {
 

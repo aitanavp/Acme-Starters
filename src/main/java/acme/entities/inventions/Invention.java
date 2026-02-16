@@ -1,6 +1,8 @@
 
 package acme.entities.inventions;
 
+import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
+
 import java.time.Duration;
 
 import javax.persistence.Column;
@@ -51,12 +53,12 @@ public class Invention extends AbstractEntity {
 	private String				description;
 
 	@Mandatory
-	@ValidMoment(constraint = ValidMoment.Constraint.ENFORCE_FUTURE, message = "Start moment must be future")
+	@ValidMoment(constraint = ENFORCE_FUTURE)
 	//@Temporal(TemporalType.TIMESTAMP)
 	private Moment				startMoment;
 
 	@Mandatory
-	@ValidMoment(constraint = ValidMoment.Constraint.ENFORCE_FUTURE, message = "End moment must be future")
+	@ValidMoment(constraint = ENFORCE_FUTURE)
 	//@Temporal(TemporalType.TIMESTAMP)
 	private Moment				endMoment;
 
