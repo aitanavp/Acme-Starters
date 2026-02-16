@@ -3,6 +3,7 @@ package acme.entities.strategies;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.validation.Valid;
 
 import acme.client.components.basis.AbstractEntity;
@@ -39,4 +40,10 @@ public class Tactic extends AbstractEntity {
 	@Valid
 	@Column
 	private TacticKind			kind;
+
+	//Relationships
+	@Mandatory
+	@Valid
+	@ManyToOne(optional = false)
+	private Strategy			strategy;
 }
