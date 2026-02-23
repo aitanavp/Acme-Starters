@@ -4,17 +4,19 @@ package acme.entities.inventions;
 import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
 
 import java.time.Duration;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.basis.AbstractEntity;
-import acme.client.components.datatypes.Moment;
 import acme.client.components.datatypes.Money;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
@@ -57,13 +59,13 @@ public class Invention extends AbstractEntity {
 
 	@Mandatory
 	@ValidMoment(constraint = ENFORCE_FUTURE)
-	//@Temporal(TemporalType.TIMESTAMP)
-	private Moment				startMoment;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date				startMoment;
 
 	@Mandatory
 	@ValidMoment(constraint = ENFORCE_FUTURE)
-	//@Temporal(TemporalType.TIMESTAMP)
-	private Moment				endMoment;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date				endMoment;
 
 	@Optional
 	@ValidUrl
@@ -84,7 +86,7 @@ public class Invention extends AbstractEntity {
 		Duration duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
 		long days = duration.toDays();
 		double months = days / 30.0;
-		return months < 0 ? 0.0 : Math.round(months * 10.0) / 10.0;
+		return months;
 	}
 
 

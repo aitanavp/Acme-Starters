@@ -10,6 +10,9 @@ import javax.validation.constraints.Positive;
 import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.ValidNumber;
+import acme.constraints.ValidHeader;
+import acme.constraints.ValidText;
+import acme.datatypes.SectionKind;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -26,18 +29,18 @@ public class AuditSection extends AbstractEntity {
 	// Attributes
 
 	@Mandatory
-	//@ValidHeader
+	@ValidHeader
 	@Column
 	private String				name;
 
 	@Mandatory
-	//@ValidText
+	@ValidText
 	@Column
 	private String				notes;
 
 	@Mandatory
 	@ValidNumber
-	@Positive(message = "The number must be positive")
+	@Positive
 	@Column
 	private Integer				hours;
 

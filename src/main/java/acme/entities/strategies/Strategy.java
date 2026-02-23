@@ -4,22 +4,27 @@ package acme.entities.strategies;
 import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
 
 import java.time.Duration;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.basis.AbstractEntity;
-import acme.client.components.datatypes.Moment;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidUrl;
 import acme.client.helpers.MomentHelper;
+import acme.constraints.ValidHeader;
+import acme.constraints.ValidText;
+import acme.constraints.ValidTicker;
 import acme.entities.fundraisers.Fundraiser;
 import lombok.Getter;
 import lombok.Setter;
@@ -34,29 +39,29 @@ public class Strategy extends AbstractEntity {
 	//Attributes
 
 	@Mandatory
-	//@ValidTicker
+	@ValidTicker
 	@Column(unique = true)
 	private String				ticker;
 
 	@Mandatory
-	//@ValidHeader
+	@ValidHeader
 	@Column
 	private String				name;
 
 	@Mandatory
-	//@ValidText
+	@ValidText
 	@Column
 	private String				description;
 
 	@Mandatory
 	@ValidMoment(constraint = ENFORCE_FUTURE)
-	//@Temporal(TemporalType.TIMESTAMP)
-	private Moment				startMoment;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date				startMoment;
 
 	@Mandatory
 	@ValidMoment(constraint = ENFORCE_FUTURE)
-	//@Temporal(TemporalType.TIMESTAMP)
-	private Moment				endMoment;
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date				endMoment;
 
 	@Optional
 	@ValidUrl
@@ -77,7 +82,7 @@ public class Strategy extends AbstractEntity {
 		Duration duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
 		long days = duration.toDays();
 		double months = days / 30.0;
-		return months < 0 ? 0.0 : months;
+		return months;
 	}
 
 
