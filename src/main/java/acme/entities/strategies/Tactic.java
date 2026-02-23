@@ -10,6 +10,7 @@ import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.ValidScore;
 import acme.constraints.ValidHeader;
+import acme.constraints.ValidTactic;
 import acme.constraints.ValidText;
 import acme.datatypes.TacticKind;
 import lombok.Getter;
@@ -18,6 +19,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
+@ValidTactic
 public class Tactic extends AbstractEntity {
 
 	private static final long	serialVersionUID	= 1L;
