@@ -20,9 +20,25 @@ public class PartValidator extends AbstractValidator<ValidPart, Part> {
 	}
 
 	@Override
-	public boolean isValid(final Part value, final ConstraintValidatorContext context) {
-		// TODO Auto-generated method stub
-		return false;
+	public boolean isValid(final Part part, final ConstraintValidatorContext context) {
+
+		assert context != null;
+
+		boolean result;
+
+		if (part == null)
+			result = true;
+		else {
+			boolean correctCurrency;
+
+			correctCurrency = part.getCost() != null && "EUR".equals(part.getCost().getCurrency());
+
+			super.state(context, correctCurrency, "currency", "acme.validation.part.currency.message");
+
+			result = !super.hasErrors(context);
+		}
+
+		return result;
 	}
 
 }

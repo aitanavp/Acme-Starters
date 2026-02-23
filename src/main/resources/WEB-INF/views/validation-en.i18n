@@ -1,3 +1,7 @@
 acme.validation.ticker.message = Ticker must match the format XX00-XXXXX (2 letters, 2 digits, dash, 5–10 alphanumeric characters)
 acme.validation.text.message=Text must not be blank and must be at most 255 characters long
 acme.validation.header.message=Header must not be blank and must be at most 75 characters long
+acme.validation.part.currency.message = The currency must be EUR
+acme.validation.invention.parts.message = The invention must have at least one part
+acme.validation.invention.dates.message = To publish an invention, both dates must be in the future
+acme.validation.invention.ticker.non-unique = The ticker is already used by another invention
