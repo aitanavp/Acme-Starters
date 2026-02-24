@@ -2,6 +2,7 @@
 package acme.entities.sponsorships;
 
 import java.time.Duration;
+import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,7 +15,6 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.basis.AbstractEntity;
-import acme.client.components.datatypes.Moment;
 import acme.client.components.datatypes.Money;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
@@ -58,12 +58,12 @@ public class Sponsorship extends AbstractEntity {
 	@Mandatory
 	@ValidMoment(constraint = ValidMoment.Constraint.ENFORCE_FUTURE)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Moment				startMoment;
+	private Date				startMoment;
 
 	@Mandatory
 	@ValidMoment(constraint = ValidMoment.Constraint.ENFORCE_FUTURE)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Moment				endMoment;
+	private Date				endMoment;
 
 	@Optional
 	@ValidUrl
@@ -84,7 +84,7 @@ public class Sponsorship extends AbstractEntity {
 		Duration duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
 		long days = duration.toDays();
 		double months = days / 30.0;
-		return months < 0 ? 0.0 : months;
+		return months;
 	}
 
 
