@@ -8,3 +8,5 @@ acme.validation.invention.ticker.non-unique = The ticker is already used by anot
 acme.validation.strategy.ticker.non-unique = The ticker is already used by another strategy
 acme.validation.strategy.parts.message = The strategy must have at least one part
 acme.validation.strategy.dates.message = To publish a strategy, both dates must be in the future
+acme.validation.sponsorship.missing-donations.message = Sponsorships must include at least one donation
+acme.validation.sponsorship.invalid-date.message= Sponsorship end date must be after the start date

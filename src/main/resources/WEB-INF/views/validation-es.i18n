@@ -8,3 +8,5 @@ acme.validation.invention.ticker.non-unique = El ticker ya está en uso por otro
 acme.validation.strategy.ticker.non-unique = El ticker ya está en uso por otra estrategia
 acme.validation.strategy.parts.message = La estrategia debe tener al menos una parte
 acme.validation.strategy.dates.message = Para publicar una estrategia, ambas fechas deben estar en el futuro
+acme.validation.sponsorship.missing-donations.message = Los patrocinios deben tener al menos una donacion
+acme.validation.sponsorship.invalid-date.message= La fecha final del patrocinio debe ser posterior a la de inicio

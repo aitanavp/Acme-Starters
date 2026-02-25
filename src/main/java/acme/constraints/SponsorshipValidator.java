@@ -34,14 +34,6 @@ public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sp
 
 			if (!sponsorship.getDraftMode()) {
 
-				boolean uniqueSponsorship;
-				Sponsorship existingSponsorship;
-
-				existingSponsorship = this.repository.findSponsorshipByTicker(sponsorship.getTicker());
-				uniqueSponsorship = existingSponsorship == null || existingSponsorship.equals(sponsorship);
-
-				super.state(context, uniqueSponsorship, "ticker", "acme.validation.sponsorship.duplicated-ticker.message");
-
 				boolean correctDate;
 				correctDate = sponsorship.getEndMoment().after(sponsorship.getStartMoment());
 
