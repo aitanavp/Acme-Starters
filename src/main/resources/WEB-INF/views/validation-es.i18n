@@ -13,3 +13,4 @@ acme.validation.auditReport.dates.error = Los momentos de inicio y finalización
 acme.validation.auditReport.ticker.non-unique = El ticker ya está siendo utilizado por otro informe de auditoría.
 acme.validation.sponsorship.missing-donations.message = Los patrocinios deben tener al menos una donacion
 acme.validation.sponsorship.invalid-date.message= La fecha final del patrocinio debe ser posterior a la de inicio
+
