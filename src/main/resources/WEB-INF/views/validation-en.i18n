@@ -11,3 +11,5 @@ acme.validation.strategy.dates.message = To publish a strategy, both dates must 
 acme.validation.auditReport.auditSection.error = Audit reports cannot be published unless they have at least one audit section.
 acme.validation.auditReport.dates.error = Start and end moments must form a valid time interval in the future upon publication.
 acme.validation.auditReport.ticker.non-unique = The ticker is already in use by another audit report.
+acme.validation.sponsorship.missing-donations.message = Sponsorships must include at least one donation
+acme.validation.sponsorship.invalid-date.message= Sponsorship end date must be after the start date
