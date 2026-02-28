@@ -8,3 +8,6 @@ acme.validation.invention.ticker.non-unique = The ticker is already used by anot
 acme.validation.strategy.ticker.non-unique = The ticker is already used by another strategy
 acme.validation.strategy.parts.message = The strategy must have at least one part
 acme.validation.strategy.dates.message = To publish a strategy, both dates must be in the future
+acme.validation.auditReport.auditSection.error = Audit reports cannot be published unless they have at least one audit section.
+acme.validation.auditReport.dates.error = Start and end moments must form a valid time interval in the future upon publication.
+acme.validation.auditReport.ticker.non-unique = The ticker is already in use by another audit report.

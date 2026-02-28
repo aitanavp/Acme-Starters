@@ -8,3 +8,6 @@ acme.validation.invention.ticker.non-unique = El ticker ya está en uso por otro
 acme.validation.strategy.ticker.non-unique = El ticker ya está en uso por otra estrategia
 acme.validation.strategy.parts.message = La estrategia debe tener al menos una parte
 acme.validation.strategy.dates.message = Para publicar una estrategia, ambas fechas deben estar en el futuro
+acme.validation.auditReport.auditSection.error = Los informes de auditoría no se pueden publicar a menos que tengan al menos una sección de auditoría.
+acme.validation.auditReport.dates.error = Los momentos de inicio y finalización deben formar un intervalo de tiempo válido en el futuro tras la publicación.
+acme.validation.auditReport.ticker.non-unique = El ticker ya está siendo utilizado por otro informe de auditoría.
