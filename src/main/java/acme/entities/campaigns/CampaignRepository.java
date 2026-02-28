@@ -11,4 +11,10 @@ public interface CampaignRepository extends AbstractRepository {
 
 	@Query("select sum(m.effort) from Milestone m where m.campaign.id = :campaignId")
 	Double computeEffort(int campaignId);
+
+	@Query("select count(m) from Milestone m where m.campaign.id = :campaignId")
+	Long countMilestonesByCampaignId(int campaignId);
+
+	@Query("select c from Campaign c where c.ticker=:ticker")
+	Campaign findCampaignByTicker(final String ticker);
 }
