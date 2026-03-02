@@ -3,7 +3,6 @@ package acme.entities.campaigns;
 
 import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
 
-import java.time.Duration;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -22,6 +21,7 @@ import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidUrl;
 import acme.client.helpers.MomentHelper;
+import acme.constraints.ValidCampaign;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
@@ -32,6 +32,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
+@ValidCampaign
 public class Campaign extends AbstractEntity {
 
 	/**
@@ -82,10 +83,7 @@ public class Campaign extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
-		Duration duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
-		long days = duration.toDays();
-		double months = days / 30.0;
-		return months;
+		return MomentHelper.computeDuration(this.startMoment, this.endMoment).toDays() / 30.0;
 	}
 
 

@@ -1,0 +1,4 @@
+key,version,key:campaign,title,achievements,effort,kind
+milestone-01,1,campaign-01,Phase 1 Completed,Initial rollout achieved,25.0,INITIAL
+milestone-02,1,campaign-01,Phase 2 Expansion,Expanded campaign to new regions,30.0,INTERMEDIATE
+milestone-03,1,campaign-02,Launch Event,Successfully held launch event with press coverage,20.0,FINAL
