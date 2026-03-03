@@ -1,6 +1,7 @@
 acme.validation.ticker.message = El ticker debe tener el formato XX00-XXXXX (2 letras, 2 dígitos, guion y 5–10 caracteres alfanuméricos)
 acme.validation.text.message=El texto no puede estar vacío y debe tener como máximo 255 caracteres
 acme.validation.header.message=El encabezado no puede estar vacío y debe tener como máximo 75 caracteres
+acme.validation.part.currency.message = La moneda debe ser EUR
 acme.validation.invention.parts.message = La invención debe tener al menos una parte
 acme.validation.invention.dates.message = Para publicar un invento, ambas fechas deben estar en el futuro
 acme.validation.invention.ticker.non-unique = El ticker ya está en uso por otro invento
