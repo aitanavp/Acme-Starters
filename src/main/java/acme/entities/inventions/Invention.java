@@ -98,7 +98,7 @@ public class Invention extends AbstractEntity {
 
 
 	@Transient
-	private Money getCost() {
+	public Money getCost() {
 		Double wrapper;
 		Money result = new Money();
 		result.setCurrency("EUR"); // Only Euros are accepted.
@@ -117,6 +117,6 @@ public class Invention extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Inventor inventedBy;
+	private Inventor inventor;
 
 }
