@@ -1,5 +1,57 @@
 key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:managedBy
-strategy-01,1,"Pablo Conservative Strategy",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ორემ იფსუ,2026/07/02 12:00,TICKER-01,fundraiser-01
-strategy-02,1,"雲馬消根清歡寫尾做兒",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,根根根,2026/07/02 12:00,TICKER-02,fundraiser-02
-strategy-03,1,"ոռեմ իպս",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,եմ իպ,2026/07/02 12:00,TICKER-03,fundraiser-03
-strategy-04,1,"ორემ იფსუ",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,nameejemplo1,2026/07/02 12:00,TICKER-04,fundraiser-01
+#Description
+strategy-01,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-01,fundraiser-01
+strategy-02,1,L,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-02,fundraiser-01
+strategy-03,1,Lo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-03,fundraiser-01
+strategy-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-04,fundraiser-01
+strategy-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-05,fundraiser-01
+strategy-06,1,โลเร็ม อิปซัม,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-06,fundraiser-01
+strategy-07,1,لوريم إيبسوم,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-07,fundraiser-01
+strategy-08,1,洛伦·伊普森,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-08,fundraiser-01
+strategy-09,1,<marquee>Hacked</marquee>,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-09,fundraiser-01
+strategy-10,1,<script>alert(‘Hacked!’);</script>,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-10,fundraiser-01
+strategy-11,1,' or 'A' = 'A,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-11,fundraiser-01
+#Draft-mode
+strategy-12,1,ejemplo,false,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-12,fundraiser-01
+strategy-13,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-13,fundraiser-01
+#end_moment
+strategy-14,1,ejemplo,true,08/01/2025 0:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-14,fundraiser-01
+strategy-15,1,ejemplo,true,08/01/2025 0:01,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-15,fundraiser-01
+strategy-16,1,ejemplo,true,31/12/2200 23:59,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-16,fundraiser-01
+strategy-17,1,ejemplo,true,01/01/2201 0:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-17,fundraiser-01
+#more_info
+strategy-18,1,ejemplo,true,08/01/2025 0:00,http://lorem.com/ipsum,ejemplo,2026/07/02 12:00,TICKER-18,fundraiser-01
+strategy-19,1,ejemplo,true,08/01/2025 0:00,http://a.b,ejemplo,2026/07/02 12:00,TICKER-19,fundraiser-01
+strategy-20,1,ejemplo,true,08/01/2025 0:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",ejemplo,2026/07/02 12:00,TICKER-20,fundraiser-01
+strategy-21,1,ejemplo,true,08/01/2025 0:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",ejemplo,2026/07/02 12:00,TICKER-21,fundraiser-01
+strategy-22,1,ejemplo,true,08/01/2025 0:00,http://www.lorem-ipsum.org,ejemplo,2026/07/02 12:00,TICKER-22,fundraiser-01
+strategy-23,1,ejemplo,true,08/01/2025 0:00,https://www.lorem-ipsum.org,ejemplo,2026/07/02 12:00,TICKER-23,fundraiser-01
+strategy-24,1,ejemplo,true,08/01/2025 0:00,http://www.lorem-ipsum.org/dolor/sit.html,ejemplo,2026/07/02 12:00,TICKER-24,fundraiser-01
+strategy-25,1,ejemplo,true,08/01/2025 0:00,http://www.lorem-ipsum.org/dolor/sit.html#dolor,ejemplo,2026/07/02 12:00,TICKER-25,fundraiser-01
+strategy-26,1,ejemplo,true,08/01/2025 0:00,http://example.org?a=1&b=2,ejemplo,2026/07/02 12:00,TICKER-26,fundraiser-01
+strategy-27,1,ejemplo,true,08/01/2025 0:00,http://example.org?,ejemplo,2026/07/02 12:00,TICKER-27,fundraiser-01
+strategy-28,1,ejemplo,true,08/01/2025 0:00,http://example.org?a,ejemplo,2026/07/02 12:00,TICKER-28,fundraiser-01
+strategy-29,1,ejemplo,true,08/01/2025 0:00,http://example.org?a&b,ejemplo,2026/07/02 12:00,TICKER-29,fundraiser-01
+strategy-30,1,ejemplo,true,08/01/2025 0:00,http://example.org/,ejemplo,2026/07/02 12:00,TICKER-30,fundraiser-01
+strategy-31,1,ejemplo,true,08/01/2025 0:00,http://example.org/a,ejemplo,2026/07/02 12:00,TICKER-31,fundraiser-01
+strategy-32,1,ejemplo,true,08/01/2025 0:00,http://example.org/a/b,ejemplo,2026/07/02 12:00,TICKER-32,fundraiser-01
+strategy-33,1,ejemplo,true,08/01/2025 0:00,http://example.org/a/b?,ejemplo,2026/07/02 12:00,TICKER-33,fundraiser-01
+strategy-34,1,ejemplo,true,08/01/2025 0:00,http://example.org/a/b?a&b,ejemplo,2026/07/02 12:00,TICKER-34,fundraiser-01
+#name
+strategy-35,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,"Lorem ipsum dolor sit amet, consectetu",2026/07/02 12:00,TICKER-35,fundraiser-01
+strategy-36,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,L,2026/07/02 12:00,TICKER-36,fundraiser-01
+strategy-37,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,Lo,2026/07/02 12:00,TICKER-37,fundraiser-01
+strategy-38,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t",2026/07/02 12:00,TICKER-38,fundraiser-01
+strategy-39,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te",2026/07/02 12:00,TICKER-39,fundraiser-01
+strategy-40,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,โลเร็ม อิปซัม,2026/07/02 12:00,TICKER-40,fundraiser-01
+strategy-41,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,لوريم إيبسوم,2026/07/02 12:00,TICKER-41,fundraiser-01
+strategy-42,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,洛伦·伊普森,2026/07/02 12:00,TICKER-42,fundraiser-01
+strategy-43,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,<marquee>Hacked</marquee>,2026/07/02 12:00,TICKER-43,fundraiser-01
+strategy-44,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,<script>alert(‘Hacked!’);</script>,2026/07/02 12:00,TICKER-44,fundraiser-01
+strategy-45,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,' or 'A' = 'A,2026/07/02 12:00,TICKER-45,fundraiser-01
+#start_moment
+strategy-46,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,08/01/2025 0:00,TICKER-46,fundraiser-01
+strategy-47,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,08/01/2025 0:01,TICKER-47,fundraiser-01
+strategy-48,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,31/12/2200 23:59,TICKER-48,fundraiser-01
+strategy-49,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,01/01/2201 0:00,TICKER-49,fundraiser-01
+
