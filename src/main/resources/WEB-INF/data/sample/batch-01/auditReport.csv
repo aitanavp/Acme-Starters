@@ -1,20 +1,42 @@
 key,version,ticker,name,description,start_moment,end_moment,more_info,draft_mode,key:auditor
-AUDIT_REPORT_01,1,AUD-0001,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_02,1,AUD-0002,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_03,1,AUD-9999,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_04,1,AUD-0004,a,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_05,1,AUD-0005,ab,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_06,1,AUD-0006,Lorem,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_07,1,AUD-0007,โลเร็ม อิปซัม,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_08,1,AUD-0008,<h1>Hi</h1>,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_09,1,AUD-0009,"' or 'A' = 'A",Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_10,1,AUD-0010,Base Audit Report,a,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_11,1,AUD-0011,Base Audit Report,Lorem ipsum dolor sit amet,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_12,1,AUD-0012,Base Audit Report,โลเร็ม อิปซัม,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_13,1,AUD-0013,Base Audit Report,<script>alert('!')</script>,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_14,1,AUD-0014,Base Audit Report,Base description,2031-01-01 09:00:00,2031-06-01 09:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_15,1,AUD-0015,Base Audit Report,Base description,2032-05-10 08:00:00,2032-05-11 08:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_16,1,AUD-0016,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,,true,AUDITOR_01
-AUDIT_REPORT_17,1,AUD-0017,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://acme.com/report,true,AUDITOR_01
-AUDIT_REPORT_18,1,AUD-0018,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,true,AUDITOR_01
-AUDIT_REPORT_19,1,AUD-0019,Base Audit Report,Base description,2030-01-01 10:00:00,2030-04-01 10:00:00,https://example.com/info,false,AUDITOR_01
+# base
+audit-report-00,1,"TICKER-00","Basic audit report","This is a standard audit report description used as a baseline.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+
+# ticker variants (NON TICKER-XX)
+audit-report-01,1,"ABCDE-1","Basic audit report","Standard description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-02,1,"ABCDEF-2","Basic audit report","Standard description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-03,1,"AAAAA-3","Basic audit report","Standard description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-04,1,"ZZZZZZZZZZZZZZZ","Basic audit report","Standard description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-05,1,"A1B2C-4","Basic audit report","Standard description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+
+# name variants
+audit-report-06,1,"TICKER-06","A","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-07,1,"TICKER-07","Audit","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-08,1,"TICKER-08","Audit Report for Financial Systems","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-09,1,"TICKER-09","تقرير تدقيق","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-10,1,"TICKER-10","审计报告","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-11,1,"TICKER-11","<marquee>Audit</marquee>","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-12,1,"TICKER-12","<script>alert('XSS')</script>","Description.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+
+# description variants
+audit-report-13,1,"TICKER-13","Audit report","L","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-14,1,"TICKER-14","Audit report","Lorem ipsum dolor sit amet, consectetur adipiscing elit.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-15,1,"TICKER-15","Audit report","Descripción en español con acentos.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-16,1,"TICKER-16","Audit report","โลเร็ม อิปซัม","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-17,1,"TICKER-17","Audit report","' OR '1'='1","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+audit-report-18,1,"TICKER-18","Audit report","<script>alert('hack')</script>","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",true,auditor-01
+
+# moment variants (start + end)
+audit-report-19,1,"TICKER-19","Audit report","Valid moments.","2030/01/01 00:00","2030/01/01 00:01","http://example.com/info",true,auditor-01
+audit-report-20,1,"TICKER-20","Audit report","Far future dates.","2200/12/31 23:58","2200/12/31 23:59","http://example.com/info",true,auditor-01
+audit-report-21,1,"TICKER-21","Audit report","Long duration.","2030/01/01 00:00","2200/12/31 23:59","http://example.com/info",true,auditor-01
+
+# more info variants
+audit-report-22,1,"TICKER-22","Audit report","URL short.","2030/01/01 00:00","2030/02/01 00:00","http://a.b",true,auditor-01
+audit-report-23,1,"TICKER-23","Audit report","Long URL.","2030/01/01 00:00","2030/02/01 00:00","https://www.example.org/a/b/c/d/e/f/g",true,auditor-01
+audit-report-24,1,"TICKER-24","Audit report","Query params.","2030/01/01 00:00","2030/02/01 00:00","http://example.org?a=1&b=2",true,auditor-01
+audit-report-25,1,"TICKER-25","Audit report","Anchor URL.","2030/01/01 00:00","2030/02/01 00:00","http://example.org/page#section",true,auditor-01
+audit-report-26,1,"TICKER-26","Audit report","No more info.","2030/01/01 00:00","2030/02/01 00:00","",true,auditor-01
+
+# draft mode variants
+audit-report-27,1,"TICKER-27","Audit report","Draft disabled.","2030/01/01 00:00","2030/02/01 00:00","http://example.com/info",false,auditor-02

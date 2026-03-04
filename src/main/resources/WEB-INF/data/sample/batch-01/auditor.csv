@@ -1,25 +1,4 @@
-key,version,firm,highlights,solicitor
-AUDITOR_01,1,a,Base highlights,true
-AUDITOR_02,1,ab,Base highlights,true
-AUDITOR_03,1,(254 chars.................................................................................................................................................................................),Base highlights,true
-AUDITOR_04,1,(255 chars..................................................................................................................................................................................),Base highlights,true
-AUDITOR_05,1,Lorem,Base highlights,true
-AUDITOR_06,1,โลเร็ม อิปซัม,Base highlights,true
-AUDITOR_07,1,لوريم إيبسوم,Base highlights,true
-AUDITOR_08,1,洛伦·伊普森,Base highlights,true
-AUDITOR_09,1,<h1>Hi</h1>,Base highlights,true
-AUDITOR_10,1,<script>alert('!')</script>,Base highlights,true
-AUDITOR_11,1,"' or 'A' = 'A",Base highlights,true
-AUDITOR_12,1,Base Firm,a,true
-AUDITOR_13,1,Base Firm,ab,true
-AUDITOR_14,1,Base Firm,(254 chars.................................................................................................................................................................................),true
-AUDITOR_15,1,Base Firm,(255 chars..................................................................................................................................................................................),true
-AUDITOR_16,1,Base Firm,Lorem,true
-AUDITOR_17,1,Base Firm,โลเร็ม อิปซัม,true
-AUDITOR_18,1,Base Firm,لوريم إيبسوم,true
-AUDITOR_19,1,Base Firm,洛伦·伊普森,true
-AUDITOR_20,1,Base Firm,<h1>Hi</h1>,true
-AUDITOR_21,1,Base Firm,<script>alert('!')</script>,true
-AUDITOR_22,1,Base Firm,"' or 'A' = 'A",true
-AUDITOR_23,1,Base Firm,Base highlights,true
-AUDITOR_24,1,Base Firm,Base highlights,false
+key,version,key:userAccount,firm,highlights,solicitor
+auditor-01,1,user-account-auditor-01,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
+auditor-02,1,user-account-auditor-02,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
+auditor-03,1,user-account-auditor-03,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
