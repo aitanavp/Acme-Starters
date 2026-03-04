@@ -7,6 +7,7 @@ import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import acme.client.components.datatypes.Money;
 import acme.client.components.validation.AbstractValidator;
 import acme.client.components.validation.Validator;
 import acme.client.helpers.MomentHelper;
@@ -57,11 +58,23 @@ public class InventionValidator extends AbstractValidator<ValidInvention, Invent
 				Date now = MomentHelper.getBaseMoment();
 				Date start = invention.getStartMoment();
 				Date end = invention.getEndMoment();
-				boolean validDates = start != null && end != null && !start.before(now) && end.after(start);
 
+				boolean validDates = start != null && end != null && !MomentHelper.isBefore(start, now) && MomentHelper.isAfter(end, start);
 				boolean validPublishedInvention = invention.getDraftMode() || validDates;
 
 				super.state(context, validPublishedInvention, "*", "acme.validation.invention.dates.message");
+			}
+			{
+				Double monthsActive = invention.getMonthsActive();
+				boolean validMonths = monthsActive != null && monthsActive >= 0.0;
+
+				super.state(context, validMonths, "monthsActive", "acme.validation.invention.monthsActive.message");
+			}
+			{
+				Money cost = invention.getCost();
+				boolean validCost = cost != null && cost.getAmount() != null && cost.getAmount() >= 0.0 && "EUR".equals(cost.getCurrency());
+
+				super.state(context, validCost, "cost", "acme.validation.invention.cost.message");
 			}
 		}
 

@@ -5,6 +5,8 @@ acme.validation.part.currency.message = The currency must be EUR
 acme.validation.invention.parts.message = The invention must have at least one part
 acme.validation.invention.dates.message = To publish an invention, both dates must be in the future
 acme.validation.invention.ticker.non-unique = The ticker is already used by another invention
+acme.validation.invention.monthsActive.message = The active months cannot be negative or null
+acme.validation.invention.cost.message = The cost must be a positive value in EUR
 acme.validation.strategy.ticker.non-unique = The ticker is already used by another strategy
 acme.validation.campaign.ticker.non-unique = The ticker is already used by another campaign
 acme.validation.campaign.milestones.message = The campaign must have at least one milestone
@@ -16,3 +18,4 @@ acme.validation.auditReport.dates.error = Start and end moments must form a vali
 acme.validation.auditReport.ticker.non-unique = The ticker is already in use by another audit report.
 acme.validation.sponsorship.missing-donations.message = Sponsorships must include at least one donation
 acme.validation.sponsorship.invalid-date.message= Sponsorship end date must be after the start date
+
