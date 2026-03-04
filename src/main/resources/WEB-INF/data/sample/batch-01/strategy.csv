@@ -37,6 +37,7 @@ strategy-31,1,ejemplo,true,08/01/2025 0:00,http://example.org/a,ejemplo,2026/07/
 strategy-32,1,ejemplo,true,08/01/2025 0:00,http://example.org/a/b,ejemplo,2026/07/02 12:00,TICKER-32,fundraiser-01
 strategy-33,1,ejemplo,true,08/01/2025 0:00,http://example.org/a/b?,ejemplo,2026/07/02 12:00,TICKER-33,fundraiser-01
 strategy-34,1,ejemplo,true,08/01/2025 0:00,http://example.org/a/b?a&b,ejemplo,2026/07/02 12:00,TICKER-34,fundraiser-01
+strategy-19,1,ejemplo,true,08/01/2025 0:00,,ejemplo,2026/07/02 12:00,TICKER-19,fundraiser-01
 #name
 strategy-35,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,"Lorem ipsum dolor sit amet, consectetu",2026/07/02 12:00,TICKER-35,fundraiser-01
 strategy-36,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,L,2026/07/02 12:00,TICKER-36,fundraiser-01
@@ -54,4 +55,3 @@ strategy-46,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies
 strategy-47,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,08/01/2025 0:01,TICKER-47,fundraiser-01
 strategy-48,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,31/12/2200 23:59,TICKER-48,fundraiser-01
 strategy-49,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,01/01/2201 0:00,TICKER-49,fundraiser-01
-
