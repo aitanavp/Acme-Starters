@@ -15,32 +15,32 @@ SPONSORSHIP_06,1,FFF-678,Main Sponsorship,a,2026-06-01 10:00,2026-12-01 10:00,ht
 #NAME
 
 SPONSORSHIP_07,1,ABCDE-1,L,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_08,1,ABCDE-1,Lo,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_09,1,ABCDE-1,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_10,1,ABCDE-1,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_11,1,ABCDE-1,لوريم إيبسوم,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_12,1,ABCDE-1,洛伦·伊普森,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_13,1,ABCDE-1,<marquee>Hacked</marquee>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_14,1,ABCDE-1,<script>alert('Hacked!');</script>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_15,1,ABCDE-1,โลเร็ม อิปซัม,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_16,1,ABCDE-1,' or 'A' = 'A,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_08,1,ABCDE-2,Lo,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_09,1,ABCDE-3,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_10,1,ABCDE-4,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_11,1,ABCDE-5,لوريم إيبسوم,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_12,1,ABCDE-6,洛伦·伊普森,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_13,1,ABCDE-7,<marquee>Hacked</marquee>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_14,1,ABCDE-8,<script>alert('Hacked!');</script>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_15,1,ABCDE-9,โลเร็ม อิปซัม,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_16,1,ABCDE-10,' or 'A' = 'A,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
 
 #DESCRIPTION
  
-SPONSORSHIP_17,1,ABCDE-1,Lore ipsum,S,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_18,1,ABCDE-1,Lore ipsum,St,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_19,1,ABCDE-1,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_20,1,ABCDE-1,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_21,1,ABCDE-1,Lore ipsum,洛伦·伊普森,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_23,1,ABCDE-1,Lore ipsum,<marquee>Hacked</marquee>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_24,1,ABCDE-1,Lore ipsum,<script>alert(‘Hacked!’);</script>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_25,1,ABCDE-1,Lore ipsum,' or 'A' = 'A,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_17,1,ABCDE-11,Lore ipsum,S,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_18,1,ABCDE-12,Lore ipsum,St,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_19,1,ABCDE-13,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_20,1,ABCDE-14,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_21,1,ABCDE-15,Lore ipsum,洛伦·伊普森,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_23,1,ABCDE-16,Lore ipsum,<marquee>Hacked</marquee>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_24,1,ABCDE-17,Lore ipsum,<script>alert(‘Hacked!’);</script>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_25,1,ABCDE-18,Lore ipsum,' or 'A' = 'A,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
 
 #DATE
 
-SPONSORSHIP_26,1,ABCDE-1,Lore ipsum,Standard description.,2025/01/01 0:00,2025/01/01 0:01,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_27,1,ABCDE-1,Lore ipsum,Standard description.,2200/12/31 23:58,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_28,1,ABCDE-1,Lore ipsum,Standard description.,2025/01/01 0:00,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_26,1,ABCDE-19,Lore ipsum,Standard description.,2025/01/01 0:00,2025/01/01 0:01,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_27,1,ABCDE-20,Lore ipsum,Standard description.,2200/12/31 23:58,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_28,1,ABCDE-21,Lore ipsum,Standard description.,2025/01/01 0:00,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
 
 #MORE INFO
 
@@ -63,8 +63,8 @@ SPONSORSHIP_46,1,"TICKER-41","Lorem ipsum dolor sit amet, consectetu","Lorem ips
 
 #DRAFT MODE
 
-SPONSORSHIP_29,1,ABCDE-1,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_30,1,ABCDE-1,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,false,SPONSOR_01
+SPONSORSHIP_29,1,ABCDE-22,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_30,1,ABCDE-23,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,false,SPONSOR_01
 
 #SPONSOR
-SPONSORSHIP_47,1,ABCDE-1,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_02
+SPONSORSHIP_47,1,ABCDE-24,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_02
