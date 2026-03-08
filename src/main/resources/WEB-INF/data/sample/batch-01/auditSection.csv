@@ -18,7 +18,6 @@ audit-section-13,1,audit-report-13,"Lorem ipsum dolor sit amet, consectetu","<p>
 audit-section-14,1,audit-report-14,"Lorem ipsum dolor sit amet, consectetu","Review completed'; UPDATE audit_section SET hours=10; --",5,PRELIMINARY
 audit-section-15,1,audit-report-15,"Lorem ipsum dolor sit amet, consectetu","Revisión preliminar con análisis financiero y evaluación de riesgos operativos.",5,PRELIMINARY
 #hours - standar
-audit-section-16,1,audit-report-16,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",0,PRELIMINARY
 audit-section-17,1,audit-report-17,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",1,PRELIMINARY
 audit-section-18,1,audit-report-19,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",999,PRELIMINARY
 #kind - standar
