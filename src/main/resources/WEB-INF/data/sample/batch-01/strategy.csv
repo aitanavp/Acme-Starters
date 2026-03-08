@@ -1,0 +1,5 @@
+key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:managedBy
+strategy-01,1,"Pablo Conservative Strategy",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ორემ იფსუ,2026/07/02 12:00,TICKER-01,fundraiser-01
+strategy-02,1,"雲馬消根清歡寫尾做兒",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,根根根,2026/07/02 12:00,TICKER-02,fundraiser-02
+strategy-03,1,"ոռեմ իպս",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,եմ իպ,2026/07/02 12:00,TICKER-03,fundraiser-03
+strategy-04,1,"ორემ იფსუ",true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,nameejemplo1,2026/07/02 12:00,TICKER-04,fundraiser-01
