@@ -1,0 +1,11 @@
+any.part.list.title = Partes
+any.part.list.name = Nombre
+any.part.list.description = Descripción
+any.part.list.cost = Coste
+any.part.list.kind = Tipo
+
+any.part.form.title = Parte
+any.part.form.name = Nombre
+any.part.form.description = Descripción
+any.part.form.cost = Coste
+any.part.form.kind = Tipo

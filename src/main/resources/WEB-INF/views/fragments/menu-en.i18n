@@ -13,6 +13,11 @@
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link
 
+# master.menu.any #############################################################
+
+master.menu.any = Any user
+master.menu.any.inventions = List published inventions
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

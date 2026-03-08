@@ -11,3 +11,6 @@ user-account-fundraiser-03,true,"UserIdentity{name: 'fundraiser3', surname: 'fun
 user-account-inventor-01,true,"UserIdentity{name: 'Marco', surname: 'Inventor', email: 'inventor1@acme.com'}",inventor1,inventor1
 user-account-inventor-02,true,"UserIdentity{name: 'Aitana', surname: 'Inventor', email: 'inventor2@acme.com'}",inventor2,inventor2
 user-account-inventor-03,true,"UserIdentity{name: 'Alberto', surname: 'Inventor', email: 'inventor3@acme.com'}",inventor3,inventor3
+user-account-auditor-01,true,"UserIdentity{name: 'Auditor1', surname: 'Auditor1', email: 'auditor1@acme.com'}",auditor1,auditor1
+user-account-auditor-02,true,"UserIdentity{name: 'Auditor2', surname: 'Auditor2', email: 'auditor2@acme.com'}",auditor2,auditor2
+user-account-auditor-03,true,"UserIdentity{name: 'Auditor3', surname: 'Auditor3', email: 'auditor3@acme.com'}",auditor3,auditor3

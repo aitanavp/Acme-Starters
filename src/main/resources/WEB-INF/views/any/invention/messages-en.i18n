@@ -1,0 +1,12 @@
+any.invention.list.title = Published inventions
+any.invention.list.name = Name
+any.invention.list.description = Description
+
+any.invention.form.title = Invention
+any.invention.form.name = Name
+any.invention.form.description = Description
+any.invention.form.startMoment = Start moment
+any.invention.form.endMoment = End moment
+any.invention.form.moreInfo = More info
+any.invention.form.button.parts = Parts
+any.invention.form.button.inventor = Inventor
