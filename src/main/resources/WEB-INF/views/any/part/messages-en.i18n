@@ -3,3 +3,9 @@ any.part.list.name = Name
 any.part.list.description = Description
 any.part.list.cost = Cost
 any.part.list.kind = Kind
+
+any.part.form.title = Part
+any.part.form.name = Name
+any.part.form.description = Description
+any.part.form.cost = Cost
+any.part.form.kind = Kind

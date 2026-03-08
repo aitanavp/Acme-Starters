@@ -1,0 +1,11 @@
+<%@page%>
+
+<%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="acme" uri="http://acme-framework.org/"%>
+
+<acme:form>
+	<acme:form-textbox code="any.part.form.name" path="name"/>
+	<acme:form-textbox code="any.part.form.description" path="description"/>
+	<acme:form-textbox code="any.part.form.cost" path="cost"/>
+	<acme:form-textbox code="any.part.form.kind" path="kind"/>
+</acme:form>
