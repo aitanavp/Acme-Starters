@@ -1,4 +1,0 @@
-key,key:spokesperson,ticker,name,description,startMoment,endMoment,moreInfo,draftMode
-campaign-01,spokesperson-01,CAMP-2026-001,Green Energy Launch,Campaign to promote renewable energy adoption,2026/04/01 09:00,2026/08/01 09:00,https://example.com/green,true
-campaign-02,spokesperson-02,CAMP-2026-002,Tech Innovation Week,Promoting local tech startups,2026/05/10 10:00,2026/09/10 10:00,https://example.com/tech,true
-campaign-03,spokesperson-01,CAMP-2026-003,Health Awareness,Public health awareness campaign,2026/06/15 08:30,2026/12/15 08:30,,true

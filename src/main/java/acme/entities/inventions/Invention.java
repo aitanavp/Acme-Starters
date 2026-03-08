@@ -3,7 +3,7 @@ package acme.entities.inventions;
 
 import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
 
-import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -21,6 +21,7 @@ import acme.client.components.datatypes.Money;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
+import acme.client.components.validation.ValidMoney;
 import acme.client.components.validation.ValidUrl;
 import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
@@ -82,13 +83,11 @@ public class Invention extends AbstractEntity {
 	// Derived attributes
 
 
-	@Valid
+	@Mandatory
+	// @Valid
 	@Transient
 	public Double getMonthsActive() {
-		Duration duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
-		long days = duration.toDays();
-		double months = days / 30.0;
-		return months;
+		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 	}
 
 
@@ -97,8 +96,10 @@ public class Invention extends AbstractEntity {
 	private InventionRepository repository;
 
 
+	@Mandatory
+	@ValidMoney
 	@Transient
-	private Money getCost() {
+	public Money getCost() {
 		Double wrapper;
 		Money result = new Money();
 		result.setCurrency("EUR"); // Only Euros are accepted.
@@ -117,6 +118,6 @@ public class Invention extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Inventor inventedBy;
+	private Inventor inventor;
 
 }
