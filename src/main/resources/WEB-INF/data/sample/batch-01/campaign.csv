@@ -1,4 +1,4 @@
-key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:managedBy
+key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:spokesperson
 #Description
 campaign-01,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-01,spokesperson-01
 campaign-02,1,L,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-02,spokesperson-01
