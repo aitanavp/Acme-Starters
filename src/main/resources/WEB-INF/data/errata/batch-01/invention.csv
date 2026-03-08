@@ -1,0 +1,49 @@
+key,version,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:inventor
+
+# base
+invention-00,1,"TICKER-01","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+
+# ticker variants
+invention-01,1,"AB-1","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-02,1,"THIS_TICKER_IS_TOO_LONG","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-03,1,"ABC 123","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-04,1,"ABC$123","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-05,1,,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-06,1,"TICKER-01","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+
+# name variants
+invention-07,1,"TICKER-02",,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-08,1,"TICKER-03","","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-09,1,"TICKER-04","   ","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-10,1,"TICKER-05","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+
+# description variants
+invention-11,1,"TICKER-06","Lorem ipsum dolor sit amet, consectetu",,"2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-12,1,"TICKER-07","Lorem ipsum dolor sit amet, consectetu","","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-13,1,"TICKER-08","Lorem ipsum dolor sit amet, consectetu","   ","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+invention-14,1,"TICKER-09","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-01
+
+# moment variants (start + end)
+invention-15,1,"TICKER-10","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2024/12/31 23:59","2025/01/02 00:00","http://lorem.com/ipsum",false,inventor-01
+invention-16,1,"TICKER-11","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2024/12/31 23:59","http://lorem.com/ipsum",false,inventor-01
+invention-17,1,"TICKER-12","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",,"2025/01/02 00:00","http://lorem.com/ipsum",false,inventor-01
+invention-18,1,"TICKER-13","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00",,"http://lorem.com/ipsum",false,inventor-01
+invention-19,1,"TICKER-14","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/01 00:00","http://lorem.com/ipsum",false,inventor-01
+invention-20,1,"TICKER-15","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/01 00:00","http://lorem.com/ipsum",false,inventor-01
+
+# more info variants (optional)
+invention-21,1,"TICKER-16","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://",true,inventor-01
+invention-22,1,"TICKER-17","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","ftp://",true,inventor-01
+invention-23,1,"TICKER-18","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://a",true,inventor-01
+invention-24,1,"TICKER-19","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","ftp://a",true,inventor-01
+invention-25,1,"TICKER-20","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit/amet/consectetur/adipiscing/elit/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/x",true,inventor-01
+
+# draft mode variants
+invention-26,1,"TICKER-21","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",,inventor-01
+
+# inventor variants
+invention-27,1,"TICKER-23","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-99
+invention-28,1,"TICKER-24","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,
+
+# base with draft mode = false and no part assigned
+invention-29,1,"TICKER-01","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",false,inventor-01
