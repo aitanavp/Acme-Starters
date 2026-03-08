@@ -1,0 +1,70 @@
+key,version,ticker,name,description,start_moment,end_moment,more_info,draft_mode,key:sponsor
+
+#BASE
+
+SPONSORSHIP_01,1,TICKER-01,Main Sponsorship,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+
+#TICKER
+
+SPONSORSHIP_02,1,BBB,Main Sponsorship,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_03,1,CCC-3 3,Main Sponsorship,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_04,1,DDD-@#,a,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_05,1,EEE-123456789AZYD,โลเร็ม อิปซัม,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_06,1,FFF-678,Main Sponsorship,a,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+
+#NAME
+
+SPONSORSHIP_07,1,ABCDE-1,L,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_08,1,ABCDE-1,Lo,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_09,1,ABCDE-1,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_10,1,ABCDE-1,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_11,1,ABCDE-1,لوريم إيبسوم,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_12,1,ABCDE-1,洛伦·伊普森,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_13,1,ABCDE-1,<marquee>Hacked</marquee>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_14,1,ABCDE-1,<script>alert('Hacked!');</script>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_15,1,ABCDE-1,โลเร็ม อิปซัม,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_16,1,ABCDE-1,' or 'A' = 'A,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+
+#DESCRIPTION
+ 
+SPONSORSHIP_17,1,ABCDE-1,Lore ipsum,S,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_18,1,ABCDE-1,Lore ipsum,St,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_19,1,ABCDE-1,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_20,1,ABCDE-1,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_21,1,ABCDE-1,Lore ipsum,洛伦·伊普森,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_23,1,ABCDE-1,Lore ipsum,<marquee>Hacked</marquee>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_24,1,ABCDE-1,Lore ipsum,<script>alert(‘Hacked!’);</script>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_25,1,ABCDE-1,Lore ipsum,' or 'A' = 'A,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+
+#DATE
+
+SPONSORSHIP_26,1,ABCDE-1,Lore ipsum,Standard description.,2025/01/01 0:00,2025/01/01 0:01,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_27,1,ABCDE-1,Lore ipsum,Standard description.,2200/12/31 23:58,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_28,1,ABCDE-1,Lore ipsum,Standard description.,2025/01/01 0:00,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
+
+#MORE INFO
+
+SPONSORSHIP_31,1,"TICKER-26","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://a.b",true,SPONSOR_01
+SPONSORSHIP_32,1,"TICKER-27","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",true,SPONSOR_01
+SPONSORSHIP_33,1,"TICKER-28","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",true,SPONSOR_01
+SPONSORSHIP_34,1,"TICKER-29","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org",true,SPONSOR-_1
+SPONSORSHIP_35,1,"TICKER-30","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","https://www.lorem-ipsum.org",true,SPONSOR_01
+SPONSORSHIP_36,1,"TICKER-31","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit.html",true,SPONSOR_01
+SPONSORSHIP_37,1,"TICKER-32","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit.html#dolor",true,SPONSOR_01
+SPONSORSHIP_38,1,"TICKER-33","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?a=1&b=2",true,SPONSOR_01
+SPONSORSHIP_39,1,"TICKER-34","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?",true,SPONSOR_01
+SPONSORSHIP_40,1,"TICKER-35","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?a",true,SPONSOR_01
+SPONSORSHIP_41,1,"TICKER-36","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?a&b",true,SPONSOR_01
+SPONSORSHIP_42,1,"TICKER-37","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/",true,SPONSOR_01
+SPONSORSHIP_43,1,"TICKER-38","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a",true,SPONSOR_01
+SPONSORSHIP_44,1,"TICKER-39","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a/b",true,SPONSOR_01
+SPONSORSHIP_45,1,"TICKER-40","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a/b?",true,SPONSOR_01
+SPONSORSHIP_46,1,"TICKER-41","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a/b?a&b",true,SPONSOR_01
+
+#DRAFT MODE
+
+SPONSORSHIP_29,1,ABCDE-1,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
+SPONSORSHIP_30,1,ABCDE-1,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,false,SPONSOR_01
+
+#SPONSOR
+SPONSORSHIP_47,1,ABCDE-1,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_02
