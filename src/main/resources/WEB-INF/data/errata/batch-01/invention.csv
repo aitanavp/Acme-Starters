@@ -42,7 +42,6 @@ invention-25,1,"TICKER-20","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum
 invention-26,1,"TICKER-21","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",,inventor-01
 
 # inventor variants
-invention-27,1,"TICKER-23","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,inventor-99
 invention-28,1,"TICKER-24","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,
 
 # base with draft mode = false and no part assigned

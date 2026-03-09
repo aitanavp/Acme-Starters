@@ -24,7 +24,6 @@ campaign-13,1,"TICKER-08","Lorem ipsum dolor sit amet, consectetu","   ","2025/0
 campaign-14,1,"TICKER-09","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,spokesperson-01
 
 # moment variants (start + end)
-campaign-15,1,"TICKER-10","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2024/12/31 23:59","2025/01/02 00:00","http://lorem.com/ipsum",false,spokesperson-01
 campaign-16,1,"TICKER-11","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2024/12/31 23:59","http://lorem.com/ipsum",false,spokesperson-01
 campaign-17,1,"TICKER-12","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",,"2025/01/02 00:00","http://lorem.com/ipsum",false,spokesperson-01
 campaign-18,1,"TICKER-13","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00",,"http://lorem.com/ipsum",false,spokesperson-01
@@ -42,7 +41,6 @@ campaign-25,1,"TICKER-20","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum 
 campaign-26,1,"TICKER-21","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",,spokesperson-01
 
 # spokesperson variants
-campaign-27,1,"TICKER-23","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,spokesperson-99
 campaign-28,1,"TICKER-24","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,
 
 # base with draft mode = false
