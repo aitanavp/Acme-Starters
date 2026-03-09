@@ -1,4 +1,4 @@
-4
+
 package acme.entities.sponsorships;
 
 import javax.persistence.Column;
