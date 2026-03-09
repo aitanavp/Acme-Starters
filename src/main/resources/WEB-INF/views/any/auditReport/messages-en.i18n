@@ -1,0 +1,12 @@
+any.invention.list.title = Published audit reports
+any.invention.list.name = Name
+any.invention.list.description = Description
+
+any.invention.form.title = Audit Report
+any.invention.form.name = Name
+any.invention.form.description = Description
+any.invention.form.startMoment = Start moment
+any.invention.form.endMoment = End moment
+any.invention.form.moreInfo = More info
+any.invention.form.button.auditSections = Audit Sections
+any.invention.form.button.auditor = Auditor

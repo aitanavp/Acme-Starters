@@ -1,0 +1,12 @@
+any.invention.list.title = Informes de auditoría publicados
+any.invention.list.name = Nombre
+any.invention.list.description = Descripción
+
+any.invention.form.title = Informe de auditoría
+any.invention.form.name = Nombre 
+any.invention.form.description = Descripción
+any.invention.form.startMoment = Momento de inicio
+any.invention.form.endMoment = Momento de fin
+any.invention.form.moreInfo = Más información
+any.invention.form.button.auditSections = Secciones de auditoría
+any.invention.form.button.auditor = Auditor

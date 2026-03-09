@@ -1,0 +1,11 @@
+any.part.list.title = Secciones de auditoría
+any.part.list.name = Nombre
+any.part.list.notes = Notas
+any.part.list.hours = Horas
+any.part.list.kind = Tipo
+
+any.part.form.title = Sección de auditoría
+any.part.form.name = Nombre
+any.part.form.notes = Notas
+any.part.form.hours = Horas
+any.part.form.kind = Tipo
