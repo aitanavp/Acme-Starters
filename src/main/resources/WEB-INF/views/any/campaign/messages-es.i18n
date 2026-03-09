@@ -1,0 +1,12 @@
+any.campaign.list.title = Campañas publicadas
+any.campaign.list.name = Nombre
+any.campaign.list.description = Descripción
+
+any.campaign.form.title = Campaña
+any.campaign.form.name = Nombre
+any.campaign.form.description = Descripción
+any.campaign.form.startMoment = Momento de inicio
+any.campaign.form.endMoment = Momento de fin
+any.campaign.form.moreInfo = Más información
+any.campaign.form.button.milestones = Hitos
+any.campaign.form.button.spokesperson = Portavoz

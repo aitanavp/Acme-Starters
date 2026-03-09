@@ -1,0 +1,30 @@
+key,version,name,description,effort,kind,key:campaign
+
+# base
+milestone-00,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-00
+
+# name variants
+milestone-01,1,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-15
+milestone-02,1,"","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-16
+milestone-03,1,"  ","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-17
+milestone-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-18
+
+# description variants
+milestone-05,1,"Lorem ipsum dolor sit amet, consectetu",,500000.00,ENGAGING,campaign-19
+milestone-06,1,"Lorem ipsum dolor sit amet, consectetu","",500000.00,ENGAGING,campaign-20
+milestone-07,1,"Lorem ipsum dolor sit amet, consectetu","   ",500000.00,ENGAGING,campaign-00
+milestone-08,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",500000.00,ENGAGING,campaign-00
+
+# cost / effort variants
+milestone-09,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",0.00,ENGAGING,campaign-00
+milestone-10,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",-0.01,ENGAGING,campaign-00
+milestone-11,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",1000000.01,ENGAGING,campaign-00
+
+# kind variants
+milestone-12,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,TEASER,campaign-00
+milestone-13,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,INCREDIBLE,campaign-00
+milestone-14,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-00
+
+# campaign variants
+milestone-15,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,ENGAGING,campaign-99
+milestone-16,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",500000.00,TEASER,
