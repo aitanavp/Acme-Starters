@@ -1,49 +1,30 @@
-key,version,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:SPONSOR
+key,version,ticker,name,description,startMoment,endMoment,moreInfo,draftMode,key:sponsor
 
-# base
-SPONSORSHIP-00,1,"TICKER-01","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
+sponsorship-01,1,"BIA26-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-02,1,"BI246-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-03,1,"BI26-ABCD","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
 
-# ticker variants
-SPONSORSHIP-01,1,"AB-1","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-02,1,"THIS_TICKER_IS_TOO_LONG","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-03,1,"ABC 123","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-04,1,"ABC$123","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-05,1,,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-06,1,"TICKER-01","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
+sponsorship-04,1,"BI27-ABCDE","Iniciativa Global para la Reducción de Emisiones de Carbono en la Industria.","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-05,1,"BI28-ABCDE","","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-06,1,"BI99-ABCDE"," ","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
 
-# name variants
-SPONSORSHIP-07,1,"TICKER-02",,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-08,1,"TICKER-03","","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-09,1,"TICKER-04","   ","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-10,1,"TICKER-05","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
+sponsorship-07,1,"BI29-ABCDE","Reforestación","","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-08,1,"BI98-ABCDE","Reforestación"," ","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-09,1,"BI30-ABCDE","Reforestación","Este proyecto de reforestación masiva en la zona norte tiene como objetivo plantar diez mil árboles autóctonos en un periodo de tres años, promoviendo la biodiversidad local, recuperando los suelos degradados y creando nuevos espacios de recreo y ocio.....","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
 
-# description variants
-SPONSORSHIP-11,1,"TICKER-06","Lorem ipsum dolor sit amet, consectetu",,"2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-12,1,"TICKER-07","Lorem ipsum dolor sit amet, consectetu","","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-13,1,"TICKER-08","Lorem ipsum dolor sit amet, consectetu","   ","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
-SPONSORSHIP-14,1,"TICKER-09","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-01
+sponsorship-22,1,"BI31-ABCDE","Reforestación","Esto es una descripción","2024/12/31 23:59","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-10,1,"BI32-ABCDE","Reforestación","Esto es una descripción","2201/01/01 00:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
 
-# moment variants (start + end)
-SPONSORSHIP-15,1,"TICKER-10","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2024/12/31 23:59","2025/01/02 00:00","http://lorem.com/ipsum",false,SPONSOR-01
-SPONSORSHIP-16,1,"TICKER-11","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2024/12/31 23:59","http://lorem.com/ipsum",false,SPONSOR-01
-SPONSORSHIP-17,1,"TICKER-12","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",,"2025/01/02 00:00","http://lorem.com/ipsum",false,SPONSOR-01
-SPONSORSHIP-18,1,"TICKER-13","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00",,"http://lorem.com/ipsum",false,SPONSOR-01
-SPONSORSHIP-19,1,"TICKER-14","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/01 00:00","http://lorem.com/ipsum",false,SPONSOR-01
-SPONSORSHIP-20,1,"TICKER-15","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/01 00:00","http://lorem.com/ipsum",false,SPONSOR-01
+sponsorship-11,1,"BI33-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/03/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-12,1,"BI34-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2024/12/31 23:59","https://example.com/product1",false,sponsor-01
+sponsorship-13,1,"BI35-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2201/01/01 00:00","https://example.com/product1",false,sponsor-01
 
-# more info variants (optional)
-SPONSORSHIP-21,1,"TICKER-16","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://",true,SPONSOR-01
-SPONSORSHIP-22,1,"TICKER-17","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","ftp://",true,SPONSOR-01
-SPONSORSHIP-23,1,"TICKER-18","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://a",true,SPONSOR-01
-SPONSORSHIP-24,1,"TICKER-19","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","ftp://a",true,SPONSOR-01
-SPONSORSHIP-25,1,"TICKER-20","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit/amet/consectetur/adipiscing/elit/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/x",true,SPONSOR-01
+sponsorship-14,1,"BI36-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","http://",false,sponsor-01
+sponsorship-15,1,"BI37-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","ftp://",false,sponsor-01
+sponsorship-16,1,"BI38-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","http://a",false,sponsor-01
+sponsorship-17,1,"BI39-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","ftp://a",false,sponsor-01
+sponsorship-18,1,"BI40-ABCDE","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/x",false,sponsor-01
 
-# draft mode variants
-SPONSORSHIP-26,1,"TICKER-21","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",,SPONSOR-01
-
-# SPONSOR variants
-SPONSORSHIP-27,1,"TICKER-23","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,SPONSOR-99
-SPONSORSHIP-28,1,"TICKER-24","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",true,
-
-# base with draft mode = false and no part assigned
-SPONSORSHIP-29,1,"TICKER-01","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://lorem.com/ipsum",false,SPONSOR-01
+sponsorship-19,1,"26-ABCD","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-20,1,"BI-ABCD","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
+sponsorship-21,1,"BI26-","Reforestación","Esto es una descripción","2026/04/15 10:00","2026/10/15 10:00","https://example.com/product1",false,sponsor-01
