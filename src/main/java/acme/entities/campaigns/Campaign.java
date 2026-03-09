@@ -3,6 +3,7 @@ package acme.entities.campaigns;
 
 import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
 
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -83,7 +84,7 @@ public class Campaign extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
-		return MomentHelper.computeDuration(this.startMoment, this.endMoment).toDays() / 30.0;
+		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 	}
 
 
