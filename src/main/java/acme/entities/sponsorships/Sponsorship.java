@@ -110,6 +110,6 @@ public class Sponsorship extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Sponsor sponsoredBy;
+	private Sponsor sponsor;
 
 }

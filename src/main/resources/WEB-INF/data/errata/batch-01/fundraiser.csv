@@ -1,0 +1,10 @@
+key,version,key:userAccount,agent,bank,statement
+#Base
+fundraiser-01,1,user-account-fundraiser-01,true,sabadell,statement
+#Error
+fundraiser-02,1,user-account-fundraiser-02,true,,statement
+fundraiser-03,1,user-account-fundraiser-03,true,sabadell,
+fundraiser-04,1,user-account-fundraiser-02,,sabadell,statement
+fundraiser-05,1,user-account-fundraiser-03,true,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem",statement
+fundraiser-01,1,user-account-fundraiser-01,true,BBVA,statement
+fundraiser-01,1,user-account-fundraiser-01,true,sabadell,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i"

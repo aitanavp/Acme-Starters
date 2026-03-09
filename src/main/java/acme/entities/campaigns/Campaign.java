@@ -107,6 +107,6 @@ public class Campaign extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Spokesperson managedBy;
+	private Spokesperson spokesperson;
 
 }

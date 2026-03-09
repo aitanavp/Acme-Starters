@@ -1,0 +1,12 @@
+key,version,description,expected_percentage,kind,name,key:Strategy
+#Base
+tactic-01,1,ejemplo,50.00,SUBTLE,ejemplo,strategy-01
+#Error
+tactic-02,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",50.00,SUBTLE,ejemplo,strategy-01
+tactic-03,1,,50.00,SUBTLE,ejemplo,strategy-01
+tactic-04,1,ejemplo,-1.00,SUBTLE,ejemplo,strategy-01
+tactic-05,1,ejemplo,101.00,SUBTLE,ejemplo,strategy-01
+tactic-06,1,ejemplo,50.00,,ejemplo,strategy-01
+tactic-07,1,ejemplo,50.00,SUBTLE,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem",strategy-01
+tactic-08,1,ejemplo,50.00,SUBTLE,,strategy-01
+tactic-01,1,ejemplo2,50.00,SUBTLE,ejemplo2,strategy-01
