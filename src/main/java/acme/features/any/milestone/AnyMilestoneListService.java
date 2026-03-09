@@ -30,7 +30,7 @@ public class AnyMilestoneListService extends AbstractService<Any, Milestone> {
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.milestones, "title", "achivements", "effort", "kind");
+		super.unbindObjects(this.milestones, "title", "achievements", "effort", "kind");
 	}
 
 	@Override

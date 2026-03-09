@@ -10,6 +10,6 @@
 	<acme:form-textbox code="any.campaign.form.endMoment" path="endMoment"/>
 	<acme:form-textbox code="any.campaign.form.moreInfo" path="moreInfo"/>
 	
-	<acme:button code="any.campaign.form.button.parts" action="/any/milestone/list?campaignId=${id}" />
-	<acme:button code="any.campaign.form.button.inventor" action="/any/spokesperson/show?id=${spokespersonId}" />
+	<acme:button code="any.campaign.form.button.milestones" action="/any/milestone/list?campaignId=${id}" />
+	<acme:button code="any.campaign.form.button.spokesperson" action="/any/spokesperson/show?id=${spokespersonId}" />
 </acme:form>

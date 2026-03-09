@@ -1,7 +1,7 @@
 
 package acme.entities.auditReports;
 
-import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -77,13 +77,11 @@ public class AuditReport extends AbstractEntity {
 	// Derived attributes
 
 
-	@Valid
+	@Mandatory
+	//@Valid
 	@Transient
 	public Double getMonthsActive() {
-		Duration duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
-		long days = duration.toDays();
-		double months = days / 30.0;
-		return months;
+		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 	}
 
 
