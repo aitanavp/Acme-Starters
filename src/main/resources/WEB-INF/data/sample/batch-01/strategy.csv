@@ -27,3 +27,8 @@ strategy-42,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies
 strategy-43,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,<marquee>Hacked</marquee>,2026/07/02 12:00,TICKER-43,fundraiser-01
 strategy-44,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,<script>alert(‘Hacked!’);</script>,2026/07/02 12:00,TICKER-44,fundraiser-01
 strategy-45,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,' or 'A' = 'A,2026/07/02 12:00,TICKER-45,fundraiser-01
+#start_moment
+strategy-46,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2025/08/01 0:00,TICKER-46,fundraiser-01
+strategy-47,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2025/08/01 0:01,TICKER-47,fundraiser-01
+strategy-48,1,ejemplo,true,2200/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2200/12/31 23:59,TICKER-48,fundraiser-01
+strategy-49,1,ejemplo,true,2201/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2201/01/01 0:00,TICKER-49,fundraiser-01
