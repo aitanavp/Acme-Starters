@@ -103,5 +103,5 @@ public class Strategy extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Fundraiser managedBy;
+	private Fundraiser fundraiser;
 }
