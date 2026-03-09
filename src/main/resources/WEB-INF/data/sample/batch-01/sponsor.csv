@@ -1,4 +1,4 @@
-key,version,key:userAccount,address,im,gold
-SPONSOR_01,1,user-account-sponsor-01,a,b,true
-SPONSOR_02,1,user-account-sponsor-02,โลเร็ม อิปซัม,<h1>Logo</h1>,false
-SPONSOR_03,1,user-account-sponsor-03,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,' or 'A' = 'A,true
+key,address,im,gold,key:userAccount
+sponsor-01,"C/ Reina Mercedes, 1","nuria@im.com",true,user-account-sponsor-01
+sponsor-02,"Av. La Palmera, 45","miguel@im.com",false,user-account-sponsor-02
+sponsor-03,"C/ Betis, 10","julia@im.com",true,user-account-sponsor-03

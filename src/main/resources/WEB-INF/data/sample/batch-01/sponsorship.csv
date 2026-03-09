@@ -1,70 +1,40 @@
-key,version,ticker,name,description,start_moment,end_moment,more_info,draft_mode,key:sponsor
-
-#BASE
-
-SPONSORSHIP_01,1,TICKER-01,Main Sponsorship,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-
-#TICKER
-
-SPONSORSHIP_02,1,BBB,Main Sponsorship,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_03,1,CCC-3 3,Main Sponsorship,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_04,1,DDD-@#,a,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_05,1,EEE-123456789AZYD,โลเร็ม อิปซัม,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_06,1,FFF-678,Main Sponsorship,a,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-
-#NAME
-
-SPONSORSHIP_07,1,ABCDE-1,L,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_08,1,ABCDE-2,Lo,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_09,1,ABCDE-3,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_10,1,ABCDE-4,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_11,1,ABCDE-5,لوريم إيبسوم,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_12,1,ABCDE-6,洛伦·伊普森,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_13,1,ABCDE-7,<marquee>Hacked</marquee>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_14,1,ABCDE-8,<script>alert('Hacked!');</script>,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_15,1,ABCDE-9,โลเร็ม อิปซัม,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_16,1,ABCDE-10,' or 'A' = 'A,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-
-#DESCRIPTION
- 
-SPONSORSHIP_17,1,ABCDE-11,Lore ipsum,S,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_18,1,ABCDE-12,Lore ipsum,St,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_19,1,ABCDE-13,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_20,1,ABCDE-14,Lore ipsum,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_21,1,ABCDE-15,Lore ipsum,洛伦·伊普森,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_23,1,ABCDE-16,Lore ipsum,<marquee>Hacked</marquee>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_24,1,ABCDE-17,Lore ipsum,<script>alert(‘Hacked!’);</script>,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_25,1,ABCDE-18,Lore ipsum,' or 'A' = 'A,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-
-#DATE
-
-SPONSORSHIP_26,1,ABCDE-19,Lore ipsum,Standard description.,2025/01/01 0:00,2025/01/01 0:01,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_27,1,ABCDE-20,Lore ipsum,Standard description.,2200/12/31 23:58,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_28,1,ABCDE-21,Lore ipsum,Standard description.,2025/01/01 0:00,2200/12/31 23:59,http://lorem.com/ipsum,true,SPONSOR_01
-
-#MORE INFO
-
-SPONSORSHIP_31,1,"TICKER-26","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://a.b",true,SPONSOR_01
-SPONSORSHIP_32,1,"TICKER-27","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",true,SPONSOR_01
-SPONSORSHIP_33,1,"TICKER-28","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",true,SPONSOR_01
-SPONSORSHIP_34,1,"TICKER-29","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org",true,SPONSOR-_1
-SPONSORSHIP_35,1,"TICKER-30","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","https://www.lorem-ipsum.org",true,SPONSOR_01
-SPONSORSHIP_36,1,"TICKER-31","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit.html",true,SPONSOR_01
-SPONSORSHIP_37,1,"TICKER-32","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://www.lorem-ipsum.org/dolor/sit.html#dolor",true,SPONSOR_01
-SPONSORSHIP_38,1,"TICKER-33","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?a=1&b=2",true,SPONSOR_01
-SPONSORSHIP_39,1,"TICKER-34","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?",true,SPONSOR_01
-SPONSORSHIP_40,1,"TICKER-35","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?a",true,SPONSOR_01
-SPONSORSHIP_41,1,"TICKER-36","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org?a&b",true,SPONSOR_01
-SPONSORSHIP_42,1,"TICKER-37","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/",true,SPONSOR_01
-SPONSORSHIP_43,1,"TICKER-38","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a",true,SPONSOR_01
-SPONSORSHIP_44,1,"TICKER-39","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a/b",true,SPONSOR_01
-SPONSORSHIP_45,1,"TICKER-40","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a/b?",true,SPONSOR_01
-SPONSORSHIP_46,1,"TICKER-41","Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/01 00:00","2025/01/02 00:00","http://example.org/a/b?a&b",true,SPONSOR_01
-
-#DRAFT MODE
-
-SPONSORSHIP_29,1,ABCDE-22,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_01
-SPONSORSHIP_30,1,ABCDE-23,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,false,SPONSOR_01
-
-#SPONSOR
-SPONSORSHIP_47,1,ABCDE-24,Lore ipsum,Standard description.,2026-06-01 10:00,2026-12-01 10:00,http://lorem.com/ipsum,true,SPONSOR_02
+key,ticker,name,description,startMoment,endMoment,moreInfo,draftMode,key:sponsor
+sponsorship-01,BI26-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-02,AA26-ABCDEF,Reforestación,Esto es una descripción,2026/04/15 10:00,2027/04/15 08:00,https://example.com/product1,true,sponsor-01
+sponsorship-03,ZZ26-SCHOLARRES,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/12/01 18:00,https://example.com/product1,true,sponsor-01
+sponsorship-04,ME26-VACCINESW,Reforestación,Esto es una descripción,2026/04/15 10:00,2027/04/15 08:00,https://example.com/product1,true,sponsor-01
+sponsorship-05,AZ26-VACCINE,Reforestación,Esto es una descripción,2026/04/15 10:00,2027/04/15 08:00,https://example.com/product1,true,sponsor-01
+sponsorship-06,BI29-ABCDE,R,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-07,BI31-ABCDE,Iniciativa Global para la Reducción de Emisiones de Carbono en la Industria,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-08,BI32-ABCDE,Iniciativa Global para la Reducción de Emisiones de Carbono en la Industri,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-09,BI33-ABCDE,Re,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-10,BI99-ABCDE,อิปซั,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-11,BI30-ABCDE,Reforestación,E,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-12,BI34-ABCDE,Reforestación,Es,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-13,BI28-ABCDE,Reforestación,"Este proyecto de reforestación masiva en la zona norte tiene como objetivo plantar diez mil árboles autóctonos en un periodo de tres años, promoviendo la biodiversidad local, recuperando los suelos degradados y creando nuevos espacios de recreo y ocio....",2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-14,BI27-ABCDE,Reforestación,"Este proyecto de reforestación masiva en la zona norte tiene como objetivo plantar diez mil árboles autóctonos en un periodo de tres años, promoviendo la biodiversidad local, recuperando los suelos degradados y creando nuevos espacios de recreo y ocio...",2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-15,BI35-ABCDE,Reforestación,เร็ม อิปซัม,2026/04/15 10:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-16,BI36-ABCDE,Reforestación,Esto es una descripción,2025/01/01 00:00,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-17,BI37-ABCDE,Reforestación,Esto es una descripción,2025/01/01 00:01,2026/10/15 10:00,https://example.com/product1,true,sponsor-01
+sponsorship-18,BI38-ABCDE,Reforestación,Esto es una descripción,2200/12/31 23:57,2200/12/31 23:59,https://example.com/product1,true,sponsor-01
+sponsorship-19,BI39-ABCDE,Reforestación,Esto es una descripción,2200/12/31 23:58,2200/12/31 23:59,https://example.com/product1,true,sponsor-01
+sponsorship-20,BI40-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2027/01/01 00:00,https://example.com/product1,true,sponsor-01
+sponsorship-21,BI41-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2027/01/01 00:01,https://example.com/product1,true,sponsor-01
+sponsorship-22,BI42-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2200/12/31 23:59,https://example.com/product1,true,sponsor-01
+sponsorship-23,BI43-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2200/12/31 23:58,https://example.com/product1,true,sponsor-01
+sponsorship-24,BI44-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org/a/b?a&b,true,sponsor-01
+sponsorship-25,BI45-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org/a/b?,true,sponsor-01
+sponsorship-26,BI46-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org/a/b,true,sponsor-01
+sponsorship-27,BI47-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org/a,true,sponsor-01
+sponsorship-28,BI48-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org/,true,sponsor-01
+sponsorship-29,BI49-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org?a&b,true,sponsor-01
+sponsorship-30,BI50-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org?a,true,sponsor-01
+sponsorship-31,BI51-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org?,true,sponsor-01
+sponsorship-32,BI52-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://example.org?a=1&b=2,true,sponsor-01
+sponsorship-33,BI53-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://www.lorem-ipsum.org/dolor/sit.html#dolor,true,sponsor-01
+sponsorship-34,BI54-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://www.lorem-ipsum.org/dolor/sit.html,true,sponsor-01
+sponsorship-35,BI55-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://www.lorem-ipsum.org,true,sponsor-01
+sponsorship-36,BI56-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,https://www.lorem-ipsum.org,true,sponsor-01
+sponsorship-37,BI57-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",true,sponsor-01
+sponsorship-38,BI58-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",true,sponsor-01
+sponsorship-39,BI59-ABCDE,Reforestación,Esto es una descripción,2026/04/15 10:00,2026/10/15 10:00,http://a.b,true,sponsor-01
