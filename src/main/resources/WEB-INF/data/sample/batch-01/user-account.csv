@@ -17,4 +17,6 @@ user-account-auditor-03,true,"UserIdentity{name: 'Auditor3', surname: 'Auditor3'
 user-account-spokesperson-01,true,"UserIdentity{name: 'Spokesperson1', surname: 'Spokesperson1', email: 'spokesperson1@acme.com'}",spokesperson1,spokesperson1
 user-account-spokesperson-02,true,"UserIdentity{name: 'Spokesperson2', surname: 'Spokesperson2', email: 'spokesperson2@acme.com'}",spokesperson2,spokesperson2
 user-account-spokesperson-03,true,"UserIdentity{name: 'Spokesperson3', surname: 'Spokesperson3', email: 'spokesperson3@acme.com'}",spokesperson3,spokesperson3
-
+user-account-sponsor-01,true,"UserIdentity{name: 'Sponsor1', surname: 'Sponsor1', email: 'sponsor1@acme.com'}",sponsor1,sponsor1
+user-account-sponsor-02,true,"UserIdentity{name: 'Sponsor2', surname: 'Sponsor2', email: 'sponsor2@acme.com'}",sponsor2,sponsor2
+user-account-sponsor-03,true,"UserIdentity{name: 'Sponsor3', surname: 'Sponsor3', email: 'sponsor3@acme.com'}",sponsor3,sponsor3
