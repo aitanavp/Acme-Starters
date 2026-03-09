@@ -6,6 +6,6 @@ any.milestone.list.kind = Kind
 
 any.milestone.form.title = Milestones
 any.milestone.form.title2 = Title
-ny.milestone.list.achievements = Achievements
-any.milestone.list.effort = Effort
+any.milestone.form.achievements = Achievements
+any.milestone.form.effort = Effort
 any.milestone.form.kind = Kind

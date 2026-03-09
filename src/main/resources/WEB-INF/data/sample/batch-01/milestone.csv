@@ -1,7 +1,7 @@
 key,version,title,achievements,effort,kind,key:campaign
 
 # base
-milestone-00,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
+milestone-00,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-13
 
 # name variants
 milestone-01,1,"L","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
@@ -28,9 +28,9 @@ milestone-19,1,"Lorem ipsum dolor sit amet, consectetu","Hacked",50.00,ENGAGING,
 milestone-20,1,"Lorem ipsum dolor sit amet, consectetu","Alert Hacked",50.00,ENGAGING,campaign-47
 milestone-21,1,"Lorem ipsum dolor sit amet, consectetu","SQL Injection Safe",50.00,ENGAGING,campaign-47
 
-# cost
-milestone-22,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",0.00,ENGAGING,campaign-47
-milestone-23,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",0.01,ENGAGING,campaign-47
+# effort
+milestone-22,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",0.00,ENGAGING,campaign-13
+milestone-23,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",0.01,ENGAGING,campaign-13
 milestone-24,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",100.00,ENGAGING,campaign-01
 milestone-25,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",100.00,ENGAGING,campaign-01
 

@@ -6,6 +6,6 @@ any.milestone.list.kind = Tipo
 
 any.milestone.form.title = Hitos
 any.milestone.form.title2 = Título
-ny.milestone.list.achievements = Logros
-any.milestone.list.effort = Esfuerzo
+any.milestone.form.achievements = Logros
+any.milestone.form.effort = Esfuerzo
 any.milestone.form.kind = Tipo
