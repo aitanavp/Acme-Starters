@@ -18,6 +18,7 @@ master.menu.anonymous.favourite-link = Favourite link
 master.menu.any = Any user
 master.menu.any.inventions = List published inventions
 master.menu.any.campaigns = List published campaigns
+master.menu.any.strategy = List published strategies
 
 # master.menu.administrator ###################################################
 

@@ -15,7 +15,7 @@ strategy-11,1,' or 'A' = 'A,true,2026/07/01 10:00,https://www.investing.com/stra
 strategy-12,1,ejemplo,false,2026/07/02 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/01 12:00,TICKER-12,fundraiser-01
 strategy-13,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-13,fundraiser-01
 #end_moment
-strategy-14,1,ejemplo,true,2026/01/08 0:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-14,fundraiser-01
+strategy-14,1,ejemplo,true,2026/01/08 0:00,https://www.investing.com/strategies/conservative,ejemplo,2026/01/02 12:00,TICKER-14,fundraiser-01
 strategy-15,1,ejemplo,false,2026/08/02 0:01,https://www.investing.com/strategies/conservative,ejemplo,2026/08/01 12:00,TICKER-15,fundraiser-01
 strategy-16,1,ejemplo,true,2200/12/31 23:59,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-16,fundraiser-01
 strategy-17,1,ejemplo,true,2200/12/30 0:00,https://www.investing.com/strategies/conservative,ejemplo,2026/07/02 12:00,TICKER-17,fundraiser-01
