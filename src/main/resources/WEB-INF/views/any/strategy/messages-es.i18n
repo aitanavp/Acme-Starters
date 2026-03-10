@@ -1,0 +1,19 @@
+any.strategy.list.title = Estrategias publicadas
+any.strategy.list.name = Nombre
+any.strategy.list.description = Descripción
+any.strategy.list.startMoment = Momento de inicio
+any.strategy.list.endMoment = Momento de fin
+any.strategy.list.moreInfo = Más información
+any.strategy.list.monthsActive = Meses activo
+any.strategy.list.expectedPercentage = Porcentaje Esperado
+
+any.strategy.form.title = Estrategia
+any.strategy.form.name = Nombre 
+any.strategy.form.description = Descripción
+any.strategy.form.startMoment = Momento de inicio
+any.strategy.form.endMoment = Momento de fin
+any.strategy.form.moreInfo = Más información
+any.strategy.form.monthsActive = Meses activo
+any.strategy.form.expectedPercentage = Porcentaje Esperado
+any.strategy.form.button.tactics = Tácticas
+any.strategy.form.button.fundraiser = Recaudador

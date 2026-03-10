@@ -1,0 +1,11 @@
+any.tactic.list.title = Tactics
+any.tactic.list.name = Name
+any.tactic.list.description = Description
+any.tactic.list.expectedPercentage = Expected Percentage
+any.tactic.list.kind = Kind
+
+any.tactic.form.title = Tactic
+any.tactic.form.name = Name
+any.tactic.form.description = Description
+any.tactic.form.expectedPercentage = Expected Percentage
+any.tactic.form.kind = Kind

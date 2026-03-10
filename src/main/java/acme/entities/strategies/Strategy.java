@@ -20,6 +20,7 @@ import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
+import acme.client.components.validation.ValidScore;
 import acme.client.components.validation.ValidUrl;
 import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
@@ -90,10 +91,14 @@ public class Strategy extends AbstractEntity {
 	private StrategyRepository repository;
 
 
+	@Mandatory
+	@ValidScore
 	@Transient
-	private Double getExpectedPercentage() {
-		double result;
+	public Double getExpectedPercentage() {
+		Double result;
 		result = this.repository.computeExpectedPercentage(this.getId());
+		if (result == null)
+			result = 00.00;
 		return result;
 	}
 
