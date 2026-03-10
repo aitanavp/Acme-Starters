@@ -1,0 +1,12 @@
+any.audit-report.list.title = Published audit reports
+any.audit-report.list.name = Name
+any.audit-report.list.description = Description
+
+any.audit-report.form.title = Audit Report
+any.audit-report.form.name = Name
+any.audit-report.form.description = Description
+any.audit-report.form.startMoment = Start moment
+any.audit-report.form.endMoment = End moment
+any.audit-report.form.moreInfo = More info
+any.audit-report.form.button.auditSections = Audit Sections
+any.audit-report.form.button.auditor = Auditor
