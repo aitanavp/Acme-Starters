@@ -1,4 +1,4 @@
-key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:managedBy
+key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:fundraiser
 #Base
 strategy-1,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
 #Error
