@@ -6,7 +6,7 @@
 <acme:form> 
 	<acme:form-textbox code="fundraiser.strategy.form.ticker" path="ticker"/>
 	<acme:form-textbox code="fundraiser.strategy.form.name" path="name"/>
-	<acme:form-textbox code="fundraiser.strategy.form.description" path="description"/>
+	<acme:form-textarea code="fundraiser.strategy.form.description" path="description"/>
 	<acme:form-moment code="fundraiser.strategy.form.startMoment" path="startMoment"/>
 	<acme:form-moment code="fundraiser.strategy.form.endMoment" path="endMoment"/>
 	<acme:form-url code="fundraiser.strategy.form.moreInfo" path="moreInfo"/>

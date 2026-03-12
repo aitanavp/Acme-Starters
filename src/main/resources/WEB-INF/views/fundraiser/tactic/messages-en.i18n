@@ -1,0 +1,19 @@
+fundraiser.tactic.list.title = Tactics
+fundraiser.tactic.list.name = Name
+fundraiser.tactic.list.description = Description
+fundraiser.tactic.list.expectedPercentage = Expected Percentage
+fundraiser.tactic.list.kind = Kind
+
+fundraiser.tactic.list.button.create = Create
+
+fundraiser.tactic.form.title = Tactic
+fundraiser.tactic.form.name = Name
+fundraiser.tactic.form.description = Description
+fundraiser.tactic.form.expectedPercentage = Expected Percentage
+fundraiser.tactic.form.kind = Kind
+fundraiser.tactic.form.draftMode = Draft
+fundraiser.tactic.form.button.update = Update
+fundraiser.tactic.form.button.delete = Delete
+fundraiser.tactic.form.button.create = Create
+fundraiser.tactic.form.button.strategy = Strategy
+fundraiser.tactic.list.button.strategy = Strategy
