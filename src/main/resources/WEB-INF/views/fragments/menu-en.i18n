@@ -20,7 +20,8 @@ master.menu.any.inventions = List published inventions
 master.menu.any.campaigns = List published campaigns
 master.menu.any.strategy = List published strategies
 master.menu.any.auditReports = List published audit reports
-
+master.menu.fundraiser = Fundraiser
+master.menu.fundraiser.strategy = List my strategies
 
 # master.menu.administrator ###################################################
 

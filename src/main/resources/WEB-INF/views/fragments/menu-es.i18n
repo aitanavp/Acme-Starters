@@ -20,6 +20,8 @@ master.menu.any.inventions = Ver inventos publicados
 master.menu.any.campaigns = Ver campañas publicadas
 master.menu.any.strategy = Ver estrategias publicadas
 master.menu.any.auditReports = Ver reportes de auditoría publicados
+master.menu.fundraiser = Recaudador
+master.menu.fundraiser.strategy = Ver mis estrategias
 
 # master.menu.administrator ###################################################
 

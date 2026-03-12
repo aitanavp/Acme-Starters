@@ -1,0 +1,42 @@
+
+package acme.features.fundraiser.strategy;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import acme.client.services.AbstractService;
+import acme.entities.fundraisers.Fundraiser;
+import acme.entities.strategies.Strategy;
+
+@Service
+public class FundraiserStrategyListService extends AbstractService<Fundraiser, Strategy> {
+	// Internal state
+
+	@Autowired
+	private FundraiserStrategyRepository	repository;
+
+	private List<Strategy>					strategies;
+
+	// AbstractService interface
+
+
+	@Override
+	public void authorise() {
+		super.setAuthorised(true);
+	}
+
+	@Override
+	public void load() {
+		int id;
+		id = super.getRequest().getPrincipal().getActiveRealm().getId();
+		this.strategies = this.repository.findAllStrategyByFundraiserId(id);
+	}
+
+	@Override
+	public void unbind() {
+		super.unbindObjects(this.strategies, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "expectedPercentage", "draftMode");
+	}
+
+}
