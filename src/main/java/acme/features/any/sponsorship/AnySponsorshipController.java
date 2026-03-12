@@ -20,5 +20,4 @@ public class AnySponsorshipController extends AbstractController<Any, Sponsorshi
 		super.addBasicCommand("list", AnySponsorshipListService.class);
 		super.addBasicCommand("show", AnySponsorshipShowService.class);
 	}
-
 }

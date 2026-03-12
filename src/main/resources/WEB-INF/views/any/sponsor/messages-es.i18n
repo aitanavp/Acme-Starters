@@ -1,5 +1,5 @@
 any.sponsor.form.title = Detalles del Patrocinador
 
-any.sponsor.form.label.address = Dirección
-any.sponsor.form.label.im = Im
-any.sponsor.form.label.gold = Nivel Oro
+any.sponsor.form.address = Dirección
+any.sponsor.form.im = Im
+any.sponsor.form.gold = Nivel Oro

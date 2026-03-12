@@ -19,6 +19,7 @@ master.menu.any = Any user
 master.menu.any.inventions = List published inventions
 master.menu.any.campaigns = List published campaigns
 master.menu.any.strategy = List published strategies
+master.menu.any.sponsorships = List published sponsorships
 master.menu.any.auditReports = List published audit reports
 
 
