@@ -10,11 +10,9 @@
 	<acme:form-moment code="fundraiser.strategy.form.startMoment" path="startMoment"/>
 	<acme:form-moment code="fundraiser.strategy.form.endMoment" path="endMoment"/>
 	<acme:form-url code="fundraiser.strategy.form.moreInfo" path="moreInfo"/>
-	<jstl:if test="${_command != 'create'}">
-		<acme:form-double code="fundraiser.strategy.form.monthsActive" path="monthsActive" readonly="true"/>
-		<acme:form-double code="fundraiser.strategy.form.expectedPercentage" path="expectedPercentage" readonly="true"/>
-		<acme:form-checkbox code="fundraiser.strategy.form.draftMode" path="draftMode" readonly="true"/>
-	</jstl:if>
+	<acme:form-double code="fundraiser.strategy.form.monthsActive" path="monthsActive" readonly="true"/>
+	<acme:form-double code="fundraiser.strategy.form.expectedPercentage" path="expectedPercentage" readonly="true"/>
+	<acme:form-textbox code="fundraiser.strategy.form.draftMode" path="draftMode" readonly="true"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${_command == 'show' && draftMode == false}">
