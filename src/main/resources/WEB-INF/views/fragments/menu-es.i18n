@@ -21,6 +21,9 @@ master.menu.any.campaigns = Ver campañas publicadas
 master.menu.any.strategy = Ver estrategias publicadas
 master.menu.any.auditReports = Ver reportes de auditoría publicados
 
+master.menu.auditor = Auditor
+master.menu.auditor.auditReport = Ver mis reportes de auditoría
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
