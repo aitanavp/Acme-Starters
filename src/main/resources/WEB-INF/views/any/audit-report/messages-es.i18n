@@ -1,6 +1,11 @@
 any.audit-report.list.title = Informes de auditoría publicados
 any.audit-report.list.name = Nombre
 any.audit-report.list.description = Descripción
+any.audit-report.list.startMoment = Momento de inicio
+any.audit-report.list.endMoment = Momento de fin
+any.audit-report.list.moreInfo = Más información
+any.audit-report.list.monthsActive = Meses activo
+any.audit-report.list.hours = Horas
 
 any.audit-report.form.title = Informe de auditoría
 any.audit-report.form.name = Nombre 
@@ -8,5 +13,7 @@ any.audit-report.form.description = Descripción
 any.audit-report.form.startMoment = Momento de inicio
 any.audit-report.form.endMoment = Momento de fin
 any.audit-report.form.moreInfo = Más información
+any.audit-report.form.monthsActive = Meses activo
+any.audit-report.form.hours = Horas
 any.audit-report.form.button.auditSections = Secciones de auditoría
 any.audit-report.form.button.auditor = Auditor
