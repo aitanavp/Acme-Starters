@@ -1,0 +1,10 @@
+any.donation.list.title = Donation list
+any.donation.form.title = Donation details
+
+any.donation.list.name = Name
+any.donation.list.notes = Notes
+
+any.donation.form.name = Name
+any.donation.form.notes = Notes
+any.donation.form.money = Money
+any.donation.form.kind = Kind

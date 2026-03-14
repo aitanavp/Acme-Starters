@@ -1,0 +1,19 @@
+any.sponsorship.list.title = Published sponsorships
+any.sponsorship.list.name = Name
+any.sponsorship.list.description = Description
+any.sponsorship.list.startMoment = Start moment
+any.sponsorship.list.endMoment = End moment
+any.sponsorship.list.moreInfo = More info
+any.sponsorship.list.monthsActive = Months active
+any.sponsorship.list.totalMoney = Total Money
+
+any.sponsorship.form.title = Sponsorship
+any.sponsorship.form.name = Name
+any.sponsorship.form.description = Description
+any.sponsorship.form.startMoment = Start moment
+any.sponsorship.form.endMoment = End moment
+any.sponsorship.form.moreInfo = More info
+any.sponsorship.form.monthsActive = Months active
+any.sponsorship.form.totalMoney = Total Money
+any.sponsorship.form.button.donations = Donations
+any.sponsorship.form.button.sponsor = Sponsor
