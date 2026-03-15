@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import acme.client.services.AbstractService;
 import acme.entities.inventions.Invention;
 import acme.entities.inventions.Part;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Service
 public class InventorInventionDeleteService extends AbstractService<Inventor, Invention> {
@@ -28,10 +28,9 @@ public class InventorInventionDeleteService extends AbstractService<Inventor, In
 	public void authorise() {
 		boolean status;
 		int id;
-		Invention Invention;
 		id = super.getRequest().getData("id", int.class);
-		Invention = this.repository.findInventionById(id);
-		status = Invention != null && Invention.getDraftMode() && Invention.getInventor().isPrincipal();
+		this.invention = this.repository.findInventionById(id);
+		status = this.invention != null && this.invention.getDraftMode() && this.invention.getInventor().isPrincipal();
 		super.setAuthorised(status);
 	}
 
@@ -45,6 +44,8 @@ public class InventorInventionDeleteService extends AbstractService<Inventor, In
 	@Override
 	public void bind() {
 		super.bindObject(this.invention, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
+		this.invention.setInventor(this.invention.getInventor());
+		this.invention.setDraftMode(true);
 	}
 
 	@Override
@@ -55,7 +56,6 @@ public class InventorInventionDeleteService extends AbstractService<Inventor, In
 	@Override
 	public void execute() {
 		Collection<Part> parts;
-
 		parts = this.repository.findPartsByInventionId(this.invention.getId());
 		this.repository.deleteAll(parts);
 		this.repository.delete(this.invention);

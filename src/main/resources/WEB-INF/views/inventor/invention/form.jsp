@@ -10,11 +10,9 @@
 	<acme:form-moment code="inventor.invention.form.startMoment" path="startMoment"/>
 	<acme:form-moment code="inventor.invention.form.endMoment" path="endMoment"/>
 	<acme:form-url code="inventor.invention.form.moreInfo" path="moreInfo"/>
-	<jstl:if test="${_command != 'create'}">
-		<acme:form-double code="inventor.invention.form.monthsActive" path="monthsActive" readonly="true"/>
-		<acme:form-double code="inventor.invention.form.cost" path="cost" readonly="true"/>
-		<acme:form-checkbox code="inventor.invention.form.draftMode" path="draftMode" readonly="true"/>
-	</jstl:if>
+	<acme:form-double code="inventor.invention.form.monthsActive" path="monthsActive" readonly="true"/>
+	<acme:form-double code="inventor.invention.form.cost" path="cost" readonly="true"/>
+	<acme:form-checkbox code="inventor.invention.form.draftMode" path="draftMode" readonly="true"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${_command == 'show' && draftMode == false}">

@@ -1,4 +1,3 @@
-
 <%@page%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -14,4 +13,4 @@
 <jstl:if test="${draftMode == true}">
 	<acme:button code="inventor.part.list.button.create" action="/inventor/part/create?inventionId=${inventionId}"/>
 </jstl:if>
-<acme:button code="inventor.part.list.button.invention" action="/inventor/part/show?id=${inventionId}"/>
+<acme:button code="inventor.part.list.button.invention" action="/inventor/invention/show?id=${inventionId}"/>

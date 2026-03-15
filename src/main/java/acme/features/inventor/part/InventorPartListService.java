@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import acme.client.services.AbstractService;
 import acme.entities.inventions.Invention;
 import acme.entities.inventions.Part;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Service
 public class InventorPartListService extends AbstractService<Inventor, Part> {

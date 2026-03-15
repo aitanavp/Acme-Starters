@@ -22,4 +22,10 @@ public interface InventorPartRepository extends AbstractRepository {
 	@Query("select i from Invention i where i.id = :inventionId")
 	Invention findInventionById(int inventionId);
 
+	@Query("select count(p) from Part p where p.invention.id = :inventionId")
+	int countByInventionId(int inventionId);
+
+	@Query("select coalesce(sum(p.cost.amount), 0) from Part p where p.invention.id = :inventionId and p.cost.currency = 'EUR'")
+	Double sumAmountEurByInventionId(int inventionId);
+
 }

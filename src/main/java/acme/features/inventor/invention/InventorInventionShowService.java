@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.services.AbstractService;
 import acme.entities.inventions.Invention;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Service
 public class InventorInventionShowService extends AbstractService<Inventor, Invention> {
@@ -31,14 +31,8 @@ public class InventorInventionShowService extends AbstractService<Inventor, Inve
 	@Override
 	public void authorise() {
 		boolean status;
-		int id;
-		Invention invention;
-
-		id = super.getRequest().getData("id", int.class);
-		invention = this.repository.findInventionById(id);
-
-		status = invention != null && invention.getInventor().isPrincipal();
-		super.getResponse().setAuthorised(status);
+		status = this.invention != null && this.invention.getInventor().isPrincipal();
+		super.setAuthorised(status);
 	}
 
 	@Override

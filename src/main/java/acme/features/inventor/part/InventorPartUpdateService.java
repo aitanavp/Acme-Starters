@@ -9,7 +9,7 @@ import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
 import acme.datatypes.PartKind;
 import acme.entities.inventions.Part;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Service
 public class InventorPartUpdateService extends AbstractService<Inventor, Part> {
@@ -53,6 +53,8 @@ public class InventorPartUpdateService extends AbstractService<Inventor, Part> {
 	@Override
 	public void validate() {
 		super.validateObject(this.part);
+		if (this.part.getCost() != null && this.part.getCost().getCurrency() != null)
+			super.state("EUR".equals(this.part.getCost().getCurrency()), "cost", "inventor.part.form.error.currency");
 	}
 
 	@Override

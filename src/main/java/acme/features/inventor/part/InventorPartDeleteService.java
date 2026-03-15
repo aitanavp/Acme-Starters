@@ -9,7 +9,7 @@ import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
 import acme.datatypes.PartKind;
 import acme.entities.inventions.Part;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Service
 public class InventorPartDeleteService extends AbstractService<Inventor, Part> {
@@ -47,7 +47,6 @@ public class InventorPartDeleteService extends AbstractService<Inventor, Part> {
 
 	@Override
 	public void bind() {
-		super.bindObject(this.part, "name", "description", "cost", "kind");
 	}
 
 	@Override

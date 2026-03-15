@@ -9,7 +9,7 @@ import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
 import acme.datatypes.PartKind;
 import acme.entities.inventions.Part;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Service
 public class InventorPartShowService extends AbstractService<Inventor, Part> {

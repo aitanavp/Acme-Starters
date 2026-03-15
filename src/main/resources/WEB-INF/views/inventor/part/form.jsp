@@ -7,7 +7,7 @@
 	<acme:form-textbox code="inventor.part.form.name" path="name"/>
 	<acme:form-textarea code="inventor.part.form.description" path="description"/>
 	<acme:form-money code="inventor.part.form.cost" path="cost"/>
-	<acme:form-select code="inventor.part.form.kind" path="kind" choices="${partKind}"/>
+	<acme:form-select code="inventor.part.form.kind" path="kind" choices="${PartKind}"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${acme:anyOf(_command, 'show|update|delete') && draftMode == true}">

@@ -17,3 +17,5 @@ inventor.part.form.button.delete = Eliminar
 inventor.part.form.button.create = Crear
 inventor.part.form.button.invention = Invento
 inventor.part.list.button.invention = Invento
+
+inventor.part.form.error.currency = La moneda debe ser EUR.

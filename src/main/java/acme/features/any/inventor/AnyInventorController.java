@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 
 import acme.client.components.principals.Any;
 import acme.client.controllers.AbstractController;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Controller
 public class AnyInventorController extends AbstractController<Any, Inventor> {
