@@ -23,7 +23,11 @@ public class AnyPartShowService extends AbstractService<Any, Part> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Part part = this.repository.findPartById(id);
+
+		boolean status = part != null && part.getInvention() != null && !part.getInvention().getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override

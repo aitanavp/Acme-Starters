@@ -5,7 +5,7 @@
 
 <acme:form>
 	<acme:form-textbox code="any.part.form.name" path="name"/>
-	<acme:form-textbox code="any.part.form.description" path="description"/>
-	<acme:form-textbox code="any.part.form.cost" path="cost"/>
+	<acme:form-textarea code="any.part.form.description" path="description"/>
+	<acme:form-money code="any.part.form.cost" path="cost"/>
 	<acme:form-textbox code="any.part.form.kind" path="kind"/>
 </acme:form>
