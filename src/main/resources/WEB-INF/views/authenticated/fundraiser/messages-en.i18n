@@ -1,0 +1,7 @@
+authenticated.fundraiser.form.title = fundraiser form
+authenticated.fundraiser.form.bank = Bank
+authenticated.fundraiser.form.statement = Statement
+authenticated.fundraiser.form.agent = Agent
+
+authenticated.fundraiser.form.button.create = Register
+authenticated.fundraiser.form.button.update = Update
