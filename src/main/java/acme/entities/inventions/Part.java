@@ -11,7 +11,6 @@ import acme.client.components.datatypes.Money;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.ValidMoney;
 import acme.constraints.ValidHeader;
-import acme.constraints.ValidPart;
 import acme.constraints.ValidText;
 import acme.datatypes.PartKind;
 import lombok.Getter;
@@ -20,7 +19,8 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@ValidPart
+// @ValidPart Se hace la validación en el servicio, está dando un error:
+// org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:627): Invalid property 'currency' of bean class [acme.entities.inventions.Part]
 public class Part extends AbstractEntity {
 
 	/**

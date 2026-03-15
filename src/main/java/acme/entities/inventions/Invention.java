@@ -28,7 +28,7 @@ import acme.constraints.ValidHeader;
 import acme.constraints.ValidInvention;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -87,6 +87,8 @@ public class Invention extends AbstractEntity {
 	// @Valid
 	@Transient
 	public Double getMonthsActive() {
+		if (this.startMoment == null || this.endMoment == null)
+			return 0.0;
 		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 	}
 

@@ -1,19 +1,25 @@
-any.invention.list.title = Inventos publicados
-any.invention.list.name = Nombre
-any.invention.list.description = Descripción
-any.invention.list.startMoment = Momento de inicio
-any.invention.list.endMoment = Momento de fin
-any.invention.list.moreInfo = Más información
-any.invention.list.monthsActive = Meses activo
-any.invention.list.cost = Coste
+inventor.invention.list.title = Inventos
+inventor.invention.list.name = Nombre
+inventor.invention.list.description = Descripción
+inventor.invention.list.startMoment = Momento de inicio
+inventor.invention.list.endMoment = Momento de fin
+inventor.invention.list.moreInfo = Más información
+inventor.invention.list.draftMode = Modo borrador
+inventor.invention.list.monthsActive = Meses activo
+inventor.invention.list.cost = Coste
 
-any.invention.form.title = Invento
-any.invention.form.name = Nombre 
-any.invention.form.description = Descripción
-any.invention.form.startMoment = Momento de inicio
-any.invention.form.endMoment = Momento de fin
-any.invention.form.moreInfo = Más información
-any.invention.form.monthsActive = Meses activo
-any.invention.form.cost = Coste
-any.invention.form.button.parts = Partes
-any.invention.form.button.inventor = Inventor
+inventor.invention.list.button.create = Crear
+
+inventor.invention.form.title = Invento
+inventor.invention.form.name = Nombre 
+inventor.invention.form.description = Descripción
+inventor.invention.form.startMoment = Momento de inicio
+inventor.invention.form.endMoment = Momento de fin
+inventor.invention.form.moreInfo = Más información
+inventor.invention.form.monthsActive = Meses activo
+inventor.invention.form.draftMode = Modo borrador
+inventor.invention.form.cost = Coste
+inventor.invention.form.button.parts = Partes
+inventor.invention.form.button.inventor = Inventor
+
+inventor.invention.form.button.create = Crear
