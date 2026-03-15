@@ -23,7 +23,10 @@ public class AnyInventionShowService extends AbstractService<Any, Invention> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Invention invention = this.repository.findInventionById(id);
+		boolean status = invention != null && !invention.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override
