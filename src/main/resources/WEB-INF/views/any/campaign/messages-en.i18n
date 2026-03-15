@@ -1,12 +1,26 @@
-any.campaign.list.title = Published campaigns
-any.campaign.list.name = Name
-any.campaign.list.description = Description
+spokesperson.campaign.list.title = Campaigns
+spokesperson.campaign.list.name = Name
+spokesperson.campaign.list.description = Description
+spokesperson.campaign.list.startMoment = Start moment
+spokesperson.campaign.list.endMoment = End moment
+spokesperson.campaign.list.moreInfo = More info
+spokesperson.campaign.list.draftMode = Draft mode
+spokesperson.campaign.list.monthsActive = Months active
+spokesperson.campaign.list.effort = Effort
 
-any.campaign.form.title = Campaign
-any.campaign.form.name = Name
-any.campaign.form.description = Description
-any.campaign.form.startMoment = Start moment
-any.campaign.form.endMoment = End moment
-any.campaign.form.moreInfo = More info
-any.campaign.form.button.milestones = Milestones
-any.campaign.form.button.spokesperson = Spokesperson
+
+spokesperson.campaign.list.button.create = Create
+
+spokesperson.campaign.form.title = Campaign
+spokesperson.campaign.form.name = Name
+spokesperson.campaign.form.description = Description
+spokesperson.campaign.form.startMoment = Start moment
+spokesperson.campaign.form.endMoment = End moment
+spokesperson.campaign.form.moreInfo = More info
+spokesperson.campaign.form.monthsActive = Months active
+spokesperson.campaign.form.draftMode = Draft mode
+spokesperson.campaign.form.effort = Effort
+spokesperson.campaign.form.button.milestones = Milestones
+spokesperson.campaign.form.button.spokesperson = Spokesperson
+
+spokesperson.campaign.form.button.create = Create
