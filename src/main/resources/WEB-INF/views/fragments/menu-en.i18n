@@ -22,6 +22,9 @@ master.menu.any.strategy = List published strategies
 master.menu.any.sponsorships = List published sponsorships
 master.menu.any.auditReports = List published audit reports
 
+master.menu.auditor = Auditor
+master.menu.auditor.auditReport = List my audit Reports
+
 
 # master.menu.administrator ###################################################
 

@@ -1,0 +1,29 @@
+auditor.auditReport.list.title = My Audit Reports
+auditor.auditReport.list.ticker = Ticker
+auditor.auditReport.list.name = Name
+auditor.auditReport.list.description = Description
+auditor.auditReport.list.startMoment = Start moment
+auditor.auditReport.list.endMoment = End moment
+auditor.auditReport.list.moreInfo = More info
+auditor.auditReport.list.monthsActive = Months active
+auditor.auditReport.list.hours = Hours
+auditor.auditReport.list.draftMode = Draft
+
+auditor.auditReport.list.button.create = Create
+
+auditor.auditReport.form.title = Strategy
+auditor.auditReport.form.ticker = Ticker
+auditor.auditReport.form.name = Name
+auditor.auditReport.form.description = Description
+auditor.auditReport.form.startMoment = Start moment
+auditor.auditReport.form.endMoment = End moment
+auditor.auditReport.form.moreInfo = More info (Optional)
+auditor.auditReport.form.monthsActive = Months active
+auditor.auditReport.form.hours = Hours
+auditor.auditReport.form.draftMode = Draft
+
+auditor.auditReport.form.button.auditSections = Audit Sections
+auditor.auditReport.form.button.update = Update
+auditor.auditReport.form.button.delete = Delete
+auditor.auditReport.form.button.publish = Publish
+auditor.auditReport.form.button.create = Create
