@@ -12,8 +12,8 @@ import acme.entities.inventions.Part;
 @Repository
 public interface AnyPartRepository extends AbstractRepository {
 
-	@Query("select p from Part p where p.invention.id = :inventionId")
-	public List<Part> findAllPartsByInventionId(int inventionId);
+	@Query("select p from Part p where p.invention.id = :inventionId and p.invention.draftMode = false")
+	public List<Part> findPublishedPartsByInventionId(int inventionId);
 
 	@Query("select p from Part p where p.id = :partId")
 	public Part findPartById(int partId);
