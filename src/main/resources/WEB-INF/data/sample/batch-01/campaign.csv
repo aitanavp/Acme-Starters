@@ -1,7 +1,7 @@
-key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:spokesperson
+key,version,description,draft_mode,start_moment,more_info,name,end_moment,ticker,key:spokesperson
 #Description
 campaign-01,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-01,spokesperson-01
-campaign-02,1,L,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-02,spokesperson-01
+campaign-02,1,L,false,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-02,spokesperson-01
 campaign-03,1,Lo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-03,spokesperson-01
 campaign-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-04,spokesperson-01
 campaign-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-05,spokesperson-01
