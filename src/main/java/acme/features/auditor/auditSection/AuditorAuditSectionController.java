@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 
 import acme.client.controllers.AbstractController;
 import acme.entities.auditReports.AuditSection;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Controller
 public class AuditorAuditSectionController extends AbstractController<Auditor, AuditSection> {

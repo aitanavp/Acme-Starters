@@ -10,7 +10,7 @@ import acme.client.services.AbstractService;
 import acme.datatypes.SectionKind;
 import acme.entities.auditReports.AuditReport;
 import acme.entities.auditReports.AuditSection;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditSectionCreateService extends AbstractService<Auditor, AuditSection> {

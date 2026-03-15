@@ -1,12 +1,15 @@
 
 package acme.features.auditor.auditReport;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditReportUpdateService extends AbstractService<Auditor, AuditReport> {
@@ -37,7 +40,6 @@ public class AuditorAuditReportUpdateService extends AbstractService<Auditor, Au
 	@Override
 	public void load() {
 		int id;
-
 		id = super.getRequest().getData("id", int.class);
 		this.auditReport = this.repository.findAuditReportById(id);
 	}
@@ -50,6 +52,16 @@ public class AuditorAuditReportUpdateService extends AbstractService<Auditor, Au
 	@Override
 	public void validate() {
 		super.validateObject(this.auditReport);
+		Date start = this.auditReport.getStartMoment();
+		Date end = this.auditReport.getEndMoment();
+		if (start != null && end != null)
+			super.state(MomentHelper.isAfter(end, start), "endMoment", "auditor.auditReport.form.error.end-after-start");
+
+		if (start != null)
+			super.state(MomentHelper.isFuture(start), "startMoment", "auditor.auditReport.form.error.start-future");
+
+		if (end != null)
+			super.state(MomentHelper.isFuture(end), "endMoment", "auditor.auditReport.form.error.end-future");
 	}
 
 	@Override

@@ -9,7 +9,7 @@ import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
 import acme.datatypes.SectionKind;
 import acme.entities.auditReports.AuditSection;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditSectionDeleteService extends AbstractService<Auditor, AuditSection> {
@@ -47,7 +47,6 @@ public class AuditorAuditSectionDeleteService extends AbstractService<Auditor, A
 
 	@Override
 	public void bind() {
-		super.bindObject(this.auditSection, "name", "notes", "hours", "kind");
 	}
 
 	@Override

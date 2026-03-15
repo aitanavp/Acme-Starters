@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AnyAuditorShowService extends AbstractService<Any, Auditor> {

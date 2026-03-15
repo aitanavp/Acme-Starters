@@ -9,7 +9,7 @@ import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
 import acme.datatypes.SectionKind;
 import acme.entities.auditReports.AuditSection;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditSectionUpdateService extends AbstractService<Auditor, AuditSection> {
