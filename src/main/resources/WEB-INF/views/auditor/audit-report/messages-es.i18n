@@ -28,11 +28,11 @@ auditor.auditReport.form.button.delete = Eliminar
 auditor.auditReport.form.button.publish = Publicar
 auditor.auditReport.form.button.create = Crear
 
-auditor.auditReport.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio.
-auditor.auditReport.form.error.start-future = El momento de inicio debe estar en el futuro.
-auditor.auditReport.form.error.end-future = El momento de finalización debe estar en el futuro.
+auditor.auditReport.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+auditor.auditReport.form.error.start-future = El momento de inicio debe estar en el futuro
+auditor.auditReport.form.error.end-future = El momento de finalización debe estar en el futuro
 
-auditor.auditReport.publish.error.no-auditSections = Antes de publicar, el reporte de auditoría debe tener al menos una parte.
-auditor.auditReport.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio.
-auditor.auditReport.publish.error.start-future = El momento de inicio debe estar en el futuro.
-auditor.auditReport.publish.error.end-future = El momento de finalización debe estar en el futuro.
+auditor.auditReport.publish.error.no-auditSections = Antes de publicar, el reporte de auditoría debe tener al menos una sección de auditoría
+auditor.auditReport.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+auditor.auditReport.publish.error.start-future = El momento de inicio debe estar en el futuro
+auditor.auditReport.publish.error.end-future = El momento de finalización debe estar en el futuro

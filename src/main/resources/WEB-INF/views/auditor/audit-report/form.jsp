@@ -12,7 +12,6 @@
 	<acme:form-url code="auditor.auditReport.form.moreInfo" path="moreInfo"/>
 	<acme:form-double code="auditor.auditReport.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="auditor.auditReport.form.hours" path="hours" readonly="true"/>
-	<acme:form-textbox code="auditor.auditReport.form.draftMode" path="draftMode" readonly="true"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${_command == 'show' && draftMode == false}">
