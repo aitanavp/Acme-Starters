@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
+import acme.entities.campaigns.Campaign;
 import acme.entities.campaigns.Milestone;
+import acme.features.any.campaign.AnyCampaignRepository;
 
 @Service
 public class AnyMilestoneListService extends AbstractService<Any, Milestone> {
@@ -18,6 +20,9 @@ public class AnyMilestoneListService extends AbstractService<Any, Milestone> {
 	@Autowired
 	private AnyMilestoneRepository	repository;
 
+	@Autowired
+	AnyCampaignRepository			campaignRepository;
+
 	private List<Milestone>			milestones;
 
 	// AbstractService interface
@@ -25,7 +30,11 @@ public class AnyMilestoneListService extends AbstractService<Any, Milestone> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int campaignId = super.getRequest().getData("campaignId", int.class);
+		Campaign campaign = this.campaignRepository.findCampaignById(campaignId);
+
+		boolean status = campaign != null && !campaign.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override
@@ -37,7 +46,7 @@ public class AnyMilestoneListService extends AbstractService<Any, Milestone> {
 	public void load() {
 		int id;
 		id = super.getRequest().getData("campaignId", int.class);
-		this.milestones = this.repository.findAllMilestonesByCampaignId(id);
+		this.milestones = this.repository.findPublishedMilestonesByCampaignId(id);
 	}
 
 }
