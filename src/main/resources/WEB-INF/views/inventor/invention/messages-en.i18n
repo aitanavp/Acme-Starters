@@ -30,11 +30,11 @@ inventor.invention.form.button.delete = Delete
 inventor.invention.form.button.publish = Publish
 inventor.invention.form.button.create = Create
 
-inventor.invention.form.error.end-after-start = The end moment must be after the start moment.
-inventor.invention.form.error.start-future = The start moment must be in the future.
-inventor.invention.form.error.end-future = The end moment must be in the future.
+inventor.invention.form.error.end-after-start = The end moment must be after the start moment
+inventor.invention.form.error.start-future = The start moment must be in the future
+inventor.invention.form.error.end-future = The end moment must be in the future
 
-inventor.invention.publish.error.no-parts = Before publishing, the invention must have at least one part.
-inventor.invention.publish.error.end-after-start = The end moment must be after the start moment.
-inventor.invention.publish.error.start-future = The start moment must be in the future.
-inventor.invention.publish.error.end-future = The end moment must be in the future.
+inventor.invention.publish.error.no-parts = Before publishing, the invention must have at least one part
+inventor.invention.publish.error.end-after-start = The end moment must be after the start moment
+inventor.invention.publish.error.start-future = The start moment must be in the future
+inventor.invention.publish.error.end-future = The end moment must be in the future

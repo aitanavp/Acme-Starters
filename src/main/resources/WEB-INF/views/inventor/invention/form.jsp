@@ -12,7 +12,6 @@
 	<acme:form-url code="inventor.invention.form.moreInfo" path="moreInfo"/>
 	<acme:form-double code="inventor.invention.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="inventor.invention.form.cost" path="cost" readonly="true"/>
-	<acme:form-checkbox code="inventor.invention.form.draftMode" path="draftMode" readonly="true"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${_command == 'show' && draftMode == false}">

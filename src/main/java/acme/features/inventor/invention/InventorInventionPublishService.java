@@ -79,8 +79,8 @@ public class InventorInventionPublishService extends AbstractService<Inventor, I
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.invention, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "cost", "draftMode");
-		super.unbindGlobal("inventionId", this.invention.getInventor().getId());
+		super.unbindObject(this.invention, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "cost");
+		super.unbindGlobal("inventorId", this.invention.getInventor().getId());
 	}
 
 }
