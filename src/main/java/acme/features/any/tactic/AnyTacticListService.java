@@ -8,23 +8,32 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
+import acme.entities.strategies.Strategy;
 import acme.entities.strategies.Tactic;
+import acme.features.any.strategy.AnyStrategyRepository;
 
 @Service
 public class AnyTacticListService extends AbstractService<Any, Tactic> {
 	// Internal state
 
 	@Autowired
-	private AnyTacticRepository	repository;
+	private AnyTacticRepository		repository;
 
-	private List<Tactic>		tactics;
+	@Autowired
+	private AnyStrategyRepository	strategyRepository;
+
+	private List<Tactic>			tactics;
 
 	// AbstractService interface
 
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int strategyId = super.getRequest().getData("strategyId", int.class);
+		Strategy strategy = this.strategyRepository.findStrategyById(strategyId);
+
+		boolean status = strategy != null && !strategy.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override
@@ -36,6 +45,6 @@ public class AnyTacticListService extends AbstractService<Any, Tactic> {
 	public void load() {
 		int id;
 		id = super.getRequest().getData("strategyId", int.class);
-		this.tactics = this.repository.findAllTacticsByStrategyId(id);
+		this.tactics = this.repository.findPublishedTacticsByStrategyId(id);
 	}
 }
