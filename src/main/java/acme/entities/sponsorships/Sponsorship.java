@@ -91,7 +91,7 @@ public class Sponsorship extends AbstractEntity {
 
 
 	@Transient
-	private Money getTotalMoney() {
+	public Money getTotalMoney() {
 		Double wrapper;
 		Money result = new Money();
 		result.setCurrency("EUR"); // Only Euros are accepted.

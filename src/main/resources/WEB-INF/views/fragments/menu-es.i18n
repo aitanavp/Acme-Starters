@@ -19,9 +19,13 @@ master.menu.any = Cualquier usuario
 master.menu.any.inventions = Ver inventos publicados
 master.menu.any.campaigns = Ver campañas publicadas
 master.menu.any.strategy = Ver estrategias publicadas
+master.menu.any.sponsorships = Ver patrocinios publicados
 master.menu.any.auditReports = Ver reportes de auditoría publicados
 master.menu.fundraiser = Recaudador
 master.menu.fundraiser.strategy = Ver mis estrategias
+
+master.menu.auditor = Auditor
+master.menu.auditor.auditReport = Ver mis reportes de auditoría
 
 # master.menu.administrator ###################################################
 
@@ -41,6 +45,11 @@ master.menu.provider.favourite-link = Enlace favorito
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
 
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.inventions = Ver mis inventos
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -49,3 +58,7 @@ master.menu.user-account.become-provider = Hacerse proveedor
 master.menu.user-account.provider-profile = Perfil de proveedor
 master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.consumer-profile = Perfil de consumidor
+master.menu.user-account.become-inventor = Hazte inventor
+master.menu.user-account.inventor-profile = Perfil de inventor
+master.menu.user-account.become-fundraiser = Hazte Recaudador
+master.menu.user-account.fundraiser-profile = Perfil de recaudador

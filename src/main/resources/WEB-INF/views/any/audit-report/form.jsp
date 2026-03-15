@@ -9,6 +9,8 @@
 	<acme:form-textbox code="any.audit-report.form.startMoment" path="startMoment"/>
 	<acme:form-textbox code="any.audit-report.form.endMoment" path="endMoment"/>
 	<acme:form-textbox code="any.audit-report.form.moreInfo" path="moreInfo"/>
+	<acme:form-textbox code="any.audit-report.form.monthsActive" path="monthsActive"/>
+	<acme:form-textbox code="any.audit-report.form.hours" path="hours"/>
 	
 	<acme:button code="any.audit-report.form.button.auditSections" action="/any/audit-section/list?auditReportId=${id}" />
 	<acme:button code="any.audit-report.form.button.auditor" action="/any/auditor/show?id=${auditorId}" />

@@ -5,10 +5,10 @@
 
 <acme:form>
 	<acme:form-textbox code="any.invention.form.name" path="name"/>
-	<acme:form-textbox code="any.invention.form.description" path="description"/>
-	<acme:form-textbox code="any.invention.form.startMoment" path="startMoment"/>
-	<acme:form-textbox code="any.invention.form.endMoment" path="endMoment"/>
-	<acme:form-textbox code="any.invention.form.moreInfo" path="moreInfo"/>
+	<acme:form-textarea code="any.invention.form.description" path="description"/>
+	<acme:form-moment code="any.invention.form.startMoment" path="startMoment"/>
+	<acme:form-moment code="any.invention.form.endMoment" path="endMoment"/>
+	<acme:form-url code="any.invention.form.moreInfo" path="moreInfo"/>
 	<acme:form-textbox code="any.invention.form.monthsActive" path="monthsActive"/>
 	<acme:form-textbox code="any.invention.form.cost" path="cost"/>
 	

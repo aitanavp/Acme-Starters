@@ -1,0 +1,21 @@
+inventor.part.list.title = Partes
+inventor.part.list.name = Nombre
+inventor.part.list.description = Descripción
+inventor.part.list.cost = Coste
+inventor.part.list.kind = Tipo
+
+inventor.part.list.button.create = Crear
+
+inventor.part.form.title = Parte
+inventor.part.form.name = Nombre
+inventor.part.form.description = Descripción
+inventor.part.form.cost = Coste
+inventor.part.form.kind = Tipo
+inventor.part.form.draftMode = Modo borrador
+inventor.part.form.button.update = Actualizar
+inventor.part.form.button.delete = Eliminar
+inventor.part.form.button.create = Crear
+inventor.part.form.button.invention = Invento
+inventor.part.list.button.invention = Invento
+
+inventor.part.form.error.currency = La moneda debe ser EUR
