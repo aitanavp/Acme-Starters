@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditReportShowService extends AbstractService<Auditor, AuditReport> {
@@ -23,14 +23,9 @@ public class AuditorAuditReportShowService extends AbstractService<Auditor, Audi
 	@Override
 	public void authorise() {
 		boolean status;
-		int id;
-		AuditReport auditReport;
+		status = this.auditReport != null && this.auditReport.getAuditor().isPrincipal();
+		super.setAuthorised(status);
 
-		id = super.getRequest().getData("id", int.class);
-		auditReport = this.repository.findAuditReportById(id);
-
-		status = auditReport != null && auditReport.getAuditor().isPrincipal();
-		super.getResponse().setAuthorised(status);
 	}
 
 	@Override

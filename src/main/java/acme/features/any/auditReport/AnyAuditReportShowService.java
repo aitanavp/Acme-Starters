@@ -23,7 +23,10 @@ public class AnyAuditReportShowService extends AbstractService<Any, AuditReport>
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		AuditReport auditReport = this.repository.findAuditReportById(id);
+		boolean status = auditReport != null && !auditReport.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override

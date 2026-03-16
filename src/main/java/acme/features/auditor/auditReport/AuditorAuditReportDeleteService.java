@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
 import acme.entities.auditReports.AuditSection;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditReportDeleteService extends AbstractService<Auditor, AuditReport> {
@@ -28,12 +28,9 @@ public class AuditorAuditReportDeleteService extends AbstractService<Auditor, Au
 	public void authorise() {
 		boolean status;
 		int id;
-		AuditReport auditReport;
-
 		id = super.getRequest().getData("id", int.class);
-		auditReport = this.repository.findAuditReportById(id);
-
-		status = auditReport != null && auditReport.getDraftMode() && auditReport.getAuditor().isPrincipal();
+		this.auditReport = this.repository.findAuditReportById(id);
+		status = this.auditReport != null && this.auditReport.getDraftMode() && this.auditReport.getAuditor().isPrincipal();
 		super.setAuthorised(status);
 	}
 
@@ -48,6 +45,8 @@ public class AuditorAuditReportDeleteService extends AbstractService<Auditor, Au
 	@Override
 	public void bind() {
 		super.bindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
+		this.auditReport.setAuditor(this.auditReport.getAuditor());
+		this.auditReport.setDraftMode(true);
 	}
 
 	@Override
@@ -58,7 +57,6 @@ public class AuditorAuditReportDeleteService extends AbstractService<Auditor, Au
 	@Override
 	public void execute() {
 		Collection<AuditSection> auditSections;
-
 		auditSections = this.repository.findAuditSectionsByAuditReportId(this.auditReport.getId());
 		this.repository.deleteAll(auditSections);
 		this.repository.delete(this.auditReport);

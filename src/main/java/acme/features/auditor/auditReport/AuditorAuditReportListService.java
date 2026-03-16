@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditReportListService extends AbstractService<Auditor, AuditReport> {

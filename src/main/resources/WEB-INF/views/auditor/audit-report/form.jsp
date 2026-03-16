@@ -6,13 +6,12 @@
 <acme:form> 
 	<acme:form-textbox code="auditor.auditReport.form.ticker" path="ticker"/>
 	<acme:form-textbox code="auditor.auditReport.form.name" path="name"/>
-	<acme:form-textbox code="auditor.auditReport.form.description" path="description"/>
+	<acme:form-textarea code="auditor.auditReport.form.description" path="description"/>
 	<acme:form-moment code="auditor.auditReport.form.startMoment" path="startMoment"/>
 	<acme:form-moment code="auditor.auditReport.form.endMoment" path="endMoment"/>
 	<acme:form-url code="auditor.auditReport.form.moreInfo" path="moreInfo"/>
 	<acme:form-double code="auditor.auditReport.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="auditor.auditReport.form.hours" path="hours" readonly="true"/>
-	<acme:form-textbox code="auditor.auditReport.form.draftMode" path="draftMode" readonly="true"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${_command == 'show' && draftMode == false}">

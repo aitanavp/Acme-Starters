@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.client.repositories.AbstractRepository;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Repository
 public interface AnyAuditorRepository extends AbstractRepository {

@@ -23,7 +23,7 @@ import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 import lombok.Getter;
 import lombok.Setter;
 
