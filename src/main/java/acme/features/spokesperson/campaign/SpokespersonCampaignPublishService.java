@@ -81,5 +81,6 @@ public class SpokespersonCampaignPublishService extends AbstractService<Spokespe
 	public void unbind() {
 		super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "effort");
 		super.unbindGlobal("spokespersonId", this.campaign.getSpokesperson().getId());
+		super.unbindGlobal("draftMode", this.campaign.getDraftMode());
 	}
 }
