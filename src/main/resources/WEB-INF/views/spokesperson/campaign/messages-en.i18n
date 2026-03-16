@@ -1,5 +1,5 @@
-spokesperson.campaign.list.title = Published campaigns
-spokesperson.campaign.list.title = Title
+spokesperson.campaign.list.title = Campaigns
+spokesperson.campaign.list.ticker = Ticker
 spokesperson.campaign.list.name = Name
 spokesperson.campaign.list.description = Achievements
 spokesperson.campaign.list.effort = Effort
@@ -7,9 +7,11 @@ spokesperson.campaign.list.kind = Kind
 
 spokesperson.campaign.list.button.create = Create
 
+
+spokesperson.campaign.form.ticker = Ticker
 spokesperson.campaign.form.title = Campaign
 spokesperson.campaign.form.name = Title
-spokesperson.campaign.form.description = Achievements
+spokesperson.campaign.form.description = Description
 spokesperson.campaign.form.effort = Effort
 spokesperson.campaign.form.kind = Kind
 spokesperson.campaign.form.button.milestones = Milestones
