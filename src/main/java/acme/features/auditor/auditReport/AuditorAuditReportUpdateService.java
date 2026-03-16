@@ -73,6 +73,7 @@ public class AuditorAuditReportUpdateService extends AbstractService<Auditor, Au
 	public void unbind() {
 		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours");
 		super.unbindGlobal("auditReportId", this.auditReport.getAuditor().getId());
+		super.unbindGlobal("draftMode", this.auditReport.getDraftMode());
 	}
 
 }
