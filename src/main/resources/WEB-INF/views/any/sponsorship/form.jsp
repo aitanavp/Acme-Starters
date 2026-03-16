@@ -5,10 +5,10 @@
 
 <acme:form>
 	<acme:form-textbox code="any.sponsorship.form.name" path="name"/>
-	<acme:form-textbox code="any.sponsorship.form.description" path="description"/>
-	<acme:form-textbox code="any.sponsorship.form.startMoment" path="startMoment"/>
-	<acme:form-textbox code="any.sponsorship.form.endMoment" path="endMoment"/>
-	<acme:form-textbox code="any.sponsorship.form.moreInfo" path="moreInfo"/>
+	<acme:form-textarea code="any.sponsorship.form.description" path="description"/>
+	<acme:form-moment code="any.sponsorship.form.startMoment" path="startMoment"/>
+	<acme:form-moment code="any.sponsorship.form.endMoment" path="endMoment"/>
+	<acme:form-url code="any.sponsorship.form.moreInfo" path="moreInfo"/>
 	<acme:form-textbox code="any.sponsorship.form.monthsActive" path="monthsActive"/>
 	<acme:form-textbox code="any.sponsorship.form.totalMoney" path="totalMoney"/>
 	

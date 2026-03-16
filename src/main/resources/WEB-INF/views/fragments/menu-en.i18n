@@ -46,6 +46,10 @@ master.menu.provider.favourite-link = Favourite link
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Favourite link
 
+# master.menu.sponsor ##########################################################
+
+master.menu.sponsor = Sponsor
+master.menu.sponsor.sponsorship = List my sponsorships
 # master.menu.spokesperson ##########################################################
 
 master.menu.spokesperson = Spokesperson

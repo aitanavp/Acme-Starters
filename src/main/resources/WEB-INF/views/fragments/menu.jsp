@@ -36,6 +36,10 @@
 			<acme:menu-suboption code="master.menu.fundraiser.strategy" action="/fundraiser/strategy/list"/>
 		</acme:menu-option>
 
+		<acme:menu-option code="master.menu.sponsor" access="hasRealm('Sponsor')">
+			<acme:menu-suboption code="master.menu.sponsor.sponsorship" action="/sponsor/sponsorship/list"/>
+		</acme:menu-option>
+		
 		<acme:menu-option code="master.menu.administrator" access="hasRealm('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.list-user-accounts" action="/administrator/user-account/list"/>
 			<acme:menu-separator/>

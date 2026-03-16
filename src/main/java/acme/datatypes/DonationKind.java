@@ -1,5 +1,5 @@
 
-package acme.entities.sponsorships;
+package acme.datatypes;
 
 public enum DonationKind {
 

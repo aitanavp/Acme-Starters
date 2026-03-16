@@ -5,7 +5,7 @@
 
 <acme:form>
 	<acme:form-textbox code="any.donation.form.name" path="name"/>
-	<acme:form-textbox code="any.donation.form.notes" path="notes"/>
-	<acme:form-textbox code="any.donation.form.money" path="money"/>
+	<acme:form-textarea code="any.donation.form.notes" path="notes"/>
+	<acme:form-money code="any.donation.form.money" path="money"/>
 	<acme:form-textbox code="any.donation.form.kind" path="kind"/>
 </acme:form>
