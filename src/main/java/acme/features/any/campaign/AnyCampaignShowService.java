@@ -23,7 +23,10 @@ public class AnyCampaignShowService extends AbstractService<Any, Campaign> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Campaign campaign = this.repository.findCampaignById(id);
+		boolean status = campaign != null && !campaign.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override
