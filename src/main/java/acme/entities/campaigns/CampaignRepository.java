@@ -9,7 +9,7 @@ import acme.client.repositories.AbstractRepository;
 @Repository
 public interface CampaignRepository extends AbstractRepository {
 
-	@Query("select sum(m.effort) from Milestone m where m.campaign.id = :campaignId")
+	@Query("select coalesce(sum(m.effort), 0) from Milestone m where m.campaign.id = :campaignId")
 	Double computeEffort(int campaignId);
 
 	@Query("select count(m) from Milestone m where m.campaign.id = :campaignId")
