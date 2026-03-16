@@ -28,10 +28,6 @@ inventor.invention.form.button.delete = Eliminar
 inventor.invention.form.button.publish = Publicar
 inventor.invention.form.button.create = Crear
 
-inventor.invention.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
-inventor.invention.form.error.start-future = El momento de inicio debe estar en el futuro
-inventor.invention.form.error.end-future = El momento de finalización debe estar en el futuro
-
 inventor.invention.publish.error.no-parts = Antes de publicar, la invención debe tener al menos una parte
 inventor.invention.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
 inventor.invention.publish.error.start-future = El momento de inicio debe estar en el futuro

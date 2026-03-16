@@ -1,4 +1,4 @@
-acme.validation.ticker.message = El ticker debe tener el formato XX00-XXXXX (2 letras, 2 dígitos, guion y 5–10 caracteres alfanuméricos)
+acme.validation.create.ticker.message = El ticker debe tener el formato XX00-XXXXX (2 letras, 2 dígitos, guion y 5–10 caracteres alfanuméricos)
 acme.validation.text.message=El texto no puede estar vacío y debe tener como máximo 255 caracteres
 acme.validation.header.message=El encabezado no puede estar vacío y debe tener como máximo 75 caracteres
 acme.validation.part.currency.message = La moneda debe ser EUR
@@ -19,4 +19,3 @@ acme.validation.auditReport.ticker.non-unique = El ticker ya está siendo utiliz
 acme.validation.auditReport.monthsActive.message = Los meses activos no pueden ser negativos o nulos
 acme.validation.sponsorship.missing-donations.message = Los patrocinios deben tener al menos una donacion
 acme.validation.sponsorship.invalid-date.message= La fecha final del patrocinio debe ser posterior a la de inicio
-

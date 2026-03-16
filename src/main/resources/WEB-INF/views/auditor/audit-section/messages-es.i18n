@@ -1,4 +1,4 @@
-auditor.auditSection.list.title = Secciones de Auditorías
+auditor.audit-section.list.title = Secciones de Auditorías
 auditor.auditSection.list.name = Nombre
 auditor.auditSection.list.notes = Notas
 auditor.auditSection.list.hours = Horas
@@ -6,7 +6,7 @@ auditor.auditSection.list.kind = Tipo
 
 auditor.auditSection.list.button.create = Crear
 
-auditor.auditSection.form.title = Sección de Auditoría
+auditor.audit-section.form.title = Sección de Auditoría
 auditor.auditSection.form.name = Nombre
 auditor.auditSection.form.notes = Notas
 auditor.auditSection.form.hours = Horas

@@ -23,7 +23,11 @@ public class AnyTacticShowService extends AbstractService<Any, Tactic> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Tactic tactic = this.repository.findTacticById(id);
+
+		boolean status = tactic != null && tactic.getStrategy() != null && !tactic.getStrategy().getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override

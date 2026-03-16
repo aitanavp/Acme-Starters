@@ -1,0 +1,44 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+fundraiser.strategy.list.title = My Strategies
+fundraiser.strategy.list.ticker = Ticker
+fundraiser.strategy.list.name = Name
+fundraiser.strategy.list.description = Description
+fundraiser.strategy.list.startMoment = Start moment
+fundraiser.strategy.list.endMoment = End moment
+fundraiser.strategy.list.moreInfo = More info
+fundraiser.strategy.list.monthsActive = Months active
+fundraiser.strategy.list.expectedPercentage = Expected percentage
+fundraiser.strategy.list.draftMode = Draft
+
+fundraiser.strategy.list.button.create = Create
+
+fundraiser.strategy.form.title = Strategy
+fundraiser.strategy.form.ticker = Ticker
+fundraiser.strategy.form.name = Name
+fundraiser.strategy.form.description = Description
+fundraiser.strategy.form.startMoment = Start moment
+fundraiser.strategy.form.endMoment = End moment
+fundraiser.strategy.form.moreInfo = More info (Optional)
+fundraiser.strategy.form.monthsActive = Months active
+fundraiser.strategy.form.expectedPercentage = Expected percentage
+fundraiser.strategy.form.draftMode = Draft
+
+fundraiser.strategy.form.button.tactics = Tactics
+fundraiser.strategy.form.button.update = Update
+fundraiser.strategy.form.button.delete = Delete
+fundraiser.strategy.form.button.publish = Publish
+fundraiser.strategy.form.button.create = Create
+
+fundraiser.strategy.publish.error.no-tactics = Before publishing, the strategy must have at least one tactic
+fundraiser.strategy.publish.error.end-after-start = The end moment must be after the start moment
+fundraiser.strategy.publish.error.start-future = The start moment must be in the future
+fundraiser.strategy.publish.error.end-future = The end moment must be in the future

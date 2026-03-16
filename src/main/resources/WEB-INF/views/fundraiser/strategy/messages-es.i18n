@@ -1,0 +1,44 @@
+# messages-es.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+fundraiser.strategy.list.title = Mis Estrategias
+fundraiser.strategy.list.ticker = Referencia
+fundraiser.strategy.list.name = Nombre
+fundraiser.strategy.list.description = Descripción
+fundraiser.strategy.list.startMoment = Inicio
+fundraiser.strategy.list.endMoment = Fin
+fundraiser.strategy.list.moreInfo = Más información
+fundraiser.strategy.list.monthsActive = Meses activo
+fundraiser.strategy.list.expectedPercentage = Porcentaje esperado
+fundraiser.strategy.list.draftMode = Borrador
+
+fundraiser.strategy.list.button.create = Crear
+
+fundraiser.strategy.form.title = Estrategia
+fundraiser.strategy.form.ticker = Referencia
+fundraiser.strategy.form.name = Nombre
+fundraiser.strategy.form.description = Descripción
+fundraiser.strategy.form.startMoment = Inicio
+fundraiser.strategy.form.endMoment = Fin
+fundraiser.strategy.form.moreInfo = Más información (Opcional)
+fundraiser.strategy.form.monthsActive = Meses activo
+fundraiser.strategy.form.expectedPercentage = Porcentaje esperado
+fundraiser.strategy.form.draftMode = Borrador
+
+fundraiser.strategy.form.button.tactics = Tácticas
+fundraiser.strategy.form.button.update = Actualizar
+fundraiser.strategy.form.button.delete = Eliminar
+fundraiser.strategy.form.button.publish = Publicar
+fundraiser.strategy.form.button.create = Crear
+
+fundraiser.strategy.publish.error.no-tactics = Antes de publicar, la estrategia debe tener al menos una táctica publicada
+fundraiser.strategy.publish.error.end-after-start = El momento de Fin debe ser después que el momento de Inicio 
+fundraiser.strategy.publish.error.start-future = El momento de Inicio debe ser en el futuro
+fundraiser.strategy.publish.error.end-future = El momento de Fin debe ser en el futuro

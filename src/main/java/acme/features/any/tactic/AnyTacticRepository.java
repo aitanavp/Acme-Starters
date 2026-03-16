@@ -12,8 +12,8 @@ import acme.entities.strategies.Tactic;
 @Repository
 public interface AnyTacticRepository extends AbstractRepository {
 
-	@Query("select t from Tactic t where t.strategy.id = :strategyId")
-	public List<Tactic> findAllTacticsByStrategyId(int strategyId);
+	@Query("select t from Tactic t where t.strategy.id = :strategyId and t.strategy.draftMode = false")
+	public List<Tactic> findPublishedTacticsByStrategyId(int strategyId);
 
 	@Query("select t from Tactic t where t.id = :tacticId")
 	public Tactic findTacticById(int tacticId);

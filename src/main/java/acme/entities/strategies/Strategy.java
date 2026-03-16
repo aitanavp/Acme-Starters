@@ -1,8 +1,6 @@
 
 package acme.entities.strategies;
 
-import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
-
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -27,7 +25,7 @@ import acme.constraints.ValidHeader;
 import acme.constraints.ValidStrategy;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.fundraisers.Fundraiser;
+import acme.realms.Fundraiser;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -57,12 +55,12 @@ public class Strategy extends AbstractEntity {
 	private String				description;
 
 	@Mandatory
-	@ValidMoment(constraint = ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				startMoment;
 
 	@Mandatory
-	@ValidMoment(constraint = ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				endMoment;
 
@@ -82,7 +80,14 @@ public class Strategy extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
-		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+		Double result;
+
+		if (this.startMoment == null || this.endMoment == null)
+			result = 0.0;
+		else
+			result = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+
+		return result;
 	}
 
 

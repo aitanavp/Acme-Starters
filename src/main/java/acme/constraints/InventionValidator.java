@@ -40,10 +40,11 @@ public class InventionValidator extends AbstractValidator<ValidInvention, Invent
 
 		else {
 			{
-				Invention existingInvention = this.repository.findInventionByTicker(invention.getTicker());
-				boolean uniqueInvention = existingInvention != null && existingInvention.equals(invention);
-
-				super.state(context, uniqueInvention, "ticker", "acme.validation.invention.ticker.non-unique");
+				if (invention.getTicker() != null) {
+					Invention existing = this.repository.findInventionByTicker(invention.getTicker());
+					boolean uniqueTicker = existing == null || existing.getId() == invention.getId();
+					super.state(context, uniqueTicker, "ticker", "acme.validation.invention.ticker.non-unique");
+				}
 
 			}
 			{

@@ -23,7 +23,10 @@ public class AnyCampaignShowService extends AbstractService<Any, Campaign> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Campaign campaign = this.repository.findCampaignById(id);
+		boolean status = campaign != null && !campaign.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override
@@ -35,7 +38,7 @@ public class AnyCampaignShowService extends AbstractService<Any, Campaign> {
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.campaign, "name", "description", "startMoment", "endMoment", "moreInfo");
+		super.unbindObject(this.campaign, "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "effort");
 		super.unbindGlobal("spokespersonId", this.campaign.getSpokesperson().getId());
 	}
 }

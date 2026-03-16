@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 
 import acme.client.components.principals.Any;
 import acme.client.controllers.AbstractController;
-import acme.entities.fundraisers.Fundraiser;
+import acme.realms.Fundraiser;
 
 @Controller
 public class AnyFundraiserController extends AbstractController<Any, Fundraiser> {

@@ -1,8 +1,6 @@
 
 package acme.entities.inventions;
 
-import static acme.client.components.validation.ValidMoment.Constraint.ENFORCE_FUTURE;
-
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -61,12 +59,12 @@ public class Invention extends AbstractEntity {
 	private String				description;
 
 	@Mandatory
-	@ValidMoment(constraint = ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				startMoment;
 
 	@Mandatory
-	@ValidMoment(constraint = ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				endMoment;
 
