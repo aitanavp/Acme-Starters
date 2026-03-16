@@ -24,7 +24,7 @@ import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.sponsors.Sponsor;
+import acme.realms.Sponsor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -81,6 +81,8 @@ public class Sponsorship extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
+		if (this.startMoment == null || this.endMoment == null)
+			return 0.0;
 		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 	}
 

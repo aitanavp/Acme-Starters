@@ -1,0 +1,47 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+sponsor.sponsorship.list.title = Mis patrocinios
+sponsor.sponsorship.list.ticker = Referencia
+sponsor.sponsorship.list.name = Nombre
+sponsor.sponsorship.list.description = Descripción
+sponsor.sponsorship.list.startMoment = Inicio
+sponsor.sponsorship.list.endMoment = Fin
+sponsor.sponsorship.list.moreInfo = Mas información
+sponsor.sponsorship.list.monthsActive = Meses activos
+sponsor.sponsorship.list.totalMoney = Dinero total
+sponsor.sponsorship.list.draftMode = Borrador
+
+sponsor.sponsorship.list.button.create = Crear
+
+sponsor.sponsorship.form.title = Patrocinio
+sponsor.sponsorship.form.ticker = Referencia
+sponsor.sponsorship.form.name = Nombre
+sponsor.sponsorship.form.description = Descripción
+sponsor.sponsorship.form.startMoment = Inicio
+sponsor.sponsorship.form.endMoment = Fin
+sponsor.sponsorship.form.moreInfo = Mas información (Opcional)
+sponsor.sponsorship.form.monthsActive = Meses activos
+sponsor.sponsorship.form.totalMoney = Dinero total
+sponsor.sponsorship.form.draftMode = Borrador
+
+sponsor.sponsorship.form.button.donations = Donaciones
+sponsor.sponsorship.form.button.update = Actualizar
+sponsor.sponsorship.form.button.delete = Borrar
+sponsor.sponsorship.form.button.publish = Publicar
+sponsor.sponsorship.form.button.create = Crear
+
+sponsor.sponsorship.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+sponsor.sponsorship.form.error.start-future = El momento de inicio debe estar en el futuro
+sponsor.sponsorship.form.error.end-future = El momento de finalización debe estar en el futuro
+sponsor.sponsorship.publish.error.no-parts = Antes de publicar, el patrocinio debe tener al menos una donacion
+sponsor.sponsorship.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+sponsor.sponsorship.publish.error.start-future = El momento de inicio debe estar en el futuro
+sponsor.sponsorship.publish.error.end-future = El momento de finalización debe estar en el futuro

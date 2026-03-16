@@ -1,0 +1,48 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+sponsor.sponsorship.list.title = My Sponsorships
+sponsor.sponsorship.list.ticker = Ticker
+sponsor.sponsorship.list.name = Name
+sponsor.sponsorship.list.description = Description
+sponsor.sponsorship.list.startMoment = Start moment
+sponsor.sponsorship.list.endMoment = End moment
+sponsor.sponsorship.list.moreInfo = More info
+sponsor.sponsorship.list.monthsActive = Months active
+sponsor.sponsorship.list.totalMoney = Total money
+sponsor.sponsorship.list.draftMode = Draft
+
+sponsor.sponsorship.list.button.create = Create
+
+sponsor.sponsorship.form.title = Sponsorship
+sponsor.sponsorship.form.ticker = Ticker
+sponsor.sponsorship.form.name = Name
+sponsor.sponsorship.form.description = Description
+sponsor.sponsorship.form.startMoment = Start moment
+sponsor.sponsorship.form.endMoment = End moment
+sponsor.sponsorship.form.moreInfo = More info (Optional)
+sponsor.sponsorship.form.monthsActive = Months active
+sponsor.sponsorship.form.totalMoney = Total money
+sponsor.sponsorship.form.draftMode = Draft
+
+sponsor.sponsorship.form.button.donations = Donations
+sponsor.sponsorship.form.button.update = Update
+sponsor.sponsorship.form.button.delete = Delete
+sponsor.sponsorship.form.button.publish = Publish
+sponsor.sponsorship.form.button.create = Create
+
+sponsor.sponsorship.form.error.end-after-start = The end moment must be after the start moment
+sponsor.sponsorship.form.error.start-future = The start moment must be in the future
+sponsor.sponsorship.form.error.end-future = The end moment must be in the future
+
+sponsor.sponsorship.publish.error.no-parts = Before publishing, the sponsorship must have at least one part
+sponsor.sponsorship.publish.error.end-after-start = The end moment must be after the start moment
+sponsor.sponsorship.publish.error.start-future = The start moment must be in the future
+sponsor.sponsorship.publish.error.end-future = The end moment must be in the future

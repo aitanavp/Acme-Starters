@@ -1,0 +1,20 @@
+sponsor.donation.list.title = Donations
+sponsor.donation.list.name = Name
+sponsor.donation.list.notes = Notes
+sponsor.donation.list.money = Money
+sponsor.donation.list.kind = Kind
+
+sponsor.donation.list.button.create = Create
+
+sponsor.donation.form.title = Donation
+sponsor.donation.form.name = Name
+sponsor.donation.form.notes = Notes
+sponsor.donation.form.money = Money
+sponsor.donation.form.kind = Kind
+sponsor.donation.form.draftMode = Draft mode
+sponsor.donation.form.button.update = Update
+sponsor.donation.form.button.delete = Delete
+sponsor.donation.form.button.create = Create
+sponsor.donation.form.button.sponsorship = Sponsorship
+sponsor.donation.list.button.sponsorship = Sponsorship
+inventor.donation.form.error.currency = The currency must be EUR

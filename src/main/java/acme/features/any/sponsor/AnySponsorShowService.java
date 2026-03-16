@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
-import acme.entities.sponsors.Sponsor;
+import acme.realms.Sponsor;
 
 public class AnySponsorShowService extends AbstractService<Any, Sponsor> {
 
