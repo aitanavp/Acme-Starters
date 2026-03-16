@@ -30,11 +30,6 @@ spokesperson.campaign.form.button.delete = Eliminar
 spokesperson.campaign.form.button.publish = Publicar
 spokesperson.campaign.form.button.create = Crear
 
-spokesperson.campaign.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
-spokesperson.campaign.form.error.start-future = El momento de inicio debe estar en el futuro
-spokesperson.campaign.form.error.end-future = El momento de finalización debe estar en el futuro
+
 
 spokesperson.campaign.publish.error.no-milestones = Antes de publicar, la campaña debe tener al menos un hito
-spokesperson.campaign.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
-spokesperson.campaign.publish.error.start-future = El momento de inicio debe estar en el futuro
-spokesperson.campaign.publish.error.end-future = El momento de finalización debe estar en el futuro
