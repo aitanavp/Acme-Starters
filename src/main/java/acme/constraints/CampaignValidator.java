@@ -39,11 +39,11 @@ public class CampaignValidator extends AbstractValidator<ValidCampaign, Campaign
 
 		else {
 			{
-				Campaign existingCampaign = this.repository.findCampaignByTicker(campaign.getTicker());
-
-				boolean uniqueCampaign = existingCampaign == null || existingCampaign.equals(campaign);
-
-				super.state(context, uniqueCampaign, "ticker", "acme.validation.campaign.ticker.non-unique");
+				if (campaign.getTicker() != null) {
+					Campaign existing = this.repository.findCampaignByTicker(campaign.getTicker());
+					boolean uniqueTicker = existing == null || existing.getId() == campaign.getId();
+					super.state(context, uniqueTicker, "ticker", "acme.validation.campaign.ticker.non-unique");
+				}
 
 			}
 			{
