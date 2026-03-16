@@ -1,26 +1,23 @@
-spokesperson.campaign.list.title = Campañas
-spokesperson.campaign.list.name = Nombre
-spokesperson.campaign.list.description = Descripción
-spokesperson.campaign.list.startMoment = Momento de inicio
-spokesperson.campaign.list.endMoment = Momento de fin
-spokesperson.campaign.list.moreInfo = Más información
-spokesperson.campaign.list.draftMode = Modo borrador
-spokesperson.campaign.list.monthsActive = Meses activo
-spokesperson.campaign.list.effort = Esfuerzo
+any.campaign.list.title = Campañas publicadas
+any.campaign.list.name = Nombre
+any.campaign.list.description = Descripción
+any.campaign.list.startMoment = Momento de inicio
+any.campaign.list.endMoment = Momento de fin
+any.campaign.list.moreInfo = Más información
+any.campaign.list.draftMode = Modo borrador
+any.campaign.list.ticker = Ticker
+any.campaign.list.monthsActive = Meses activo
+any.campaign.list.effort = Esfuerzo
 
-
-spokesperson.campaign.list.button.create = Crear
-
-spokesperson.campaign.form.title = Campaña
-spokesperson.campaign.form.name = Nombre
-spokesperson.campaign.form.description = Descripción
-spokesperson.campaign.form.startMoment = Momento de inicio
-spokesperson.campaign.form.endMoment = Momento de fin
-spokesperson.campaign.form.moreInfo = Más información
-spokesperson.campaign.form.monthsActive = Meses activo
-spokesperson.campaign.form.draftMode = Modo borrador
-spokesperson.campaign.form.effort = Esfuerzo
-spokesperson.campaign.form.button.milestones = Hitos
-spokesperson.campaign.form.button.spokesperson = Portavoz
-
-spokesperson.campaign.form.button.create = Crear
+any.campaign.form.title = Campaña
+any.campaign.form.name = Nombre
+any.campaign.form.description = Descripción
+any.campaign.form.startMoment = Momento de inicio
+any.campaign.form.endMoment = Momento de fin
+any.campaign.form.moreInfo = Más información
+any.campaign.form.monthsActive = Meses activo
+any.campaign.form.effort = Esfuerzo
+any.campaign.form.ticker = Ticker
+any.campaign.form.draftMode = Modo borrador
+any.campaign.form.button.milestones = Hitos
+any.campaign.form.button.spokesperson = Portavoz
