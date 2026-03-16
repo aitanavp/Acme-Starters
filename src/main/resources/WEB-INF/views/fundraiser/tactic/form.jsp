@@ -6,7 +6,7 @@
 <acme:form> 
 	<acme:form-textbox code="fundraiser.tactic.form.name" path="name"/>
 	<acme:form-textarea code="fundraiser.tactic.form.description" path="description"/>
-	<acme:form-textbox code="fundraiser.tactic.form.expectedPercentage" path="expectedPercentage"/>
+	<acme:form-double code="fundraiser.tactic.form.expectedPercentage" path="expectedPercentage"/>
 	<acme:form-select code="fundraiser.tactic.form.kind" path="kind" choices="${TacticKind}"/>
 
 	<jstl:choose>	 

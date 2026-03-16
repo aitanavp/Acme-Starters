@@ -12,11 +12,15 @@
 
 package acme.features.fundraiser.strategy;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.strategies.Strategy;
+import acme.features.fundraiser.tactic.FundraiserTacticRepository;
 import acme.realms.Fundraiser;
 
 @Service
@@ -26,6 +30,9 @@ public class FundraiserStrategyPublishService extends AbstractService<Fundraiser
 
 	@Autowired
 	private FundraiserStrategyRepository	repository;
+
+	@Autowired
+	private FundraiserTacticRepository		tacticReposiroty;
 
 	private Strategy						strategy;
 
@@ -61,6 +68,20 @@ public class FundraiserStrategyPublishService extends AbstractService<Fundraiser
 	@Override
 	public void validate() {
 		super.validateObject(this.strategy);
+
+		boolean hasTactics = this.tacticReposiroty.countByStrategyId(this.strategy.getId()) > 0;
+		super.state(hasTactics, "*", "fundraiser.strategy.publish.error.no-tactics");
+
+		Date start = this.strategy.getStartMoment();
+		Date end = this.strategy.getEndMoment();
+		if (start != null && end != null)
+			super.state(MomentHelper.isAfter(end, start), "endMoment", "fundraiser.strategy.publish.error.end-after-start");
+
+		if (start != null)
+			super.state(MomentHelper.isFuture(start), "startMoment", "fundraiser.strategy.publish.error.start-future");
+
+		if (end != null)
+			super.state(MomentHelper.isFuture(end), "endMoment", "fundraiser.strategy.publish.error.end-future");
 	}
 
 	@Override
@@ -73,6 +94,7 @@ public class FundraiserStrategyPublishService extends AbstractService<Fundraiser
 	public void unbind() {
 		super.unbindObject(this.strategy, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "expectedPercentage", "draftMode");
 		super.unbindGlobal("fundraiserId", this.strategy.getFundraiser().getId());
+		super.unbindGlobal("draftMode", this.strategy.getDraftMode());
 	}
 
 }

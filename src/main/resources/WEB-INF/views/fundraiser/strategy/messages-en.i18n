@@ -37,3 +37,8 @@ fundraiser.strategy.form.button.update = Update
 fundraiser.strategy.form.button.delete = Delete
 fundraiser.strategy.form.button.publish = Publish
 fundraiser.strategy.form.button.create = Create
+
+fundraiser.strategy.publish.error.no-tactics = Before publishing, the strategy must have at least one tactic
+fundraiser.strategy.publish.error.end-after-start = The end moment must be after the start moment
+fundraiser.strategy.publish.error.start-future = The start moment must be in the future
+fundraiser.strategy.publish.error.end-future = The end moment must be in the future

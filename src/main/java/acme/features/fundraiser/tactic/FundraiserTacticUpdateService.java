@@ -64,6 +64,14 @@ public class FundraiserTacticUpdateService extends AbstractService<Fundraiser, T
 	@Override
 	public void validate() {
 		super.validateObject(this.tactic);
+
+		if (this.tactic.getExpectedPercentage() != null) {
+			Double otherSum = this.repository.sumExpectedPercentageByStrategyIdExcludingTactic(this.tactic.getStrategy().getId(), this.tactic.getId());
+			if (otherSum == null)
+				otherSum = 0.0;
+			double newTotal = otherSum + this.tactic.getExpectedPercentage();
+			super.state(newTotal <= 100.0, "expectedPercentage", "fundraiser.tactic.form.error.percentage-exceeded");
+		}
 	}
 
 	@Override

@@ -17,3 +17,5 @@ fundraiser.tactic.form.button.delete = Eliminar
 fundraiser.tactic.form.button.create = Crear
 fundraiser.tactic.form.button.strategy = Estrategia
 fundraiser.tactic.list.button.strategy = Estrategia
+
+fundraiser.tactic.form.error.percentage-exceeded = La suma de los porcentajes de todas las tácticas de esta estrategia superaría el 100%
