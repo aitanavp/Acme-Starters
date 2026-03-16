@@ -5,9 +5,9 @@
 
 <acme:form>
 
-	<acme:form-textarea code="authenticated.fundraiser.form.bank" path="bank"/>
+	<acme:form-textbox code="authenticated.fundraiser.form.bank" path="bank"/>
 
-	<acme:form-textbox code="authenticated.fundraiser.form.statement" path="statement"/>
+	<acme:form-textarea code="authenticated.fundraiser.form.statement" path="statement"/>
 
 	<acme:form-checkbox code="authenticated.fundraiser.form.agent" path="agent"/>
 

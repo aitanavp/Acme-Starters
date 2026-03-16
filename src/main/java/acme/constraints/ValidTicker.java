@@ -33,7 +33,7 @@ public @interface ValidTicker {
 
 	// Standard validation properties -----------------------------------------
 
-	String message() default "{acme.validation.job.ticker.message}";
+	String message() default "{acme.validation.create.ticker.message}";
 
 	Class<?>[] groups() default {};
 	Class<? extends Payload>[] payload() default {};

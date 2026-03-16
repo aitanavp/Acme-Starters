@@ -51,6 +51,9 @@ public class FundraiserStrategyCreateService extends AbstractService<Fundraiser,
 	@Override
 	public void bind() {
 		super.bindObject(this.strategy, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
+		Fundraiser fundraiser = (Fundraiser) super.getRequest().getPrincipal().getActiveRealm();
+		this.strategy.setFundraiser(fundraiser);
+		this.strategy.setDraftMode(true);
 	}
 
 	@Override
