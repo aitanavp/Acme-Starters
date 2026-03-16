@@ -1,4 +1,4 @@
-auditor.auditReport.list.title = Mis Reportes de Auditoría
+auditor.audit-report.list.title = Mis Reportes de Auditoría
 auditor.auditReport.list.ticker = Referencia
 auditor.auditReport.list.name = Nombre
 auditor.auditReport.list.description = Descripción
@@ -11,7 +11,7 @@ auditor.auditReport.list.draftMode = Borrador
 
 auditor.auditReport.list.button.create = Crear
 
-auditor.auditReport.form.title = Estrategia
+auditor.audit-report.form.title = Reporte de Auditoría
 auditor.auditReport.form.ticker = Referencia
 auditor.auditReport.form.name = Nombre
 auditor.auditReport.form.description = Descripción

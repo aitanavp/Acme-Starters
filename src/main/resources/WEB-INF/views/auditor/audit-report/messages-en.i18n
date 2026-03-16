@@ -1,4 +1,4 @@
-auditor.auditReport.list.title = My Audit Reports
+auditor.audit-report.list.title = My Audit Reports
 auditor.auditReport.list.ticker = Ticker
 auditor.auditReport.list.name = Name
 auditor.auditReport.list.description = Description
@@ -11,7 +11,7 @@ auditor.auditReport.list.draftMode = Draft
 
 auditor.auditReport.list.button.create = Create
 
-auditor.auditReport.form.title = Strategy
+auditor.audit-report.form.title = Audit Report
 auditor.auditReport.form.ticker = Ticker
 auditor.auditReport.form.name = Name
 auditor.auditReport.form.description = Description
