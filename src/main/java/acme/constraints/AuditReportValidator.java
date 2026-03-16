@@ -58,7 +58,10 @@ public class AuditReportValidator extends AbstractValidator<ValidAuditReport, Au
 				Date start = auditReport.getStartMoment();
 				Date end = auditReport.getEndMoment();
 
-				boolean validChronology = start == null || end == null || MomentHelper.isAfter(end, start);
+				boolean differentMoments = start == null || end == null || !start.equals(end);
+				super.state(context, differentMoments, "endMoment", "acme.validation.auditReport.start-end-not-equal.message");
+
+				boolean validChronology = start == null || end == null || MomentHelper.isAfter(end, start) || start.equals(end);
 				super.state(context, validChronology, "startMoment", "acme.validation.auditReport.start-before-end.message");
 
 				boolean validDates = start != null && end != null && !MomentHelper.isBefore(start, now) && MomentHelper.isAfter(end, start);
