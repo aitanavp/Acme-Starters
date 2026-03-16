@@ -31,11 +31,6 @@ spokesperson.campaign.form.button.delete = Delete
 spokesperson.campaign.form.button.publish = Publish
 spokesperson.campaign.form.button.create = Create
 
-spokesperson.campaign.form.error.end-after-start = The end moment must be after the start moment
-spokesperson.campaign.form.error.start-future = The start moment must be in the future
-spokesperson.campaign.form.error.end-future = The end moment must be in the future
+
 
 spokesperson.campaign.publish.error.no-milestones = Before publishing, the campaign must have at least one milestone
-spokesperson.campaign.publish.error.end-after-start = The end moment must be after the start moment
-spokesperson.campaign.publish.error.start-future = The start moment must be in the future
-spokesperson.campaign.publish.error.end-future = The end moment must be in the future

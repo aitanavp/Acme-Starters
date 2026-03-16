@@ -1,12 +1,9 @@
 
 package acme.features.spokesperson.campaign;
 
-import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.campaigns.Campaign;
 import acme.realms.Spokesperson;
@@ -48,16 +45,7 @@ public class SpokespersonCampaignCreateService extends AbstractService<Spokesper
 	@Override
 	public void validate() {
 		super.validateObject(this.campaign);
-		Date start = this.campaign.getStartMoment();
-		Date end = this.campaign.getEndMoment();
-		if (start != null && end != null)
-			super.state(MomentHelper.isAfter(end, start), "endMoment", "any.campaign.form.error.end-after-start");
 
-		if (start != null)
-			super.state(MomentHelper.isFuture(start), "startMoment", "any.campaign.form.error.start-future");
-
-		if (end != null)
-			super.state(MomentHelper.isFuture(end), "endMoment", "any.campaign.form.error.end-future");
 	}
 
 	@Override
@@ -68,6 +56,7 @@ public class SpokespersonCampaignCreateService extends AbstractService<Spokesper
 	@Override
 	public void unbind() {
 		super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "effort");
+		super.unbindGlobal("draftMode", this.campaign.getDraftMode());
 	}
 
 }

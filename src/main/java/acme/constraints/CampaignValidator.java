@@ -39,11 +39,11 @@ public class CampaignValidator extends AbstractValidator<ValidCampaign, Campaign
 
 		else {
 			{
-				Campaign existingCampaign = this.repository.findCampaignByTicker(campaign.getTicker());
-
-				boolean uniqueCampaign = existingCampaign == null || existingCampaign.equals(campaign);
-
-				super.state(context, uniqueCampaign, "ticker", "acme.validation.campaign.ticker.non-unique");
+				if (campaign.getTicker() != null) {
+					Campaign existing = this.repository.findCampaignByTicker(campaign.getTicker());
+					boolean uniqueTicker = existing == null || existing.getId() == campaign.getId();
+					super.state(context, uniqueTicker, "ticker", "acme.validation.campaign.ticker.non-unique");
+				}
 
 			}
 			{
@@ -58,12 +58,16 @@ public class CampaignValidator extends AbstractValidator<ValidCampaign, Campaign
 				Date now = MomentHelper.getBaseMoment();
 				Date start = campaign.getStartMoment();
 				Date end = campaign.getEndMoment();
-				boolean validDates = start != null && end != null && !start.before(now) && end.after(start);
+				boolean validDates = start != null && end != null && !MomentHelper.isBefore(start, now) && MomentHelper.isAfter(end, start);
 
 				boolean validPublishedCampaign = campaign.getDraftMode() || validDates;
 
 				super.state(context, validPublishedCampaign, "*", "acme.validation.campaign.dates.message");
 			}
+			Double monthsActive = campaign.getMonthsActive();
+			boolean validMonths = monthsActive != null && monthsActive >= 0.0;
+
+			super.state(context, validMonths, "monthsActive", "acme.validation.campaign.monthsActive.message");
 		}
 
 		return !super.hasErrors(context);
