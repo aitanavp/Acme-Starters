@@ -17,5 +17,6 @@ acme.validation.auditReport.auditSections.message = The audit report must have a
 acme.validation.auditReport.dates.message = To publish an audit report, both dates must be in the future
 acme.validation.auditReport.ticker.non-unique = The ticker is already used by another audit report
 acme.validation.auditReport.monthsActive.message = The active months cannot be negative or null
+acme.validation.auditReport.start-before-end.message = The start date cannot be later than the end date
 acme.validation.sponsorship.missing-donations.message = Sponsorships must include at least one donation
 acme.validation.sponsorship.invalid-date.message= Sponsorship end date must be after the start date

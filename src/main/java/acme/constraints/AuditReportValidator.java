@@ -38,13 +38,13 @@ public class AuditReportValidator extends AbstractValidator<ValidAuditReport, Au
 			return true;
 
 		else {
-			{
-				AuditReport existingAuditReport = this.repository.findAuditReportByTicker(auditReport.getTicker());
-				boolean uniqueAuditReport = existingAuditReport != null && existingAuditReport.equals(auditReport);
 
-				super.state(context, uniqueAuditReport, "ticker", "acme.validation.auditReport.ticker.non-unique");
-
+			if (auditReport.getTicker() != null) {
+				AuditReport existing = this.repository.findAuditReportByTicker(auditReport.getTicker());
+				boolean uniqueTicker = existing == null || existing.getId() == auditReport.getId();
+				super.state(context, uniqueTicker, "ticker", "acme.validation.auditReport.ticker.non-unique");
 			}
+
 			{
 				if (auditReport.getDraftMode() != null && !auditReport.getDraftMode()) {
 					Long auditSectionsCount = this.repository.countAuditSectionsByAuditReportId(auditReport.getId());
@@ -58,14 +58,20 @@ public class AuditReportValidator extends AbstractValidator<ValidAuditReport, Au
 				Date start = auditReport.getStartMoment();
 				Date end = auditReport.getEndMoment();
 
+				boolean validChronology = start == null || end == null || MomentHelper.isAfter(end, start);
+				super.state(context, validChronology, "startMoment", "acme.validation.auditReport.start-before-end.message");
+
 				boolean validDates = start != null && end != null && !MomentHelper.isBefore(start, now) && MomentHelper.isAfter(end, start);
 				boolean validPublishedAuditReport = auditReport.getDraftMode() || validDates;
 
 				super.state(context, validPublishedAuditReport, "*", "acme.validation.auditReport.dates.message");
 			}
 			{
+				Date start = auditReport.getStartMoment();
+				Date end = auditReport.getEndMoment();
 				Double monthsActive = auditReport.getMonthsActive();
-				boolean validMonths = monthsActive != null && monthsActive >= 0.0;
+				boolean validChronology = start == null || end == null || MomentHelper.isAfter(end, start);
+				boolean validMonths = !validChronology || monthsActive != null && monthsActive >= 0.0;
 
 				super.state(context, validMonths, "monthsActive", "acme.validation.auditReport.monthsActive.message");
 			}
