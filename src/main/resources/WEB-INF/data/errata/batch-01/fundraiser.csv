@@ -2,7 +2,7 @@ key,version,key:userAccount,agent,bank,statement
 #Base
 fundraiser-01,1,user-account-fundraiser-01,true,sabadell,statement
 #Error
-fundraiser-02,1,user-account-fundraiser-02,true,,statement
-fundraiser-03,1,user-account-fundraiser-03,true,sabadell,
+fundraiser-02,1,user-account-fundraiser-02,true,"",statement
+fundraiser-03,1,user-account-fundraiser-03,true,sabadell,""
 fundraiser-04,1,user-account-fundraiser-02,,sabadell,statement
 fundraiser-05,1,user-account-fundraiser-03,true,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem",statement
