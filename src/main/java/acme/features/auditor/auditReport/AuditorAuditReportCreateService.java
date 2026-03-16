@@ -1,12 +1,15 @@
 
 package acme.features.auditor.auditReport;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 
 @Service
 public class AuditorAuditReportCreateService extends AbstractService<Auditor, AuditReport> {
@@ -40,11 +43,25 @@ public class AuditorAuditReportCreateService extends AbstractService<Auditor, Au
 	@Override
 	public void bind() {
 		super.bindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
+		Auditor auditor = (Auditor) super.getRequest().getPrincipal().getActiveRealm();
+		this.auditReport.setAuditor(auditor);
+		this.auditReport.setDraftMode(true);
+
 	}
 
 	@Override
 	public void validate() {
 		super.validateObject(this.auditReport);
+		Date start = this.auditReport.getStartMoment();
+		Date end = this.auditReport.getEndMoment();
+		if (start != null && end != null)
+			super.state(MomentHelper.isAfter(end, start), "endMoment", "auditor.auditReport.form.error.end-after-start");
+
+		if (start != null)
+			super.state(MomentHelper.isFuture(start), "startMoment", "auditor.auditReport.form.error.start-future");
+
+		if (end != null)
+			super.state(MomentHelper.isFuture(end), "endMoment", "auditor.auditReport.form.error.end-future");
 	}
 
 	@Override
@@ -54,6 +71,6 @@ public class AuditorAuditReportCreateService extends AbstractService<Auditor, Au
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours", "draftMode");
+		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours");
 	}
 }

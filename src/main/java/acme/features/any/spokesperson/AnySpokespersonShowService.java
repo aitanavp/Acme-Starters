@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
-import acme.entities.spokespersons.Spokesperson;
+import acme.realms.Spokesperson;
 
 @Service
 public class AnySpokespersonShowService extends AbstractService<Any, Spokesperson> {

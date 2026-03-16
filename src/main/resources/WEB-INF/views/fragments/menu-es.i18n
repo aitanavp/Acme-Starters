@@ -45,6 +45,10 @@ master.menu.provider.favourite-link = Enlace favorito
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
 
+# master.menu.spokesperson ##########################################################
+
+master.menu.spokesperson = Portavoz
+master.menu.spokesperson.campaigns = Ver mis campañas
 # master.menu.inventor ##########################################################
 
 master.menu.inventor = Inventor
@@ -60,5 +64,9 @@ master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.user-account.consumer-profile = Perfil de consumidor
 master.menu.user-account.become-inventor = Hazte inventor
 master.menu.user-account.inventor-profile = Perfil de inventor
+master.menu.user-account.become-spokesperson = Hazte portavoz
+master.menu.user-account.spokesperson-profile = Perfil de portavoz
 master.menu.user-account.become-fundraiser = Hazte Recaudador
 master.menu.user-account.fundraiser-profile = Perfil de recaudador
+master.menu.user-account.become-auditor = Hazte auditor
+master.menu.user-account.auditor-profile = Perfil de auditor

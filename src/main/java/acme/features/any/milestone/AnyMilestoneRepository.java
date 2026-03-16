@@ -12,8 +12,8 @@ import acme.entities.campaigns.Milestone;
 @Repository
 public interface AnyMilestoneRepository extends AbstractRepository {
 
-	@Query("select m from Milestone m where m.campaign.id = :campaignId")
-	public List<Milestone> findAllMilestonesByCampaignId(int campaignId);
+	@Query("select m from Milestone m where m.campaign.id = :campaignId and m.campaign.draftMode=false")
+	public List<Milestone> findPublishedMilestonesByCampaignId(int campaignId);
 
 	@Query("select m from Milestone m where m.id = :milestoneId")
 	public Milestone findMilestoneById(int milestoneId);

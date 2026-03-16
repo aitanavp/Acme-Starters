@@ -1,0 +1,30 @@
+spokesperson.campaign.list.title = Campañas publicadas
+spokesperson.campaign.list.title = Título
+spokesperson.campaign.list.name = Nombre
+spokesperson.campaign.list.description = Logros
+spokesperson.campaign.list.effort = Esfuerzo
+spokesperson.campaign.list.kind = Tipo
+
+spokesperson.campaign.list.button.create = Crear
+
+spokesperson.campaign.form.title = Campaña
+spokesperson.campaign.form.name = Título
+spokesperson.campaign.form.description = Logros
+spokesperson.campaign.form.effort = Esfuerzo
+spokesperson.campaign.form.kind = Tipo
+spokesperson.campaign.form.button.milestones = Hitos
+spokesperson.campaign.form.button.spokesperson = Portavoz
+
+spokesperson.campaign.form.button.update = Actualizar
+spokesperson.campaign.form.button.delete = Eliminar
+spokesperson.campaign.form.button.publish = Publicar
+spokesperson.campaign.form.button.create = Crear
+
+spokesperson.campaign.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+spokesperson.campaign.form.error.start-future = El momento de inicio debe estar en el futuro
+spokesperson.campaign.form.error.end-future = El momento de finalización debe estar en el futuro
+
+spokesperson.campaign.publish.error.no-milestones = Antes de publicar, la campaña debe tener al menos un hito
+spokesperson.campaign.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+spokesperson.campaign.publish.error.start-future = El momento de inicio debe estar en el futuro
+spokesperson.campaign.publish.error.end-future = El momento de finalización debe estar en el futuro
