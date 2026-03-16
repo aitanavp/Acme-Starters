@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.client.repositories.AbstractRepository;
-import acme.entities.spokespersons.Spokesperson;
+import acme.realms.Spokesperson;
 
 @Repository
 public interface AnySpokespersonRepository extends AbstractRepository {

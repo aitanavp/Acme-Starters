@@ -22,6 +22,11 @@ master.menu.any.strategy = List published strategies
 master.menu.any.sponsorships = List published sponsorships
 master.menu.any.auditReports = List published audit reports
 
+master.menu.auditor = Auditor
+master.menu.auditor.auditReport = List my audit Reports
+
+master.menu.fundraiser = Fundraiser
+master.menu.fundraiser.strategy = List my strategies
 
 # master.menu.administrator ###################################################
 
@@ -45,6 +50,14 @@ master.menu.consumer.favourite-link = Favourite link
 
 master.menu.sponsor = Sponsor
 master.menu.sponsor.sponsorship = List my sponsorships
+# master.menu.spokesperson ##########################################################
+
+master.menu.spokesperson = Spokesperson
+master.menu.spokesperson.campaigns = List my campaigns
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.inventions = List my inventions
 
 # master.menu.user-account ####################################################
 
@@ -54,3 +67,12 @@ master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.provider-profile = Provider profile
 master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.consumer-profile = Consumer profile
+master.menu.user-account.become-inventor = Become an inventor
+master.menu.user-account.inventor-profile = Inventor profile
+master.menu.user-account.become-spokesperson = Become an spokesperson
+master.menu.user-account.spokesperson-profile = Spokesperson profile
+master.menu.user-account.become-fundraiser = Become an fundraiser
+master.menu.user-account.fundraiser-profile = Fundraiser profile
+master.menu.user-account.become-auditor = Become an auditor
+master.menu.user-account.auditor-profile = Auditor profile
+

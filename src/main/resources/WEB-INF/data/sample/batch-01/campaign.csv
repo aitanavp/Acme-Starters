@@ -1,48 +1,48 @@
-key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:spokesperson
+key,version,description,draft_mode,start_moment,more_info,name,end_moment,ticker,key:spokesperson
 #Description
-campaign-01,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-01,spokesperson-01
-campaign-02,1,L,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-02,spokesperson-01
-campaign-03,1,Lo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-03,spokesperson-01
-campaign-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-04,spokesperson-01
-campaign-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-05,spokesperson-01
-campaign-06,1,โลเร็ม อิปซัม,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-06,spokesperson-01
-campaign-07,1,لوريم إيبسوم,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-07,spokesperson-01
-campaign-08,1,洛伦·伊普森,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-08,spokesperson-01
-campaign-09,1,<marquee>Hacked</marquee>,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-09,spokesperson-01
-campaign-10,1,<script>alert(‘Hacked!’);</script>,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-10,spokesperson-01
-campaign-11,1,' or 'A' = 'A,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-11,spokesperson-01
+campaign-01,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa01,spokesperson-01
+campaign-02,1,L,false,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa02,spokesperson-01
+campaign-03,1,Lo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa03,spokesperson-01
+campaign-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa04,spokesperson-01
+campaign-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa05,spokesperson-01
+campaign-06,1,โลเร็ม อิปซัม,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa06,spokesperson-01
+campaign-07,1,لوريم إيبسوم,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa07,spokesperson-01
+campaign-08,1,洛伦·伊普森,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa08,spokesperson-01
+campaign-09,1,<marquee>Hacked</marquee>,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa09,spokesperson-01
+campaign-10,1,<script>alert(‘Hacked!’);</script>,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa10,spokesperson-01
+campaign-11,1,' or 'A' = 'A,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa11,spokesperson-01
 
 #Draft-mode
-campaign-12,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-12,spokesperson-01
+campaign-12,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa12,spokesperson-01
 
 #end_moment
-campaign-14,1,ejemplo,true,2025/01/08 00:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-14,spokesperson-01
-campaign-15,1,ejemplo,true,2025/01/08 00:01,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-15,spokesperson-01
-campaign-16,1,ejemplo,true,2200/12/31 23:59,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-16,spokesperson-01
-campaign-17,1,ejemplo,true,2200/12/31 23:59,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,TICKER-17,spokesperson-01
+campaign-14,1,ejemplo,true,2025/01/08 00:00,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa14,spokesperson-01
+campaign-15,1,ejemplo,true,2025/01/08 00:01,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa15,spokesperson-01
+campaign-16,1,ejemplo,true,2200/12/31 23:59,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa16,spokesperson-01
+campaign-17,1,ejemplo,true,2200/12/31 23:59,https://www.investing.com/campaigns/conservative,ejemplo,2026/07/02 12:00,AA01-aaa17,spokesperson-01
 
 #more_info
-campaign-18,1,ejemplo,true,2025/01/08 00:00,http://lorem.com/ipsum,ejemplo,2026/07/02 12:00,TICKER-18,spokesperson-01
-campaign-19,1,ejemplo,true,2025/01/08 00:00,http://a.b,ejemplo,2026/07/02 12:00,TICKER-19,spokesperson-01
-campaign-20,1,ejemplo,true,2025/01/08 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",ejemplo,2026/07/02 12:00,TICKER-20,spokesperson-01
-campaign-21,1,ejemplo,true,2025/01/08 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",ejemplo,2026/07/02 12:00,TICKER-21,spokesperson-01
-campaign-22,1,ejemplo,true,2025/01/08 00:00,http://www.lorem-ipsum.org,ejemplo,2026/07/02 12:00,TICKER-22,spokesperson-01
-campaign-23,1,ejemplo,true,2025/01/08 00:00,https://www.lorem-ipsum.org,ejemplo,2026/07/02 12:00,TICKER-23,spokesperson-01
-campaign-24,1,ejemplo,true,2025/01/08 00:00,http://www.lorem-ipsum.org/dolor/sit.html,ejemplo,2026/07/02 12:00,TICKER-24,spokesperson-01
-campaign-25,1,ejemplo,true,2025/01/08 00:00,http://www.lorem-ipsum.org/dolor/sit.html#dolor,ejemplo,2026/07/02 12:00,TICKER-25,spokesperson-01
-campaign-26,1,ejemplo,true,2025/01/08 00:00,http://example.org?a=1&b=2,ejemplo,2026/07/02 12:00,TICKER-26,spokesperson-01
-campaign-27,1,ejemplo,true,2025/01/08 00:00,http://example.org?,ejemplo,2026/07/02 12:00,TICKER-27,spokesperson-01
-campaign-28,1,ejemplo,true,2025/01/08 00:00,http://example.org?a,ejemplo,2026/07/02 12:00,TICKER-28,spokesperson-01
-campaign-29,1,ejemplo,true,2025/01/08 00:00,http://example.org?a&b,ejemplo,2026/07/02 12:00,TICKER-29,spokesperson-01
-campaign-30,1,ejemplo,true,2025/01/08 00:00,http://example.org/,ejemplo,2026/07/02 12:00,TICKER-30,spokesperson-01
-campaign-31,1,ejemplo,true,2025/01/08 00:00,http://example.org/a,ejemplo,2026/07/02 12:00,TICKER-31,spokesperson-01
-campaign-32,1,ejemplo,true,2025/01/08 00:00,http://example.org/a/b,ejemplo,2026/07/02 12:00,TICKER-32,spokesperson-01
-campaign-33,1,ejemplo,true,2025/01/08 00:00,http://example.org/a/b?,ejemplo,2026/07/02 12:00,TICKER-33,spokesperson-01
-campaign-34,1,ejemplo,true,2025/01/08 00:00,http://example.org/a/b?a&b,ejemplo,2026/07/02 12:00,TICKER-34,spokesperson-01
-campaign-50,1,ejemplo,true,2025/01/08 00:00,,ejemplo,2026/07/02 12:00,TICKER-50,spokesperson-01
+campaign-18,1,ejemplo,true,2025/01/08 00:00,http://lorem.com/ipsum,ejemplo,2026/07/02 12:00,AA01-aaa18,spokesperson-01
+campaign-19,1,ejemplo,true,2025/01/08 00:00,http://a.b,ejemplo,2026/07/02 12:00,AA01-aaa19,spokesperson-01
+campaign-20,1,ejemplo,true,2025/01/08 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",ejemplo,2026/07/02 12:00,AA01-aaa20,spokesperson-01
+campaign-21,1,ejemplo,true,2025/01/08 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",ejemplo,2026/07/02 12:00,AA01-aaa21,spokesperson-01
+campaign-22,1,ejemplo,true,2025/01/08 00:00,http://www.lorem-ipsum.org,ejemplo,2026/07/02 12:00,AA01-aaa22,spokesperson-01
+campaign-23,1,ejemplo,true,2025/01/08 00:00,https://www.lorem-ipsum.org,ejemplo,2026/07/02 12:00,AA01-aaa23,spokesperson-01
+campaign-24,1,ejemplo,true,2025/01/08 00:00,http://www.lorem-ipsum.org/dolor/sit.html,ejemplo,2026/07/02 12:00,AA01-aaa24,spokesperson-01
+campaign-25,1,ejemplo,true,2025/01/08 00:00,http://www.lorem-ipsum.org/dolor/sit.html#dolor,ejemplo,2026/07/02 12:00,AA01-aaa25,spokesperson-01
+campaign-26,1,ejemplo,true,2025/01/08 00:00,http://example.org?a=1&b=2,ejemplo,2026/07/02 12:00,AA01-aaa26,spokesperson-01
+campaign-27,1,ejemplo,true,2025/01/08 00:00,http://example.org?,ejemplo,2026/07/02 12:00,AA01-aaa27,spokesperson-01
+campaign-28,1,ejemplo,true,2025/01/08 00:00,http://example.org?a,ejemplo,2026/07/02 12:00,AA01-aaa28,spokesperson-01
+campaign-29,1,ejemplo,true,2025/01/08 00:00,http://example.org?a&b,ejemplo,2026/07/02 12:00,AA01-aaa29,spokesperson-01
+campaign-30,1,ejemplo,true,2025/01/08 00:00,http://example.org/,ejemplo,2026/07/02 12:00,AA01-aaa30,spokesperson-01
+campaign-31,1,ejemplo,true,2025/01/08 00:00,http://example.org/a,ejemplo,2026/07/02 12:00,AA01-aaa31,spokesperson-01
+campaign-32,1,ejemplo,true,2025/01/08 00:00,http://example.org/a/b,ejemplo,2026/07/02 12:00,AA01-aaa32,spokesperson-01
+campaign-33,1,ejemplo,true,2025/01/08 00:00,http://example.org/a/b?,ejemplo,2026/07/02 12:00,AA01-aaa33,spokesperson-01
+campaign-34,1,ejemplo,true,2025/01/08 00:00,http://example.org/a/b?a&b,ejemplo,2026/07/02 12:00,AA01-aaa34,spokesperson-01
+campaign-50,1,ejemplo,true,2025/01/08 00:00,,ejemplo,2026/07/02 12:00,AA01-aaa50,spokesperson-01
 
 #start_moment
-campaign-46,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2025/01/08 00:00,TICKER-46,spokesperson-01
-campaign-47,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2025/01/08 00:01,TICKER-47,spokesperson-01
-campaign-48,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2200/12/31 23:59,TICKER-48,spokesperson-01
-campaign-49,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2200/12/31 23:59,TICKER-49,spokesperson-01
+campaign-46,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2025/01/08 00:00,AA01-aaa46,spokesperson-01
+campaign-47,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2025/01/08 00:01,AA01-aaa47,spokesperson-01
+campaign-48,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2200/12/31 23:59,AA01-aaa48,spokesperson-01
+campaign-49,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/campaigns/conservative,ejemplo,2200/12/31 23:59,AA01-aaa49,spokesperson-01

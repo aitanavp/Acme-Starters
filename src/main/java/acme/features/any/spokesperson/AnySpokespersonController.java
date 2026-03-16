@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 
 import acme.client.components.principals.Any;
 import acme.client.controllers.AbstractController;
-import acme.entities.spokespersons.Spokesperson;
+import acme.realms.Spokesperson;
 
 @Controller
 public class AnySpokespersonController extends AbstractController<Any, Spokesperson> {

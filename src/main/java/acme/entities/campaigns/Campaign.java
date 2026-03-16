@@ -26,7 +26,7 @@ import acme.constraints.ValidCampaign;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.spokespersons.Spokesperson;
+import acme.realms.Spokesperson;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -84,6 +84,8 @@ public class Campaign extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
+		if (this.startMoment == null || this.endMoment == null)
+			return 0.0;
 		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 	}
 
@@ -94,7 +96,7 @@ public class Campaign extends AbstractEntity {
 
 
 	@Transient
-	private Double getEffort() {
+	public Double getEffort() {
 		double result;
 		result = this.repository.computeEffort(this.getId());
 		return result;

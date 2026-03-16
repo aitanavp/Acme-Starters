@@ -23,7 +23,11 @@ public class AnyMilestoneShowService extends AbstractService<Any, Milestone> {
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Milestone milestone = this.repository.findMilestoneById(id);
+
+		boolean status = milestone != null && milestone.getCampaign() != null && !milestone.getCampaign().getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override

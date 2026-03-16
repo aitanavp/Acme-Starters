@@ -1,0 +1,34 @@
+auditor.audit-report.list.title = Mis Reportes de Auditoría
+auditor.auditReport.list.ticker = Referencia
+auditor.auditReport.list.name = Nombre
+auditor.auditReport.list.description = Descripción
+auditor.auditReport.list.startMoment = Inicio
+auditor.auditReport.list.endMoment = Fin
+auditor.auditReport.list.moreInfo = Más información
+auditor.auditReport.list.monthsActive = Meses activo
+auditor.auditReport.list.hours = Horas
+auditor.auditReport.list.draftMode = Borrador
+
+auditor.auditReport.list.button.create = Crear
+
+auditor.audit-report.form.title = Reporte de Auditoría
+auditor.auditReport.form.ticker = Referencia
+auditor.auditReport.form.name = Nombre
+auditor.auditReport.form.description = Descripción
+auditor.auditReport.form.startMoment = Inicio
+auditor.auditReport.form.endMoment = Fin
+auditor.auditReport.form.moreInfo = Más información (Opcional)
+auditor.auditReport.form.monthsActive = Meses activo
+auditor.auditReport.form.hours = Horas
+auditor.auditReport.form.draftMode = Borrador
+
+auditor.auditReport.form.button.auditSections = Secciones de auditoría
+auditor.auditReport.form.button.update = Actualizar
+auditor.auditReport.form.button.delete = Eliminar
+auditor.auditReport.form.button.publish = Publicar
+auditor.auditReport.form.button.create = Crear
+
+auditor.auditReport.publish.error.no-auditSections = Antes de publicar, el reporte de auditoría debe tener al menos una sección de auditoría
+auditor.auditReport.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+auditor.auditReport.publish.error.start-future = El momento de inicio debe estar en el futuro
+auditor.auditReport.publish.error.end-future = El momento de finalización debe estar en el futuro

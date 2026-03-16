@@ -4,6 +4,8 @@ any.audit-report.list.description = Description
 any.audit-report.list.startMoment = Start moment
 any.audit-report.list.endMoment = End moment
 any.audit-report.list.moreInfo = More info
+any.audit-report.list.draftMode = Draft mode
+any.audit-report.list.ticker = Ticker
 any.audit-report.list.monthsActive = Months active
 any.audit-report.list.hours = Hours
 
@@ -15,5 +17,7 @@ any.audit-report.form.endMoment = End moment
 any.audit-report.form.moreInfo = More info
 any.audit-report.form.monthsActive = Months active
 any.audit-report.form.hours = Hours
+any.audit-report.form.ticker = Ticker
+any.audit-report.form.draftMode = Draft mode
 any.audit-report.form.button.auditSections = Audit Sections
 any.audit-report.form.button.auditor = Auditor

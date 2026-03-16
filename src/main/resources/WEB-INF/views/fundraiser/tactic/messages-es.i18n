@@ -1,0 +1,21 @@
+fundraiser.tactic.list.title = Tacticas
+fundraiser.tactic.list.name = Nombre
+fundraiser.tactic.list.description = Descripción
+fundraiser.tactic.list.expectedPercentage = Porcentaje esperado
+fundraiser.tactic.list.kind = Tipo
+
+fundraiser.tactic.list.button.create = Crear
+
+fundraiser.tactic.form.title = Tactica
+fundraiser.tactic.form.name = Nombre
+fundraiser.tactic.form.description = Descripción
+fundraiser.tactic.form.expectedPercentage = Porcentaje esperado
+fundraiser.tactic.form.kind = Tipo
+fundraiser.tactic.form.draftMode = Borrador
+fundraiser.tactic.form.button.update = Actualizar
+fundraiser.tactic.form.button.delete = Eliminar
+fundraiser.tactic.form.button.create = Crear
+fundraiser.tactic.form.button.strategy = Estrategia
+fundraiser.tactic.list.button.strategy = Estrategia
+
+fundraiser.tactic.form.error.percentage-exceeded = La suma de los porcentajes de todas las tácticas de esta estrategia superaría el 100%

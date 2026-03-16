@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.client.repositories.AbstractRepository;
-import acme.entities.inventors.Inventor;
+import acme.realms.Inventor;
 
 @Repository
 public interface AnyInventorRepository extends AbstractRepository {

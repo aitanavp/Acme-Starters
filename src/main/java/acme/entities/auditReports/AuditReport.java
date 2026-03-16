@@ -23,7 +23,7 @@ import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.auditors.Auditor;
+import acme.realms.Auditor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -55,12 +55,12 @@ public class AuditReport extends AbstractEntity {
 	private String				description;
 
 	@Mandatory
-	@ValidMoment(constraint = ValidMoment.Constraint.ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				startMoment;
 
 	@Mandatory
-	@ValidMoment(constraint = ValidMoment.Constraint.ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				endMoment;
 
@@ -81,7 +81,14 @@ public class AuditReport extends AbstractEntity {
 	//@Valid
 	@Transient
 	public Double getMonthsActive() {
-		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+		Double result;
+
+		if (this.startMoment == null || this.endMoment == null)
+			result = 0.0;
+		else
+			result = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+
+		return result;
 	}
 
 

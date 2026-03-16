@@ -36,15 +36,16 @@ public class StrategyValidator extends AbstractValidator<ValidStrategy, Strategy
 
 		else {
 			{
-				Strategy existingStrategy = this.repository.findStrategyByTicker(strategy.getTicker());
-				boolean uniqueStrategy = existingStrategy != null && existingStrategy.equals(strategy);
-
-				super.state(context, uniqueStrategy, "ticker", "acme.validation.strategy.ticker.non-unique");
+				if (strategy.getTicker() != null && !strategy.getTicker().isBlank()) {
+					Strategy existing = this.repository.findStrategyByTicker(strategy.getTicker());
+					boolean uniqueTicker = existing == null || existing.getId() == strategy.getId();
+					super.state(context, uniqueTicker, "ticker", "acme.validation.strategy.ticker.non-unique");
+				}
 			}
 			{
 				if (strategy.getDraftMode() != null && !strategy.getDraftMode()) {
-					Double partsCount = this.repository.countTacticsOfStrategy(strategy.getId());
-					boolean hasParts = partsCount != null && partsCount > 0;
+					Double tacticsCount = this.repository.countTacticsOfStrategy(strategy.getId());
+					boolean hasParts = tacticsCount != null && tacticsCount > 0;
 
 					super.state(context, hasParts, "draftMode", "acme.validation.strategy.parts.message");
 				}
@@ -53,11 +54,17 @@ public class StrategyValidator extends AbstractValidator<ValidStrategy, Strategy
 				Date now = MomentHelper.getBaseMoment();
 				Date start = strategy.getStartMoment();
 				Date end = strategy.getEndMoment();
-				boolean validDates = start != null && end != null && !start.before(now) && end.after(start);
 
+				boolean validDates = start != null && end != null && !MomentHelper.isBefore(start, now) && MomentHelper.isAfter(end, start);
 				boolean validPublishedInvention = strategy.getDraftMode() || validDates;
 
 				super.state(context, validPublishedInvention, "*", "acme.validation.invention.dates.message");
+			}
+			{
+				Double monthsActive = strategy.getMonthsActive();
+				boolean validMonths = monthsActive != null && monthsActive >= 0.0;
+
+				super.state(context, validMonths, "monthsActive", "acme.validation.invention.monthsActive.message");
 			}
 		}
 

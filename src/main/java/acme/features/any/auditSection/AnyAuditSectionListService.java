@@ -8,7 +8,9 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
+import acme.entities.auditReports.AuditReport;
 import acme.entities.auditReports.AuditSection;
+import acme.features.any.auditReport.AnyAuditReportRepository;
 
 @Service
 public class AnyAuditSectionListService extends AbstractService<Any, AuditSection> {
@@ -18,6 +20,9 @@ public class AnyAuditSectionListService extends AbstractService<Any, AuditSectio
 	@Autowired
 	private AnyAuditSectionRepository	repository;
 
+	@Autowired
+	private AnyAuditReportRepository	auditReportRepository;
+
 	private List<AuditSection>			auditSections;
 
 	// AbstractService interface
@@ -25,7 +30,11 @@ public class AnyAuditSectionListService extends AbstractService<Any, AuditSectio
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int auditReportId = super.getRequest().getData("auditReportId", int.class);
+		AuditReport auditReport = this.auditReportRepository.findAuditReportById(auditReportId);
+
+		boolean status = auditReport != null && !auditReport.getDraftMode();
+		super.getResponse().setAuthorised(status);
 	}
 
 	@Override
@@ -37,7 +46,7 @@ public class AnyAuditSectionListService extends AbstractService<Any, AuditSectio
 	public void load() {
 		int id;
 		id = super.getRequest().getData("auditReportId", int.class);
-		this.auditSections = this.repository.findAllAuditSectionsByAuditReportId(id);
+		this.auditSections = this.repository.findPublishedAuditSectionsByAuditReportId(id);
 	}
 
 }

@@ -1,26 +1,26 @@
 key,version,description,draft_mode,end_moment,more_info,name,start_moment,ticker,key:fundraiser
 #Base
-strategy-1,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
+strategy-1,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,AB01-aaa13,fundraiser-01
 #Error
-strategy-2,1,,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-3,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
+strategy-2,1,,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,AB01-aaa14,fundraiser-01
+strategy-3,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,AB01-aaa27,fundraiser-01
 
-strategy-4,1,ejemplo,,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
+# strategy-4,1,ejemplo,,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,AB01-aaa15,fundraiser-01
 
-strategy-5,1,ejemplo,true,2027/01/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-6,1,ejemplo,true,,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-7,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2025/04/01 12:00,TICKER-13,fundraiser-01
-strategy-8,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,,TICKER-13,fundraiser-01
+strategy-5,1,ejemplo,true,2027/01/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,AB01-aaa16,fundraiser-01
+strategy-6,1,ejemplo,true,,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,AB01-aaa17,fundraiser-01
+strategy-7,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2025/04/01 12:00,AB01-aaa18,fundraiser-01
+strategy-8,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,,AB01-aaa19,fundraiser-01
 
-strategy-9,1,ejemplo,true,2027/07/01 10:00,http://,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-10,1,ejemplo,true,2027/07/01 10:00,ftp://,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-11,1,ejemplo,true,2027/07/01 10:00,http://a,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-12,1,ejemplo,true,2027/07/01 10:00,ftp://a,ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-13,1,ejemplo,true,2027/07/01 10:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/x",ejemplo,2027/04/01 12:00,TICKER-13,fundraiser-01
+strategy-9,1,ejemplo,true,2027/07/01 10:00,http://,ejemplo,2027/04/01 12:00,AB01-aaa20,fundraiser-01
+strategy-10,1,ejemplo,true,2027/07/01 10:00,ftp://,ejemplo,2027/04/01 12:00,AB01-aaa21,fundraiser-01
+strategy-11,1,ejemplo,true,2027/07/01 10:00,http://a,ejemplo,2027/04/01 12:00,AB01-aaa22,fundraiser-01
+strategy-12,1,ejemplo,true,2027/07/01 10:00,ftp://a,ejemplo,2027/04/01 12:00,AB01-aaa23,fundraiser-01
+strategy-13,1,ejemplo,true,2027/07/01 10:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/x",ejemplo,2027/04/01 12:00,AB01-aaa24,fundraiser-01
 
-strategy-14,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,,2027/04/01 12:00,TICKER-13,fundraiser-01
-strategy-15,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem",2027/04/01 12:00,TICKER-13,fundraiser-01
+strategy-14,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,,2027/04/01 12:00,AB01-aaa25,fundraiser-01
+strategy-15,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tem",2027/04/01 12:00,AB01-aaa26,fundraiser-01
 
 strategy-16,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,,fundraiser-01
 strategy-17,1,ejemplo,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo,2027/04/01 12:00,ABCD-EFGH-13,fundraiser-01
-strategy-18,1,ejemplo2,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo2,2027/04/01 12:00,TICKER-13,fundraiser-01
+strategy-18,1,ejemplo2,true,2027/07/01 10:00,http://lorem.com/ipsum,ejemplo2,2027/04/01 12:00,AB01-aaa1,fundraiser-01
