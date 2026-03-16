@@ -1,0 +1,7 @@
+authenticated.auditor.form.title = Detalles de auditor
+authenticated.auditor.form.firm = Firma
+authenticated.auditor.form.highlights = Aspectos Destacados
+authenticated.auditor.form.solicitor = Abogado
+
+authenticated.auditor.form.button.create = Register
+authenticated.auditor.form.button.update = Update
