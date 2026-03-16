@@ -7,8 +7,8 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 
 import acme.client.controllers.AbstractController;
-import acme.entities.fundraisers.Fundraiser;
 import acme.entities.strategies.Strategy;
+import acme.realms.Fundraiser;
 
 @Controller
 public class FundraiserStrategyController extends AbstractController<Fundraiser, Strategy> {

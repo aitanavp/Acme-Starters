@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import acme.client.components.principals.UserAccount;
 import acme.client.repositories.AbstractRepository;
-import acme.entities.fundraisers.Fundraiser;
+import acme.realms.Fundraiser;
 
 @Repository
 public interface AuthenticatedFundraiserRepository extends AbstractRepository {

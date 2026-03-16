@@ -19,9 +19,9 @@ import acme.client.components.models.Tuple;
 import acme.client.components.views.SelectChoices;
 import acme.client.services.AbstractService;
 import acme.datatypes.TacticKind;
-import acme.entities.fundraisers.Fundraiser;
 import acme.entities.strategies.Strategy;
 import acme.entities.strategies.Tactic;
+import acme.realms.Fundraiser;
 
 @Service
 public class FundraiserTacticCreateService extends AbstractService<Fundraiser, Tactic> {

@@ -16,8 +16,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.client.services.AbstractService;
-import acme.entities.fundraisers.Fundraiser;
 import acme.entities.strategies.Strategy;
+import acme.realms.Fundraiser;
 
 @Service
 public class FundraiserStrategyCreateService extends AbstractService<Fundraiser, Strategy> {

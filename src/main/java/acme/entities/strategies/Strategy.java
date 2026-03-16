@@ -27,7 +27,7 @@ import acme.constraints.ValidHeader;
 import acme.constraints.ValidStrategy;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
-import acme.entities.fundraisers.Fundraiser;
+import acme.realms.Fundraiser;
 import lombok.Getter;
 import lombok.Setter;
 

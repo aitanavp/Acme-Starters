@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import acme.client.components.principals.Authenticated;
 import acme.client.helpers.PrincipalHelper;
 import acme.client.services.AbstractService;
-import acme.entities.fundraisers.Fundraiser;
+import acme.realms.Fundraiser;
 
 @Service
 public class AuthenticatedFundraiserUpdateService extends AbstractService<Authenticated, Fundraiser> {

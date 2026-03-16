@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
-import acme.entities.fundraisers.Fundraiser;
+import acme.realms.Fundraiser;
 
 @Service
 public class AnyFundraiserShowService extends AbstractService<Any, Fundraiser> {
