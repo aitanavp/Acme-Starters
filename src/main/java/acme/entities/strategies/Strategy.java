@@ -82,7 +82,7 @@ public class Strategy extends AbstractEntity {
 	public Double getMonthsActive() {
 		Double result;
 
-		if (this.startMoment == null || this.endMoment == null)
+		if (this.startMoment == null || this.endMoment == null || Boolean.TRUE.equals(this.draftMode))
 			result = 0.0;
 		else
 			result = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);

@@ -65,7 +65,7 @@ public class CampaignValidator extends AbstractValidator<ValidCampaign, Campaign
 				super.state(context, validPublishedCampaign, "*", "acme.validation.campaign.dates.message");
 			}
 			Double monthsActive = campaign.getMonthsActive();
-			boolean validMonths = monthsActive != null && monthsActive >= 0.0;
+			boolean validMonths = Boolean.TRUE.equals(campaign.getDraftMode()) || monthsActive >= 0.0;
 
 			super.state(context, validMonths, "monthsActive", "acme.validation.campaign.monthsActive.message");
 		}

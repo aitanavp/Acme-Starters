@@ -62,7 +62,7 @@ public class StrategyValidator extends AbstractValidator<ValidStrategy, Strategy
 			}
 			{
 				Double monthsActive = strategy.getMonthsActive();
-				boolean validMonths = monthsActive != null && monthsActive >= 0.0;
+				boolean validMonths = Boolean.TRUE.equals(strategy.getDraftMode()) || monthsActive >= 0.0;
 
 				super.state(context, validMonths, "monthsActive", "acme.validation.invention.monthsActive.message");
 			}

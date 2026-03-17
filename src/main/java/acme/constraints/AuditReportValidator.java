@@ -74,7 +74,7 @@ public class AuditReportValidator extends AbstractValidator<ValidAuditReport, Au
 				Date end = auditReport.getEndMoment();
 				Double monthsActive = auditReport.getMonthsActive();
 				boolean validChronology = start == null || end == null || MomentHelper.isAfter(end, start);
-				boolean validMonths = !validChronology || monthsActive != null && monthsActive >= 0.0;
+				boolean validMonths = !validChronology || monthsActive != null && (Boolean.TRUE.equals(auditReport.getDraftMode()) || monthsActive >= 0.0);
 
 				super.state(context, validMonths, "monthsActive", "acme.validation.auditReport.monthsActive.message");
 			}
