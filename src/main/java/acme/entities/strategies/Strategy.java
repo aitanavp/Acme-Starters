@@ -1,6 +1,8 @@
 
 package acme.entities.strategies;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -104,6 +106,8 @@ public class Strategy extends AbstractEntity {
 		result = this.repository.computeExpectedPercentage(this.getId());
 		if (result == null)
 			result = 00.00;
+		else
+			result = BigDecimal.valueOf(result).setScale(2, RoundingMode.HALF_UP).doubleValue();
 		return result;
 	}
 
