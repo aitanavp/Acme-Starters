@@ -10,6 +10,7 @@ acme.validation.invention.cost.message = El coste debe ser un valor positivo en 
 acme.validation.campaign.ticker.non-unique = El ticker ya está en uso por otra campaña
 acme.validation.campaign.milestones.message = La campaña debe tener al menos un hito
 acme.validation.campaign.dates.message = Para publicar una campaña, ambas fechas deben estar en el futuro
+acme.validation.campaign.monthsActive.message = Los meses activos no pueden ser negativos o nulos
 acme.validation.strategy.ticker.non-unique = El ticker ya está en uso por otra estrategia
 acme.validation.strategy.parts.message = La estrategia debe tener al menos una parte
 acme.validation.strategy.dates.message = Para publicar una estrategia, ambas fechas deben estar en el futuro
