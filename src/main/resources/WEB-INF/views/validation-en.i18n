@@ -11,6 +11,7 @@ acme.validation.strategy.ticker.non-unique = The ticker is already used by anoth
 acme.validation.campaign.ticker.non-unique = The ticker is already used by another campaign
 acme.validation.campaign.milestones.message = The campaign must have at least one milestone
 acme.validation.campaign.dates.message = To publish an campaign, both dates must be in the future
+acme.validation.campaign.monthsActive.message = The active months cannot be negative or null
 acme.validation.strategy.parts.message = The strategy must have at least one part
 acme.validation.strategy.dates.message = To publish a strategy, both dates must be in the future
 acme.validation.auditReport.auditSections.message = The audit report must have at least one part
