@@ -84,7 +84,8 @@ public class Campaign extends AbstractEntity {
 	public Double getMonthsActive() {
 		if (this.startMoment == null || this.endMoment == null || Boolean.TRUE.equals(this.draftMode))
 			return 0.0;
-		return MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+		Double months = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+		return Math.round(months * 10.0) / 10.0;
 	}
 
 
