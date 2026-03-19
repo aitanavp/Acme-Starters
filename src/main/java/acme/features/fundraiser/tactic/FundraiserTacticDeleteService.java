@@ -17,6 +17,7 @@ import org.springframework.stereotype.Service;
 
 import acme.client.components.models.Tuple;
 import acme.client.components.views.SelectChoices;
+import acme.client.helpers.MessageHelper;
 import acme.client.services.AbstractService;
 import acme.datatypes.TacticKind;
 import acme.entities.strategies.Tactic;
@@ -76,7 +77,16 @@ public class FundraiserTacticDeleteService extends AbstractService<Fundraiser, T
 		SelectChoices choices;
 		Tuple tuple;
 
-		choices = SelectChoices.from(TacticKind.class, this.tactic.getKind());
+		choices = new SelectChoices();
+		choices.add("0", "----", this.tactic.getKind() == null);
+		for (TacticKind kind : TacticKind.values()) {
+			String key;
+			String label;
+
+			key = kind.toString();
+			label = MessageHelper.getMessage(String.format("fundraiser.tactic.kind.%s", key));
+			choices.add(key, label, kind.equals(this.tactic.getKind()));
+		}
 		tuple = super.unbindObject(this.tactic, "name", "description", "expectedPercentage", "kind");
 		tuple.put("kind", choices.getSelected().getKey());
 		tuple.put("TacticKind", choices);

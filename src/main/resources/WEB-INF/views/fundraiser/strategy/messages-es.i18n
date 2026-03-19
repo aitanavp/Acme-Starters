@@ -18,6 +18,8 @@ fundraiser.strategy.list.moreInfo = Más información
 fundraiser.strategy.list.monthsActive = Meses activo
 fundraiser.strategy.list.expectedPercentage = Porcentaje esperado
 fundraiser.strategy.list.draftMode = Borrador
+fundraiser.strategy.list.draftMode.true = Sí
+fundraiser.strategy.list.draftMode.false = No
 
 fundraiser.strategy.list.button.create = Crear
 
