@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
 import acme.realms.Auditor;
@@ -36,7 +37,12 @@ public class AuditorAuditReportListService extends AbstractService<Auditor, Audi
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.auditReports, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours", "draftMode");
+		for (AuditReport auditReport : this.auditReports) {
+			Tuple tuple;
+
+			tuple = super.unbindObject(auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours", "draftMode");
+			tuple.put("draftMode", auditReport.getDraftMode() ? "☑" : "☒");
+		}
 	}
 
 }

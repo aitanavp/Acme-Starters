@@ -12,7 +12,6 @@
 	<acme:form-textbox code="any.audit-report.form.moreInfo" path="moreInfo"/>
 	<acme:form-double code="any.audit-report.form.monthsActive" path="monthsActive"/>
 	<acme:form-textbox code="any.audit-report.form.hours" path="hours"/>
-	<acme:form-checkbox code="any.audit-report.form.draftMode" path="draftMode"/>
 	
 	<acme:button code="any.audit-report.form.button.auditSections" action="/any/audit-section/list?auditReportId=${id}" />
 	<acme:button code="any.audit-report.form.button.auditor" action="/any/auditor/show?id=${auditorId}" />
