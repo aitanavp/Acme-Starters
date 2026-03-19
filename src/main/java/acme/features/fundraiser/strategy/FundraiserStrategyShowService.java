@@ -4,6 +4,8 @@ package acme.features.fundraiser.strategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
+import acme.client.helpers.MessageHelper;
 import acme.client.services.AbstractService;
 import acme.entities.strategies.Strategy;
 import acme.realms.Fundraiser;
@@ -42,7 +44,11 @@ public class FundraiserStrategyShowService extends AbstractService<Fundraiser, S
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.strategy, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "expectedPercentage", "draftMode");
+		Tuple tuple;
+		String code;
+		tuple = super.unbindObject(this.strategy, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "expectedPercentage", "draftMode");
+		code = this.strategy.getDraftMode() ? "fundraiser.strategy.list.draftMode.true" : "fundraiser.strategy.list.draftMode.false";
+		tuple.put("draftMode", MessageHelper.getMessage(code));
 		super.unbindGlobal("fundraiserId", this.strategy.getFundraiser().getId());
 	}
 }
