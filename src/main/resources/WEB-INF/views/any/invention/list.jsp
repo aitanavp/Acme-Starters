@@ -10,9 +10,8 @@
 	<acme:list-column code="any.invention.list.startMoment" path="startMoment" width="15%"/>
 	<acme:list-column code="any.invention.list.endMoment" path="endMoment" width="10%"/>
 	<acme:list-column code="any.invention.list.moreInfo" path="moreInfo" width="10%"/>
-	<acme:list-column code="any.invention.list.draftMode" path="draftMode" width="5%"/>
 	<acme:list-column code="any.invention.list.monthsActive" path="monthsActive" width="5%"/>
-	<acme:list-column code="any.invention.list.cost" path="cost" width="5"/>
+	<acme:list-column code="any.invention.list.cost" path="cost" width="10%"/>
 </acme:list>
 
 

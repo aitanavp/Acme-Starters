@@ -1,4 +1,21 @@
 key,version,key:userAccount,bio,key_words,licensed
-inventor-01,1,user-account-inventor-01,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
-inventor-02,1,user-account-inventor-02,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
-inventor-03,1,user-account-inventor-03,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
+# base
+# inventor-00,1,user-account-inventor-01,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
+
+# bio
+inventor-01,1,user-account-inventor-01,"","Lorem ipsum dolor sit amet.",true
+inventor-02,1,user-account-inventor-02,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i","Lorem ipsum dolor sit amet.",true
+inventor-03,1,user-account-inventor-03,,"Lorem ipsum dolor sit amet.",true
+inventor-04,1,user-account-inventor-04,"     ","Lorem ipsum dolor sit amet.",true
+
+# key words
+inventor-05,1,user-account-inventor-05,"","Lorem ipsum dolor sit amet.",true
+inventor-06,1,user-account-inventor-06,"    ","Lorem ipsum dolor sit amet.",true
+inventor-07,1,user-account-inventor-07,,"Lorem ipsum dolor sit amet.",true
+inventor-08,1,user-account-inventor-08,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i","Lorem ipsum dolor sit amet.",true
+
+# licensed
+inventor-09,1,user-account-inventor-09,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",
+
+# user account
+inventor-10,1,,"Lorem ipsum dolor sit amet.","Lorem ipsum dolor sit amet.",true
