@@ -14,7 +14,7 @@
 	<acme:list-column code="any.campaign.list.moreInfo" path="moreInfo" width="10%"/>
 	<acme:list-column code="any.campaign.list.draftMode" path="draftMode" width="5%"/>
 	<acme:list-column code="any.campaign.list.monthsActive" path="monthsActive" width="5%"/>
-	<acme:list-column code="any.campaign.list.effort" path="hours" width="5%"/>
+	<acme:list-column code="any.campaign.list.effort" path="effort" width="5%"/>
 </acme:list>
 
 
