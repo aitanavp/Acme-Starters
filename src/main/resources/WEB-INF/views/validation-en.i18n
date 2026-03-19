@@ -7,6 +7,7 @@ acme.validation.invention.dates.message = To publish an invention, both dates mu
 acme.validation.invention.ticker.non-unique = The ticker is already used by another invention
 acme.validation.invention.monthsActive.message = The active months cannot be negative or null
 acme.validation.invention.cost.message = The cost must be a positive value in EUR
+acme.validation.invention.parts.message = The currency of the parts must be EUR
 acme.validation.strategy.ticker.non-unique = The ticker is already used by another strategy
 acme.validation.campaign.ticker.non-unique = The ticker is already used by another campaign
 acme.validation.campaign.milestones.message = The campaign must have at least one milestone

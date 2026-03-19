@@ -7,6 +7,7 @@ acme.validation.invention.dates.message = Para publicar un invento, ambas fechas
 acme.validation.invention.ticker.non-unique = El ticker ya está en uso por otro invento
 acme.validation.invention.monthsActive.message = Los meses activos no pueden ser negativos o nulos
 acme.validation.invention.cost.message = El coste debe ser un valor positivo en EUR
+acme.validation.invention.parts.message = El coste de las partes debe estar en EUR
 acme.validation.campaign.ticker.non-unique = El ticker ya está en uso por otra campaña
 acme.validation.campaign.milestones.message = La campaña debe tener al menos un hito
 acme.validation.campaign.dates.message = Para publicar una campaña, ambas fechas deben estar en el futuro
