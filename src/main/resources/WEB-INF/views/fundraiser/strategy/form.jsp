@@ -12,7 +12,7 @@
 	<acme:form-url code="fundraiser.strategy.form.moreInfo" path="moreInfo"/>
 	<acme:form-double code="fundraiser.strategy.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="fundraiser.strategy.form.expectedPercentage" path="expectedPercentage" readonly="true"/>
-	<acme:form-textbox code="fundraiser.strategy.form.draftMode" path="draftMode" readonly="true"/>
+	<acme:form-checkbox code="fundraiser.strategy.form.draftMode" path="draftMode" readonly="true"/>
 
 	<jstl:choose>	 
 		<jstl:when test="${_command == 'show' && draftMode == false}">

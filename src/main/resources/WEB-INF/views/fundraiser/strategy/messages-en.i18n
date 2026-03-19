@@ -18,6 +18,8 @@ fundraiser.strategy.list.moreInfo = More info
 fundraiser.strategy.list.monthsActive = Months active
 fundraiser.strategy.list.expectedPercentage = Expected percentage
 fundraiser.strategy.list.draftMode = Draft
+fundraiser.strategy.list.draftMode.true = Yes
+fundraiser.strategy.list.draftMode.false = No
 
 fundraiser.strategy.list.button.create = Create
 
