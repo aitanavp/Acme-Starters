@@ -1,6 +1,8 @@
 
 package acme.entities.inventions;
 
+import java.util.Collection;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
@@ -17,4 +19,7 @@ public interface InventionRepository extends AbstractRepository {
 
 	@Query("select i from Invention i where i.ticker=:ticker")
 	Invention findInventionByTicker(final String ticker);
+
+	@Query("select p from Part p where p.invention.id = :inventionId")
+	Collection<Part> findPartsByInventionId(int inventionId);
 }

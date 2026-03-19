@@ -1,6 +1,8 @@
 
 package acme.entities.strategies;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
@@ -80,14 +82,10 @@ public class Strategy extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
-		Double result;
-
 		if (this.startMoment == null || this.endMoment == null || Boolean.TRUE.equals(this.draftMode))
-			result = 0.0;
-		else
-			result = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
-
-		return result;
+			return 0.0;
+		Double months = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+		return Math.round(months * 10.0) / 10.0;
 	}
 
 
@@ -104,6 +102,8 @@ public class Strategy extends AbstractEntity {
 		result = this.repository.computeExpectedPercentage(this.getId());
 		if (result == null)
 			result = 00.00;
+		else
+			result = BigDecimal.valueOf(result).setScale(2, RoundingMode.HALF_UP).doubleValue();
 		return result;
 	}
 

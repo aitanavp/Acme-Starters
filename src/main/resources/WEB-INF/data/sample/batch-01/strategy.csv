@@ -54,3 +54,7 @@ strategy-46,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies
 strategy-47,1,ejemplo,true,2026/07/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2025/08/01 0:01,AA01-aaa47,fundraiser-01
 strategy-48,1,ejemplo,true,2200/12/31 10:00,https://www.investing.com/strategies/conservative,ejemplo,2200/12/30 23:59,AA01-aaa48,fundraiser-01
 strategy-49,1,ejemplo,true,2200/12/31 10:00,https://www.investing.com/strategies/conservative,ejemplo,2200/12/30 0:00,AA01-aaa49,fundraiser-01
+#Fundraiser2
+strategy-50,1,ejemplo,true,2026/09/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2025/08/01 0:00,AA01-aaa50,fundraiser-02
+strategy-51,1,ejemplo,true,2026/09/01 10:00,https://www.investing.com/strategies/conservative,ejemplo,2025/08/01 0:01,AA01-aaa51,fundraiser-02
+strategy-52,1,ejemplo,false,2200/12/31 10:00,https://www.investing.com/strategies/conservative,ejemplo,2200/12/30 23:59,AA01-aaa52,fundraiser-02

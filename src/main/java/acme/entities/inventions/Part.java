@@ -19,8 +19,6 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-// @ValidPart Se hace la validación en el servicio, está dando un error:
-// org.springframework.beans.AbstractNestablePropertyAccessor.getPropertyValue(AbstractNestablePropertyAccessor.java:627): Invalid property 'currency' of bean class [acme.entities.inventions.Part]
 public class Part extends AbstractEntity {
 
 	/**

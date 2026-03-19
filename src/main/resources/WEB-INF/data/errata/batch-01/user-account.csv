@@ -1,12 +1,24 @@
 key,enabled,identity,password,username
-user-account-auditor-01,true,"UserIdentity{name: 'Auditor1', surname: 'Auditor1', email: 'auditor1@acme.com'}",auditor1,auditor1
 user-account-sponsor-01,true,"UserIdentity{name: 'Nuria', surname: 'Martin', email: 'nuria@acme.com'}",sponsor1,sponsor1
 user-account-fundraiser-01,true,"UserIdentity{name: 'fundraiser1', surname: 'fundraiser1', email: 'fundraiser1@acme.com'}",fundraiser1,fundraiser1
 user-account-fundraiser-02,true,"UserIdentity{name: 'fundraiser2', surname: 'fundraiser2', email: 'fundraiser2@acme.com'}",fundraiser2,fundraiser2
 user-account-fundraiser-03,true,"UserIdentity{name: 'fundraiser3', surname: 'fundraiser3', email: 'fundraiser3@acme.com'}",fundraiser3,fundraiser3
+
+# inventor
 user-account-inventor-01,true,"UserIdentity{name: 'Marco', surname: 'Inventor', email: 'inventor1@acme.com'}",inventor1,inventor1
 user-account-inventor-02,true,"UserIdentity{name: 'Aitana', surname: 'Inventor', email: 'inventor2@acme.com'}",inventor2,inventor2
 user-account-inventor-03,true,"UserIdentity{name: 'Alberto', surname: 'Inventor', email: 'inventor3@acme.com'}",inventor3,inventor3
+user-account-inventor-04,true,"UserIdentity{name: 'Emilio', surname: 'Inventor', email: 'inventor4@acme.com'}",inventor4,inventor4
+user-account-inventor-05,true,"UserIdentity{name: 'Pablo', surname: 'Inventor', email: 'inventor5@acme.com'}",inventor5,inventor5
+user-account-inventor-06,true,"UserIdentity{name: 'Marco', surname: 'Inventor', email: 'inventor6@acme.com'}",inventor6,inventor6
+user-account-inventor-07,true,"UserIdentity{name: 'Aitana', surname: 'Inventor', email: 'inventor7@acme.com'}",inventor7,inventor7
+user-account-inventor-08,true,"UserIdentity{name: 'Alberto', surname: 'Inventor', email: 'inventor8@acme.com'}",inventor8,inventor8
+user-account-inventor-09,true,"UserIdentity{name: 'Emilio', surname: 'Inventor', email: 'inventor9@acme.com'}",inventor9,inventor9
+user-account-inventor-10,true,"UserIdentity{name: 'Pablo', surname: 'Inventor', email: 'inventor10@acme.com'}",inventor10,inventor10
+
 user-account-spokesperson-01,true,"UserIdentity{name: 'Spokesperson1', surname: 'Spokesperson1', email: 'spokesperson1@acme.com'}",spokesperson1,spokesperson1
 user-account-spokesperson-02,true,"UserIdentity{name: 'Spokesperson2', surname: 'Spokesperson2', email: 'spokesperson2@acme.com'}",spokesperson2,spokesperson2
 user-account-spokesperson-03,true,"UserIdentity{name: 'Spokesperson3', surname: 'Spokesperson3', email: 'spokesperson3@acme.com'}",spokesperson3,spokesperson3
+user-account-auditor-01,true,"UserIdentity{name: 'Auditor1', surname: 'Auditor1', email: 'auditor1@acme.com'}",auditor1,auditor1
+user-account-auditor-02,true,"UserIdentity{name: 'Auditor2', surname: 'Auditor2', email: 'auditor2@acme.com'}",auditor2,auditor2
+user-account-auditor-03,true,"UserIdentity{name: 'Auditor3', surname: 'Auditor3', email: 'auditor3@acme.com'}",auditor3,auditor3

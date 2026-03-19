@@ -13,6 +13,7 @@ import acme.client.components.validation.Validator;
 import acme.client.helpers.MomentHelper;
 import acme.entities.inventions.Invention;
 import acme.entities.inventions.InventionRepository;
+import acme.entities.inventions.Part;
 
 @Validator
 public class InventionValidator extends AbstractValidator<ValidInvention, Invention> {
@@ -76,6 +77,13 @@ public class InventionValidator extends AbstractValidator<ValidInvention, Invent
 				boolean validCost = cost != null && cost.getAmount() != null && cost.getAmount() >= 0.0 && "EUR".equals(cost.getCurrency());
 
 				super.state(context, validCost, "cost", "acme.validation.invention.cost.message");
+			}
+			{
+				Boolean validParts = true;
+				for (Part p : this.repository.findPartsByInventionId(invention.getId()))
+					validParts = "EUR".equals(p.getCost().getCurrency());
+
+				super.state(context, validParts, "*", "acme.validation.invention.parts.message");
 			}
 		}
 

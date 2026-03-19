@@ -50,6 +50,7 @@ public class InventorInventionPublishService extends AbstractService<Inventor, I
 
 	@Override
 	public void bind() {
+		super.bindObject(this.invention, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
 	}
 
 	@Override
