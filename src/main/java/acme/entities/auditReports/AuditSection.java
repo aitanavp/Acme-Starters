@@ -5,11 +5,11 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 import javax.validation.Valid;
+import javax.validation.constraints.Max;
 import javax.validation.constraints.Positive;
 
 import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
-import acme.client.components.validation.ValidNumber;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.datatypes.SectionKind;
@@ -39,7 +39,7 @@ public class AuditSection extends AbstractEntity {
 	private String				notes;
 
 	@Mandatory
-	@ValidNumber
+	@Max(value = 999999, message = "{acme.validation.auditSection.hours.max-digits.message}")
 	@Positive
 	@Column
 	private Integer				hours;
