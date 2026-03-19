@@ -50,6 +50,7 @@ public class AuditorAuditReportPublishService extends AbstractService<Auditor, A
 
 	@Override
 	public void bind() {
+		super.bindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
 	}
 
 	@Override
