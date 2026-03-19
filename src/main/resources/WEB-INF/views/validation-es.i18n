@@ -20,5 +20,6 @@ acme.validation.auditReport.ticker.non-unique = El ticker ya está siendo utiliz
 acme.validation.auditReport.monthsActive.message = Los meses activos no pueden ser negativos o nulos
 acme.validation.auditReport.start-before-end.message = La fecha de inicio no puede ser posterior a la fecha de fin
 acme.validation.auditReport.start-end-not-equal.message = La fecha de inicio y la fecha de fin no pueden ser iguales
+acme.validation.auditSection.hours.max-digits.message = Debe tener un máximo de 6 dígitos.
 acme.validation.sponsorship.missing-donations.message = Los patrocinios deben tener al menos una donacion
 acme.validation.sponsorship.invalid-date.message= La fecha final del patrocinio debe ser posterior a la de inicio
