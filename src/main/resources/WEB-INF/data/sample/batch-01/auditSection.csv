@@ -1,26 +1,44 @@
-key,version,key:auditReport,name,notes,hours,kind
-#base - entity
-audit-section-01,1,audit-report-01,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-#name - standar
-audit-section-02,1,audit-report-02,"A","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-03,1,audit-report-03,"Lo","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-04,1,audit-report-04,"Audit Financial Review Section","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-05,1,audit-report-05,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tem","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-06,1,audit-report-06,"<b>Preliminary Audit</b>","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-07,1,audit-report-07,"Section'; DROP TABLE audit; --","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-08,1,audit-report-08,"Überprüfung Abschnitt","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-#notes - standar
-audit-section-09,1,audit-report-09,"Lorem ipsum dolor sit amet, consectetu","A",5,PRELIMINARY
-audit-section-10,1,audit-report-10,"Lorem ipsum dolor sit amet, consectetu","Short descriptive note.",5,PRELIMINARY
-audit-section-11,1,audit-report-11,"Lorem ipsum dolor sit amet, consectetu","This section contains preliminary findings and audit scope description.",5,PRELIMINARY
-audit-section-12,1,audit-report-12,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.",5,PRELIMINARY
-audit-section-13,1,audit-report-13,"Lorem ipsum dolor sit amet, consectetu","<p>Preliminary <strong>audit findings</strong> with detailed observations.</p>",5,PRELIMINARY
-audit-section-14,1,audit-report-14,"Lorem ipsum dolor sit amet, consectetu","Review completed'; UPDATE audit_section SET hours=10; --",5,PRELIMINARY
-audit-section-15,1,audit-report-15,"Lorem ipsum dolor sit amet, consectetu","Revisión preliminar con análisis financiero y evaluación de riesgos operativos.",5,PRELIMINARY
-#hours - standar
-audit-section-17,1,audit-report-17,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",1,PRELIMINARY
-audit-section-18,1,audit-report-19,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",999,PRELIMINARY
-#kind - standar
-audit-section-19,1,audit-report-21,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY
-audit-section-20,1,audit-report-22,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,EVALUATION
-audit-section-21,1,audit-report-51,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,CONCLUSION
+key,version,name,notes,hours,kind,key:auditReport
+# base
+audit-section-00,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-44
+
+# name variants
+
+audit-section-01,1,"L","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-44
+audit-section-02,1,"Lo","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-45
+audit-section-03,1,"Lorem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-45
+audit-section-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-46
+audit-section-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-46
+audit-section-06,1,"لوريم إيبسوم","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-47
+audit-section-07,1,"洛伦·伊普森","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-47
+audit-section-08,1,"<marquee>Hacked</marquee>","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-48
+audit-section-09,1,"<script>alert('Hacked!');</script>","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-48
+audit-section-10,1,"โลเร็ม อิปซัม","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-50
+audit-section-11,1,"' or 'A' = 'A ","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,PRELIMINARY,audit-report-50
+
+# description variants
+
+audit-section-12,1,"Lorem ipsum dolor sit amet, consectetu","L",5,PRELIMINARY,audit-report-51
+audit-section-13,1,"Lorem ipsum dolor sit amet, consectetu","Lo",5,PRELIMINARY,audit-report-51
+audit-section-14,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",5,PRELIMINARY,audit-report-52
+audit-section-15,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",5,PRELIMINARY,audit-report-52
+audit-section-16,1,"Lorem ipsum dolor sit amet, consectetu","โลเร็ม อิปซัม",5,PRELIMINARY,audit-report-53
+audit-section-17,1,"Lorem ipsum dolor sit amet, consectetu","โลเร็ม อิปซัม",5,PRELIMINARY,audit-report-53
+audit-section-18,1,"Lorem ipsum dolor sit amet, consectetu","洛伦·伊普森",5,PRELIMINARY,audit-report-54
+audit-section-19,1,"Lorem ipsum dolor sit amet, consectetu","<marquee>Hacked</marquee>",5,PRELIMINARY,audit-report-54
+audit-section-20,1,"Lorem ipsum dolor sit amet, consectetu","<script>alert(‘Hacked!’);</script>",5,PRELIMINARY,audit-report-55
+audit-section-21,1,"Lorem ipsum dolor sit amet, consectetu","' or 'A' = 'A",5,PRELIMINARY,audit-report-55
+
+# cost
+
+audit-section-22,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",1,PRELIMINARY,audit-report-56
+audit-section-23,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",1,PRELIMINARY,audit-report-56
+audit-section-24,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",999,PRELIMINARY,audit-report-57
+audit-section-25,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",9999,PRELIMINARY,audit-report-58
+audit-section-26,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",99999,PRELIMINARY,audit-report-49
+audit-section-27,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",999999,PRELIMINARY,audit-report-49
+
+# kind
+
+audit-section-28,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,EVALUATION,audit-report-59
+audit-section-29,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",5,CONCLUSION,audit-report-59
