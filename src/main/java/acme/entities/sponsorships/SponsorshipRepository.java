@@ -11,7 +11,7 @@ public interface SponsorshipRepository extends AbstractRepository {
 	Double computeSponsorshipMoney(int sponsorshipId);
 
 	@Query("SELECT COUNT(d) from Donation d where d.sponsorship.id = :sponsorshipId")
-	int findDonationsSizeBySponsorshipId(int sponsorshipId);
+	Long countDonationsBySponsorshipId(int sponsorshipId);
 
 	@Query("SELECT s from Sponsorship s where s.ticker = :ticker")
 	Sponsorship findSponsorshipByTicker(String ticker);
