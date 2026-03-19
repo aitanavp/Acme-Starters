@@ -12,10 +12,14 @@ import javax.validation.Payload;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = SponsorshipValidator.class)
+
 public @interface ValidSponsorship {
+
+	// Standard validation properties -----------------------------------------
 
 	String message() default "";
 
 	Class<?>[] groups() default {};
 	Class<? extends Payload>[] payload() default {};
+
 }
