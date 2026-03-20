@@ -4,7 +4,9 @@ package acme.features.any.tactic;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
 import acme.client.components.principals.Any;
+import acme.client.helpers.MessageHelper;
 import acme.client.services.AbstractService;
 import acme.entities.strategies.Tactic;
 
@@ -39,6 +41,12 @@ public class AnyTacticShowService extends AbstractService<Any, Tactic> {
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.tactic, "name", "description", "expectedPercentage", "kind");
+		Tuple tuple;
+		String code;
+
+		tuple = super.unbindObject(this.tactic, "name", "description", "expectedPercentage", "kind");
+		code = String.format("fundraiser.tactic.kind.%s", this.tactic.getKind());
+		tuple.put("kind", MessageHelper.getMessage(code));
+
 	}
 }
