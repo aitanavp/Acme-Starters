@@ -105,11 +105,16 @@ public class Invention extends AbstractEntity {
 		Money result = new Money();
 		result.setCurrency("EUR"); // Only Euros are accepted.
 
+		if (this.repository == null) {
+			result.setAmount(0.0);
+			return result;
+		}
+
 		wrapper = this.repository.computeInventionCost(this.getId());
 		if (wrapper == null)
 			result.setAmount(0.0);
 		else
-			result.setAmount(wrapper);
+			result.setAmount(Math.round(wrapper * 100.0) / 100.0);
 		return result;
 	}
 
