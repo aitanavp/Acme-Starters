@@ -34,3 +34,6 @@ spokesperson.campaign.form.button.create = Create
 
 
 spokesperson.campaign.publish.error.no-milestones = Before publishing, the campaign must have at least one milestone
+spokesperson.campaign.publish.error.end-after-start = The end moment must be after the start moment
+spokesperson.campaign.publish.error.start-future = The start moment must be in the future
+spokesperson.campaign.publish.error.end-future = The end moment must be in the future
