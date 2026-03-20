@@ -20,7 +20,7 @@ spokesperson.campaign.form.description = Description
 spokesperson.campaign.form.effort = Effort
 spokesperson.campaign.form.startMoment = Start moment
 spokesperson.campaign.form.endMoment = End moment
-spokesperson.campaign.form.moreInfo = More info
+spokesperson.campaign.form.moreInfo = More info (optional)
 spokesperson.campaign.form.monthsActive = Months active
 spokesperson.campaign.form.kind = Kind
 spokesperson.campaign.form.button.milestones = Milestones
@@ -34,3 +34,6 @@ spokesperson.campaign.form.button.create = Create
 
 
 spokesperson.campaign.publish.error.no-milestones = Before publishing, the campaign must have at least one milestone
+spokesperson.campaign.publish.error.end-after-start = The end moment must be after the start moment
+spokesperson.campaign.publish.error.start-future = The start moment must be in the future
+spokesperson.campaign.publish.error.end-future = The end moment must be in the future

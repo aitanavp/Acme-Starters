@@ -1,39 +1,41 @@
 key,version,title,achievements,effort,kind,key:campaign
 
 # base
-milestone-01,1,"L","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
+milestone-00,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",42.7,TEASER,campaign-44
 
 # name variants
-milestone-02,1,"Lo","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-03,1,"Lorem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-06,1,"لوريم إيبسوم","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-07,1,"洛伦·伊普森","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-08,1,"Hacked","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-09,1,"Alert Hacked","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-10,1,"โลเร็ม อิปซัม","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
-milestone-11,1,"SQL Injection Safe","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-47
+milestone-01,1,"L","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",13.2,TEASER,campaign-44
+milestone-02,1,"Lo","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",78.9,TEASER,campaign-45
+milestone-03,1,"Lorem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",55.4,TEASER,campaign-45
+milestone-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",91.1,TEASER,campaign-46
+milestone-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",6.8,TEASER,campaign-46
+milestone-06,1,"لوريم إيبسوم","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",64.3,TEASER,campaign-47
+milestone-07,1,"洛伦·伊普森","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",27.5,TEASER,campaign-47
+milestone-08,1,"<marquee>Hacked</marquee>","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",88.6,TEASER,campaign-48
+milestone-09,1,"<script>alert('Hacked!');</script>","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",3.1,TEASER,campaign-48
+milestone-10,1,"โลเร็ม อิปซัม","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",72.0,TEASER,campaign-50
+milestone-11,1,"' or 'A' = 'A ","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",49.9,TEASER,campaign-50
 
 # description variants
-milestone-12,1,"Lorem ipsum dolor sit amet, consectetu","L",50.00,ENGAGING,campaign-47
-milestone-13,1,"Lorem ipsum dolor sit amet, consectetu","Lo",50.00,ENGAGING,campaign-47
-milestone-14,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",50.00,ENGAGING,campaign-47
-milestone-15,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",50.00,ENGAGING,campaign-47
-milestone-16,1,"Lorem ipsum dolor sit amet, consectetu","โลเร็ม อิปซัม",50.00,ENGAGING,campaign-47
-milestone-17,1,"Lorem ipsum dolor sit amet, consectetu","لوريم إيبسوم",50.00,ENGAGING,campaign-47
-milestone-18,1,"Lorem ipsum dolor sit amet, consectetu","洛伦·伊普เซ",50.00,ENGAGING,campaign-47
-milestone-19,1,"Lorem ipsum dolor sit amet, consectetu","Hacked",50.00,ENGAGING,campaign-47
-milestone-20,1,"Lorem ipsum dolor sit amet, consectetu","Alert Hacked",50.00,ENGAGING,campaign-47
-milestone-21,1,"Lorem ipsum dolor sit amet, consectetu","SQL Injection Safe",50.00,ENGAGING,campaign-47
+milestone-12,1,"Lorem ipsum dolor sit amet, consectetu","L",35.6,TEASER,campaign-51
+milestone-13,1,"Lorem ipsum dolor sit amet, consectetu","Lo",11.4,TEASER,campaign-51
+milestone-14,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",96.2,TEASER,campaign-52
+milestone-15,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",21.7,TEASER,campaign-52
+milestone-16,1,"Lorem ipsum dolor sit amet, consectetu","โลเร็ม อิปซัม",67.8,TEASER,campaign-53
+milestone-17,1,"Lorem ipsum dolor sit amet, consectetu","โลเร็ม อิปซัม",8.9,TEASER,campaign-53
+milestone-18,1,"Lorem ipsum dolor sit amet, consectetu","洛伦·伊普森",53.3,TEASER,campaign-54
+milestone-19,1,"Lorem ipsum dolor sit amet, consectetu","<marquee>Hacked</marquee>",74.1,TEASER,campaign-54
+milestone-20,1,"Lorem ipsum dolor sit amet, consectetu","<script>alert(‘Hacked!’);</script>",2.5,TEASER,campaign-55
+milestone-21,1,"Lorem ipsum dolor sit amet, consectetu","' or 'A' = 'A",89.7,TEASER,campaign-55
 
-# effort
-milestone-24,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",100.00,ENGAGING,campaign-01
-milestone-25,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",100.00,ENGAGING,campaign-01
+# cost
+milestone-22,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",15.0,TEASER,campaign-56
+milestone-23,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",60.6,TEASER,campaign-56
+milestone-24,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",99.9,TEASER,campaign-57
+milestone-25,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",45.3,TEASER,campaign-58
+milestone-26,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",23.8,TEASER,campaign-49
+milestone-27,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",81.2,TEASER,campaign-49
 
 # kind
-milestone-26,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,TEASER,campaign-47
-milestone-27,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,CONVERSION,campaign-47
-
-# campaign
-milestone-28,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",50.00,ENGAGING,campaign-02
+milestone-28,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",38.4,ENGAGING,campaign-59
+milestone-29,1,"Lorem ipsum dolor sit amet, consectetu","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",70.5,CONVERSION,campaign-59

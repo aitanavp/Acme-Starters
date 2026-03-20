@@ -18,7 +18,7 @@ spokesperson.campaign.form.name = Título
 spokesperson.campaign.form.description = Descripción
 spokesperson.campaign.form.startMoment = Momento de inicio
 spokesperson.campaign.form.endMoment = Momento de fin
-spokesperson.campaign.form.moreInfo = Más información
+spokesperson.campaign.form.moreInfo = Más información (opcional)
 spokesperson.campaign.form.monthsActive = Meses activo
 spokesperson.campaign.form.effort = Esfuerzo
 spokesperson.campaign.form.kind = Tipo
@@ -33,3 +33,6 @@ spokesperson.campaign.form.button.create = Crear
 
 
 spokesperson.campaign.publish.error.no-milestones = Antes de publicar, la campaña debe tener al menos un hito
+spokesperson.campaign.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+spokesperson.campaign.publish.error.start-future = El momento de inicio debe estar en el futuro
+spokesperson.campaign.publish.error.end-future = El momento de finalización debe estar en el futuro

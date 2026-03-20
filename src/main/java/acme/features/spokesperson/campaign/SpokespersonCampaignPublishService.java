@@ -50,6 +50,7 @@ public class SpokespersonCampaignPublishService extends AbstractService<Spokespe
 
 	@Override
 	public void bind() {
+		super.bindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
 	}
 
 	@Override
