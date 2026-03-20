@@ -18,3 +18,11 @@ spokesperson.milestone.form.button.delete = Delete
 spokesperson.milestone.form.button.create = Create
 spokesperson.milestone.form.button.campaign = Campaign
 spokesperson.milestone.list.button.campaign = Campaign
+spokesperson.milestone.kind.TEASER = Teaser
+spokesperson.milestone.kind.ENGAGING = Engaging
+spokesperson.milestone.kind.CONVERSION = Conversion
+
+TEASER = Teaser
+ENGAGING = Engaging
+CONVERSION = Conversion
+

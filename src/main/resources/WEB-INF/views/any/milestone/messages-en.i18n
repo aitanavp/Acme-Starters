@@ -3,6 +3,13 @@ any.milestone.list.title2 = Title
 any.milestone.list.achievements = Achievements
 any.milestone.list.effort = Effort
 any.milestone.list.kind = Kind
+any.milestone.kind.TEASER = Teaser
+any.milestone.kind.ENGAGING = Engaging
+any.milestone.kind.CONVERSION = Conversion
+
+TEASER = Teaser
+ENGAGING = Engaging
+CONVERSION = Conversion
 
 any.milestone.form.title = Milestones
 any.milestone.form.title2 = Title

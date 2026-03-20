@@ -59,6 +59,8 @@ public class FundraiserStrategyDeleteService extends AbstractService<Fundraiser,
 	@Override
 	public void bind() {
 		super.bindObject(this.strategy, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
+		this.strategy.setFundraiser(this.strategy.getFundraiser());
+		this.strategy.setDraftMode(true);
 	}
 
 	@Override

@@ -6,7 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
 import acme.client.components.principals.Any;
+import acme.client.helpers.MessageHelper;
 import acme.client.services.AbstractService;
 import acme.entities.campaigns.Campaign;
 import acme.entities.campaigns.Milestone;
@@ -39,7 +41,14 @@ public class AnyMilestoneListService extends AbstractService<Any, Milestone> {
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.milestones, "title", "achievements", "effort", "kind");
+		for (Milestone milestone : this.milestones) {
+			Tuple tuple;
+			String code;
+
+			tuple = super.unbindObject(milestone, "title", "achievements", "effort", "kind");
+			code = String.format("spokesperson.milestone.kind.%s", milestone.getKind());
+			tuple.put("kind", MessageHelper.getMessage(code));
+		}
 	}
 
 	@Override

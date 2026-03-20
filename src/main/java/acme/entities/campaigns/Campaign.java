@@ -18,6 +18,7 @@ import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
+import acme.client.components.validation.ValidNumber;
 import acme.client.components.validation.ValidUrl;
 import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidCampaign;
@@ -91,17 +92,23 @@ public class Campaign extends AbstractEntity {
 
 	@Transient
 	@Autowired
-	private CampaignRepository repository;
+	private CampaignRepository campaignRepository;
 
 
+	@Mandatory
+	@ValidNumber(min = 0.0)
 	@Transient
 	public Double getEffort() {
-		double result;
-		result = this.repository.computeEffort(this.getId());
-		return result;
+		if (this.campaignRepository == null)
+			return 0.0;
 
+		Double total = this.campaignRepository.computeEffort(this.getId());
+
+		if (total == null)
+			return 0.0;
+
+		return Math.round(total * 100.0) / 100.0;
 	}
-
 	// Relationships
 
 
