@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
 import acme.client.services.AbstractService;
 import acme.entities.sponsorships.Sponsorship;
 import acme.realms.Sponsor;
@@ -36,7 +37,11 @@ public class SponsorSponsorshipListService extends AbstractService<Sponsor, Spon
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.sponsorships, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "totalMoney", "draftMode");
-	}
+		for (Sponsorship sponsorship : this.sponsorships) {
+			Tuple tuple;
 
+			tuple = super.unbindObject(sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "totalMoney", "draftMode");
+			tuple.put("draftMode", sponsorship.getDraftMode() ? "☑" : "☒");
+		}
+	}
 }

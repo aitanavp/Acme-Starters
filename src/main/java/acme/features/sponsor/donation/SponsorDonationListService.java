@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
+import acme.client.helpers.MessageHelper;
 import acme.client.services.AbstractService;
 import acme.entities.sponsorships.Donation;
 import acme.entities.sponsorships.Sponsorship;
@@ -52,7 +54,14 @@ public class SponsorDonationListService extends AbstractService<Sponsor, Donatio
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.donations, "name", "notes", "money", "kind");
+		for (Donation donation : this.donations) {
+			Tuple tuple;
+			String code;
+
+			tuple = super.unbindObject(donation, "name", "notes", "money", "kind");
+			code = String.format("sponsor.donation.kind.%s", donation.getKind());
+			tuple.put("kind", MessageHelper.getMessage(code));
+		}
 		super.unbindGlobal("sponsorshipId", this.sponsorship.getId());
 		super.unbindGlobal("draftMode", this.sponsorship.getDraftMode());
 	}

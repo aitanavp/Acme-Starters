@@ -21,7 +21,11 @@ public class AnySponsorshipShowService extends AbstractService<Any, Sponsorship>
 
 	@Override
 	public void authorise() {
-		super.getResponse().setAuthorised(true);
+		int id = super.getRequest().getData("id", int.class);
+		Sponsorship sponsorship = this.repository.findSponsorshipById(id);
+		boolean status = sponsorship != null && !sponsorship.getDraftMode();
+		super.getResponse().setAuthorised(status);
+
 	}
 
 	@Override
@@ -34,6 +38,6 @@ public class AnySponsorshipShowService extends AbstractService<Any, Sponsorship>
 	@Override
 	public void unbind() {
 		super.unbindObject(this.sponsorship, "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "totalMoney");
-		super.unbindGlobal("inventorId", this.sponsorship.getSponsor().getId());
+		super.unbindGlobal("sponsorId", this.sponsorship.getSponsor().getId());
 	}
 }

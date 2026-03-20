@@ -6,7 +6,7 @@
 <acme:list>
 	<acme:list-column code="any.donation.list.name" path="name"/>
 	<acme:list-column code="any.donation.list.notes" path="notes"/>
-	<acme:form-textbox code="any.donation.form.money" path="money"/>
-	<acme:form-textbox code="any.donation.form.kind" path="kind"/>
+	<acme:list-column code="any.donation.list.money" path="money"/>
+	<acme:list-column code="any.donation.list.kind" path="kind"/>
 	
 </acme:list>
