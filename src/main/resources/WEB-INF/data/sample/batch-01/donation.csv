@@ -1,17 +1,47 @@
-key,name,notes,money,kind,key:sponsorship
-donation-01,"Solar Cell","High-efficiency solar cell for panels",100.00 EUR,REWARDED,sponsorship-01
-donation-02,"S","High-efficiency solar cell for panels",100.00 EUR,REWARDED,sponsorship-01
-donation-03,"So","High-efficiency solar cell for panels",100.00 EUR,REWARDED,sponsorship-01
-donation-04,"Iniciativa Global para la Reducción de Emisiones de Carbono en la Industria","High-efficiency solar cell for panels",100.00 EUR,REWARDED,sponsorship-01
-donation-05,"Iniciativa Global para la Reducción de Emisiones de Carbono en la Industri","High-efficiency solar cell for panels",100.00 EUR,REWARDED,sponsorship-01
-donation-06,"ลเร็ม อิปซั","High-efficiency solar cell for panels",100.00 EUR,REWARDED,sponsorship-01
-donation-07,"Solar Cell","Este proyecto de reforestación masiva en la zona norte tiene como objetivo plantar diez mil árboles autóctonos en un periodo de tres años, promoviendo la biodiversidad local, recuperando los suelos degradados y creando nuevos espacios de recreo y ocio....",100.00 EUR,REWARDED,sponsorship-01
-donation-08,"Solar Cell","Este proyecto de reforestación masiva en la zona norte tiene como objetivo plantar diez mil árboles autóctonos en un periodo de tres años, promoviendo la biodiversidad local, recuperando los suelos degradados y creando nuevos espacios de recreo y ocio...",100.00 EUR,REWARDED,sponsorship-01
-donation-09,"Solar Cell","H",100.00 EUR,REWARDED,sponsorship-01
-donation-10,"Solar Cell","Hi",100.00 EUR,REWARDED,sponsorship-01
-donation-11,"Solar Cell","High-efficiency solar cell for panels",0.00 EUR,REWARDED,sponsorship-31
-donation-12,"Solar Cell","High-efficiency solar cell for panels",0.01 EUR,REWARDED,sponsorship-30
-donation-13,"Solar Cell","High-efficiency solar cell for panels",999999.99 EUR,REWARDED,sponsorship-31
-donation-14,"Solar Cell","High-efficiency solar cell for panels",1000000.00 EUR,REWARDED,sponsorship-01
-donation-15,"Solar Cell","High-efficiency solar cell for panels",100.00 EUR,ALTRUIST,sponsorship-30
-donation-16,"Solar Cell","High-efficiency solar cell for panels",100.00 EUR,CELEBRATED,sponsorship-01
+key,version,notes,money,kind,name,key:Sponsorship
+#money
+donation-01,1,ejemplo,EUR 0.00,ALTRUIST,ejemplo,sponsorship-02
+donation-02,1,ejemplo,EUR 0.01,ALTRUIST,ejemplo,sponsorship-02
+donation-03,1,ejemplo,EUR 999999.99,ALTRUIST,ejemplo,sponsorship-02
+donation-04,1,ejemplo,EUR 1000000.00,ALTRUIST,ejemplo,sponsorship-03
+donation-05,1,ejemplo,EUR 230.00,ALTRUIST,ejemplo,sponsorship-04
+donation-40,1,ejemplo,EUR 21.00,ALTRUIST,ejemplo,sponsorship-04
+#notes
+donation-06,1,լոռեմ իպսում,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-07,1,天飽雲馬消根清歡寫尾做兒幫,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-08,1,ლორემ იფსუმ,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-09,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*",EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-10,1,L,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-11,1,Lo,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-12,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-13,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-14,1,<marquee>Hacked</marquee>,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-15,1,' or 'A' = 'A,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-16,1,<script>alert(‘Hacked!’);</script>,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+#Kind
+donation-17,1,ejemplo,EUR 50.00,ALTRUIST,ejemplo,sponsorship-01
+donation-18,1,ejemplo,EUR 50.00,REWARDED,ejemplo,sponsorship-01
+donation-19,1,ejemplo,EUR 50.00,CELEBRATED,ejemplo,sponsorship-01
+#Name
+donation-20,1,ejemplo,EUR 50.00,ALTRUIST,"Lorem ipsum dolor sit amet,consectetu",sponsorship-01
+donation-21,1,ejemplo,EUR 50.00,ALTRUIST,"L",sponsorship-01
+donation-22,1,ejemplo,EUR 50.00,ALTRUIST,"Lo",sponsorship-01
+donation-23,1,ejemplo,EUR 50.00,ALTRUIST,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t",sponsorship-01
+donation-24,1,ejemplo,EUR 50.00,ALTRUIST,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te",sponsorship-01
+donation-25,1,ejemplo,EUR 50.00,ALTRUIST,"โลเร็ม อิปซัม",sponsorship-01
+donation-26,1,ejemplo,EUR 50.00,ALTRUIST,"لوريم إيبسوم",sponsorship-01
+donation-27,1,ejemplo,EUR 50.00,ALTRUIST,"洛伦·伊普森",sponsorship-01
+donation-28,1,ejemplo,EUR 50.00,ALTRUIST,"<marquee>Hacked</marquee>",sponsorship-01
+donation-29,1,ejemplo,EUR 50.00,ALTRUIST,"<script>alert(‘Hacked!’);</script>",sponsorship-01
+donation-30,1,ejemplo,EUR 50.00,ALTRUIST,"' or 'A' = 'A ",sponsorship-01
+#Base
+donation-31,1,ejemplo,EUR 50.00,ALTRUIST,ejemplo,sponsorship-12
+donation-32,1,ejemplo,EUR 0.00,ALTRUIST,ejemplo,sponsorship-12
+donation-33,1,ejemplo,EUR 0.01,ALTRUIST,ejemplo,sponsorship-12
+donation-34,1,ejemplo,EUR 15.00,ALTRUIST,ejemplo,sponsorship-12
+donation-35,1,ejemplo,EUR 75.00,ALTRUIST,ejemplo,sponsorship-15
+#Fundraiser2
+donation-36,1,ejemplo,EUR 50.00,ALTRUIST,ejemplo,sponsorship-51
+donation-37,1,ejemplo,EUR 0.00,ALTRUIST,ejemplo,sponsorship-51
+donation-38,1,ejemplo,EUR 0.01,ALTRUIST,ejemplo,sponsorship-52
+donation-39,1,ejemplo,EUR 15.00,ALTRUIST,ejemplo,sponsorship-52

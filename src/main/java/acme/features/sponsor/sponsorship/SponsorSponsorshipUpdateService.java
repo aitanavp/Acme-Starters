@@ -1,12 +1,9 @@
 
 package acme.features.sponsor.sponsorship;
 
-import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.sponsorships.Sponsorship;
 import acme.realms.Sponsor;
@@ -53,16 +50,6 @@ public class SponsorSponsorshipUpdateService extends AbstractService<Sponsor, Sp
 	@Override
 	public void validate() {
 		super.validateObject(this.sponsorship);
-		Date start = this.sponsorship.getStartMoment();
-		Date end = this.sponsorship.getEndMoment();
-		if (start != null && end != null)
-			super.state(MomentHelper.isAfter(end, start), "endMoment", "inventor.sponsorship.form.error.end-after-start");
-
-		if (start != null)
-			super.state(MomentHelper.isFuture(start), "startMoment", "inventor.sponsorship.form.error.start-future");
-
-		if (end != null)
-			super.state(MomentHelper.isFuture(end), "endMoment", "inventor.sponsorship.form.error.end-future");
 	}
 
 	@Override
@@ -74,6 +61,7 @@ public class SponsorSponsorshipUpdateService extends AbstractService<Sponsor, Sp
 	public void unbind() {
 		super.unbindObject(this.sponsorship, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "totalMoney");
 		super.unbindGlobal("sponsorId", this.sponsorship.getSponsor().getId());
+		super.unbindGlobal("draftMode", this.sponsorship.getDraftMode());
 	}
 
 }

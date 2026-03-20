@@ -17,4 +17,7 @@ sponsor.donation.form.button.delete = Delete
 sponsor.donation.form.button.create = Create
 sponsor.donation.form.button.sponsorship = Sponsorship
 sponsor.donation.list.button.sponsorship = Sponsorship
+sponsor.donation.kind.ALTRUIST = Altruist
+sponsor.donation.kind.REWARDED = Rewarded
+sponsor.donation.kind.CELEBRATED = Celebrated
 inventor.donation.form.error.currency = The currency must be EUR
