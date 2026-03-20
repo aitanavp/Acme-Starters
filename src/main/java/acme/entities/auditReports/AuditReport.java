@@ -100,6 +100,8 @@ public class AuditReport extends AbstractEntity {
 	public Integer getHours() {
 		Integer total;
 		Integer hours;
+		if (this.repository == null || this.getId() == 0)
+			return 0;
 		total = this.repository.computeAuditReportHours(this.getId());
 		if (total == null)
 			hours = 0;
