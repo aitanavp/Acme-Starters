@@ -8,7 +8,6 @@ import acme.client.components.principals.Authenticated;
 import acme.client.helpers.PrincipalHelper;
 import acme.client.services.AbstractService;
 import acme.realms.Auditor;
-import acme.realms.Inventor;
 
 @Service
 public class AuthenticatedAuditorUpdateService extends AbstractService<Authenticated, Auditor> {
@@ -31,7 +30,7 @@ public class AuthenticatedAuditorUpdateService extends AbstractService<Authentic
 	public void authorise() {
 		boolean status;
 
-		status = super.getRequest().getPrincipal().hasRealmOfType(Inventor.class);
+		status = super.getRequest().getPrincipal().hasRealmOfType(Auditor.class);
 		super.setAuthorised(status);
 	}
 
