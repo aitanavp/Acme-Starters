@@ -6,7 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.client.components.models.Tuple;
 import acme.client.components.principals.Any;
+import acme.client.helpers.MessageHelper;
 import acme.client.services.AbstractService;
 import acme.entities.auditReports.AuditReport;
 import acme.entities.auditReports.AuditSection;
@@ -39,7 +41,14 @@ public class AnyAuditSectionListService extends AbstractService<Any, AuditSectio
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.auditSections, "name", "notes", "hours", "kind");
+		for (AuditSection auditSection : this.auditSections) {
+			Tuple tuple;
+			String code;
+
+			tuple = super.unbindObject(auditSection, "name", "notes", "hours", "kind");
+			code = String.format("any.audit-section.kind.%s", auditSection.getKind());
+			tuple.put("kind", MessageHelper.getMessage(code));
+		}
 	}
 
 	@Override

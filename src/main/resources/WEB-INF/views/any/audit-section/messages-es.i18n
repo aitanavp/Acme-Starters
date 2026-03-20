@@ -9,3 +9,7 @@ any.audit-section.form.name = Nombre
 any.audit-section.form.notes = Notas
 any.audit-section.form.hours = Horas
 any.audit-section.form.kind = Tipo
+
+any.audit-section.kind.PRELIMINARY = Preliminar
+any.audit-section.kind.EVALUATION = Evaluación
+any.audit-section.kind.CONCLUSION = Conclusión
