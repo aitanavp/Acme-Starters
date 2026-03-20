@@ -3,6 +3,8 @@ any.donation.form.title = Donation details
 
 any.donation.list.name = Name
 any.donation.list.notes = Notes
+any.donation.list.money = Money
+any.donation.list.kind = Kind
 
 any.donation.form.name = Name
 any.donation.form.notes = Notes
