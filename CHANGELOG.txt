@@ -8,4 +8,4 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-C This is the first version of Acme Starters; it corresponds to the first DP2 deliverable required to obtain the C grade.
+B This is the second version of Acme Starters; it corresponds to the second DP2 deliverable required to obtain the B grade.
