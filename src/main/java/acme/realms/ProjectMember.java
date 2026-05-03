@@ -16,8 +16,6 @@ import java.util.Set;
 
 import javax.persistence.Entity;
 import javax.persistence.Transient;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 
 import acme.client.components.basis.AbstractRole;
 import acme.client.components.basis.AbstractSquad;
@@ -34,10 +32,6 @@ public class ProjectMember extends AbstractSquad {
 
 	private static final long serialVersionUID = 1L;
 
-	@ManyToOne
-	@JoinColumn(name = "project_id")
-	private acme.entities.projects.Project project;
-
 	// AbstractSquad interface ------------------------------------------------
 
 
@@ -48,7 +42,7 @@ public class ProjectMember extends AbstractSquad {
 	public Set<Class<? extends AbstractRole>> getMembers() {
 		Set<Class<? extends AbstractRole>> result;
 
-		result = Set.of(Inventor.class, Spokesperson.class, Fundraiser.class);
+		result = Set.of(Inventor.class, Spokesperson.class, Fundraiser.class, Manager.class);
 
 		return result;
 	}
