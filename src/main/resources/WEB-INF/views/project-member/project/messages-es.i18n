@@ -1,0 +1,30 @@
+projectMember.project.list.title = Inventos publicados
+projectMember.project.list.ticker = Ticker
+projectMember.project.list.name = Nombre
+projectMember.project.list.description = Descripción
+projectMember.project.list.startMoment = Momento de inicio
+projectMember.project.list.endMoment = Momento de fin
+projectMember.project.list.moreInfo = Más información
+projectMember.project.list.monthsActive = Meses activo
+projectMember.project.list.cost = Coste
+
+projectMember.project.list.button.create = Crear
+
+project-member.project.form.title = proyecto
+project-member.project.list.keywords = palabras claves 
+project-member.project.form.description = Descripción
+project-member.project.list.kickOffMoment = Momento de inicio
+project-member.project.list.closeOutMoment = Momento de cierre
+project-member.project.form.draftMode = Borrador
+project-member.project.list.effort = Esfuerzo
+
+projectMember.project.form.button.parts = Partes
+projectMember.project.form.button.update = Actualizar
+projectMember.project.form.button.delete = Eliminar
+projectMember.project.form.button.publish = Publicar
+projectMember.project.form.button.create = Crear
+
+projectMember.project.publish.error.no-parts = Antes de publicar, la invención debe tener al menos una parte
+projectMember.project.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+projectMember.project.publish.error.start-future = El momento de inicio debe estar en el futuro
+projectMember.project.publish.error.end-future = El momento de finalización debe estar en el futuro

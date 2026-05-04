@@ -64,6 +64,10 @@
 		<acme:menu-option code="master.menu.inventor" access="hasRealm('Inventor')">
 			<acme:menu-suboption code="master.menu.inventor.inventions" action="/inventor/invention/list"/>
 		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.projectMember" access="hasRealm('ProjectMember')">
+			<acme:menu-suboption code="master.menu.projectMember.projects" action="/project-member/project/list"/>
+		</acme:menu-option>
 	</acme:menu-left>
 
 	<acme:menu-right>		
