@@ -1,0 +1,88 @@
+key,version,title,keywords,description,kickOffMoment,closeOutMoment,draftMode,key:manager
+
+# base
+project-00,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+
+# title variants
+project-01,1,"L","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-02,1,"Lo","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-03,1,"Lorem","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-04,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-05,1,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-06,1,"لوريم إيبسوم","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-07,1,"洛伦·伊普森","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-08,1,"โลเร็ม อิปซัม","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-09,1,"<marquee>Hacked</marquee>","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-10,1,"<script>alert('Hacked!');</script>","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+project-11,1,"' or 'A' = 'A","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+
+# keywords variants
+project-12,1,"Lorem ipsum dolor sit amet, consecte","k","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-13,1,"Lorem ipsum dolor sit amet, consecte","kw","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-14,1,"Lorem ipsum dolor sit amet, consecte","lorem","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-15,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-16,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor sit amet consectetur","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-17,1,"Lorem ipsum dolor sit amet, consecte","لوريم إيبسوم","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-18,1,"Lorem ipsum dolor sit amet, consecte","洛伦·伊普森","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-19,1,"Lorem ipsum dolor sit amet, consecte","โลเร็ม อิปซัม","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-20,1,"Lorem ipsum dolor sit amet, consecte","<marquee>Hacked</marquee>","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-21,1,"Lorem ipsum dolor sit amet, consecte","<script>alert('Hacked!');</script>","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+project-22,1,"Lorem ipsum dolor sit amet, consecte","' or 'A' = 'A","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",true,manager-02
+
+# description variants
+project-23,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","L","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-24,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lo","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-25,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-26,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-27,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","لوريم إيبسوم","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-28,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","洛伦·伊普森","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-29,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","โลเร็ม อิปซัม","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-30,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","<marquee>Hacked</marquee>","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-31,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","<script>alert('Hacked!');</script>","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+project-32,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","' or 'A' = 'A","2025/01/02 00:00","2025/01/03 00:00",true,manager-03
+
+# moment variants (start + end) with correct future intervals
+project-33,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 0:00","2025/01/02 0:01",true,manager-01
+project-34,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2200/12/31 23:58","2200/12/31 23:59",true,manager-01
+project-35,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 0:00","2200/12/31 23:59",true,manager-01
+
+# draft mode false (dates must be correct) & manager variants
+project-36,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",false,manager-01
+project-37,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2026/01/02 00:00","2026/01/03 00:00",false,manager-01
+project-38,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2027/01/02 00:00","2027/01/03 00:00",false,manager-01
+project-39,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2028/01/02 00:00","2028/01/03 00:00",false,manager-01
+project-40,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2029/01/02 00:00","2029/01/03 00:00",false,manager-01
+project-41,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 00:00","2025/01/03 00:00",false,manager-02
+project-42,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2026/01/02 00:00","2026/01/03 00:00",false,manager-02
+project-43,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2027/01/02 00:00","2027/01/03 00:00",false,manager-02
+project-44,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2028/01/02 00:00","2028/01/03 00:00",false,manager-02
+project-45,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2029/01/02 00:00","2029/01/03 00:00",false,manager-02
+project-46,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2026/01/02 00:00","2026/01/03 00:00",false,manager-03
+project-47,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2027/01/02 00:00","2027/01/03 00:00",false,manager-03
+project-48,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2028/01/02 00:00","2028/01/03 00:00",false,manager-03
+project-49,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2029/01/02 00:00","2029/01/03 00:00",false,manager-03
+
+# moment variants incorrect future intervals but draft mode true
+project-50,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/03 0:00","2025/01/02 0:00",true,manager-01
+project-51,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2200/12/31 23:59","2200/12/31 23:58",true,manager-02
+project-52,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2200/12/31 23:59","2025/01/02 0:00",true,manager-03
+
+# incorrect past intervals
+project-53,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2024/01/01 0:00","2023/01/02 0:00",true,manager-01
+project-54,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2020/01/01 0:00","2000/01/01 0:00",true,manager-02
+project-55,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2019/01/02 0:00","2018/12/31 23:59",true,manager-03
+
+# correct past intervals
+project-56,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2024/01/02 0:00","2024/01/02 0:01",true,manager-01
+project-57,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2000/12/31 23:58","2000/12/31 23:59",true,manager-02
+project-58,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2023/01/02 0:00","2023/12/31 23:59",true,manager-03
+
+# past kickOff
+project-59,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2020/01/02 0:00","2025/01/02 0:01",true,manager-01
+project-60,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2000/12/31 23:58","2200/12/31 23:59",true,manager-02
+project-61,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2010/01/02 0:00","2200/12/31 23:59",true,manager-03
+
+# past closeOut
+project-62,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 0:00","2000/01/02 0:01",true,manager-01
+project-63,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2200/12/31 23:58","2013/12/31 23:59",true,manager-02
+project-64,1,"Lorem ipsum dolor sit amet, consecte","lorem ipsum dolor","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut*","2025/01/02 0:00","2024/12/31 23:59",true,manager-03
