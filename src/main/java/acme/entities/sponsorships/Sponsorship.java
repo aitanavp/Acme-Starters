@@ -119,11 +119,10 @@ public class Sponsorship extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Sponsor sponsor;
-	
-	@Mandatory
+	private Sponsor	sponsor;
+
 	@Valid
-	@ManyToOne(optional = false)
-	private Project project;
+	@ManyToOne(optional = true)
+	private Project	project;
 
 }
