@@ -13,18 +13,4 @@
 	<acme:form-double code="project-member.sponsorship.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="project-member.sponsorship.form.totalMoney" path="totalMoney" readonly="true"/>
 
-	<jstl:choose>	 
-		<jstl:when test="${_command == 'show' && draftMode == false}">
-			<acme:button code="project-member.sponsorship.form.button.donations" action="/project-member/donation/list?sponsorshipId=${id}"/>			
-		</jstl:when>
-		<jstl:when test="${acme:anyOf(_command, 'show|update|delete|publish') && draftMode == true}">
-			<acme:button code="project-member.sponsorship.form.button.donations" action="/project-member/donation/list?sponsorshipId=${id}"/>
-			<acme:submit code="project-member.sponsorship.form.button.update" action="/project-member/sponsorship/update"/>
-			<acme:submit code="project-member.sponsorship.form.button.delete" action="/project-member/sponsorship/delete"/>
-			<acme:submit code="project-member.sponsorship.form.button.publish" action="/project-member/sponsorship/publish"/>
-		</jstl:when>
-		<jstl:when test="${_command == 'create'}">
-			<acme:submit code="project-member.sponsorship.form.button.create" action="/project-member/sponsorship/create"/>
-		</jstl:when>		
-	</jstl:choose>
 </acme:form>

@@ -13,16 +13,4 @@
 	<acme:form-double code="project-member.strategy.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="project-member.strategy.form.expectedPercentage" path="expectedPercentage" readonly="true"/>
 
-	<jstl:choose>	 
-		<jstl:when test="${_command == 'show' && draftMode == false}">
-			<acme:button code="project-member.strategy.form.button.tactics" action="/project-member/tactic/list?strategyId=${id}"/>			
-		</jstl:when>
-		<jstl:when test="${acme:anyOf(_command, 'show|update|delete|publish') && draftMode == true}">
-			<acme:button code="project-member.strategy.form.button.tactics" action="/project-member/tactic/list?strategyId=${id}"/>
-			<acme:submit code="project-member.strategy.form.button.update" action="/project-member/strategy/update"/>
-			<acme:submit code="project-member.strategy.form.button.delete" action="/project-member/strategy/delete"/>
-			<acme:submit code="project-member.strategy.form.button.publish" action="/project-member/strategy/publish"/>
-		</jstl:when>
-		
-	</jstl:choose>
 </acme:form>

@@ -31,7 +31,11 @@ public class ProjectMemberCampaignShowService extends AbstractService<ProjectMem
 	@Override
 	public void authorise() {
 		boolean status;
-		status = this.campaign != null && this.campaign.getSpokesperson().isPrincipal();
+		ProjectMember principal;
+
+		principal = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
+		status = this.campaign != null && this.campaign.getProject() != null && principal != null
+			&& this.repository.isProjectMemberInProject(this.campaign.getProject().getId(), principal.getId());
 		super.setAuthorised(status);
 	}
 
