@@ -4,18 +4,20 @@
 <%@taglib prefix="acme" uri="http://acme-framework.org/"%>
 
 <acme:form> 
-	<acme:form-textbox code="sponsor.sponsorship.form.ticker" path="ticker"/>
-	<acme:form-textbox code="sponsor.sponsorship.form.name" path="name"/>
-	<acme:form-textbox code="sponsor.sponsorship.form.description" path="description"/>
-	<acme:form-moment code="sponsor.sponsorship.form.startMoment" path="startMoment"/>
-	<acme:form-moment code="sponsor.sponsorship.form.endMoment" path="endMoment"/>
-	<acme:form-url code="sponsor.sponsorship.form.moreInfo" path="moreInfo"/>
+	<acme:form-textbox code="sponsor.sponsorship.form.ticker" path="ticker" readonly="${!draftMode}"/>
+	<acme:form-textbox code="sponsor.sponsorship.form.name" path="name" readonly="${!draftMode}"/>
+	<acme:form-textbox code="sponsor.sponsorship.form.description" path="description" readonly="${!draftMode}"/>
+	<acme:form-moment code="sponsor.sponsorship.form.startMoment" path="startMoment" readonly="${!draftMode}"/>
+	<acme:form-moment code="sponsor.sponsorship.form.endMoment" path="endMoment" readonly="${!draftMode}"/>
+	<acme:form-url code="sponsor.sponsorship.form.moreInfo" path="moreInfo" readonly="${!draftMode}"/>
 	<acme:form-double code="sponsor.sponsorship.form.monthsActive" path="monthsActive" readonly="true"/>
 	<acme:form-double code="sponsor.sponsorship.form.totalMoney" path="totalMoney" readonly="true"/>
+	<acme:form-select code="sponsor.sponsorship.form.project" path="project" choices="${project}" readonly="${draftMode}"/>
 
 	<jstl:choose>	 
-		<jstl:when test="${_command == 'show' && draftMode == false}">
+		<jstl:when test="${acme:anyOf(_command, 'show|link') && draftMode == false}">
 			<acme:button code="sponsor.sponsorship.form.button.donations" action="/sponsor/donation/list?sponsorshipId=${id}"/>			
+			<acme:submit code="sponsor.sponsorship.form.button.link" action="/sponsor/sponsorship/link"/>			
 		</jstl:when>
 		<jstl:when test="${acme:anyOf(_command, 'show|update|delete|publish') && draftMode == true}">
 			<acme:button code="sponsor.sponsorship.form.button.donations" action="/sponsor/donation/list?sponsorshipId=${id}"/>
