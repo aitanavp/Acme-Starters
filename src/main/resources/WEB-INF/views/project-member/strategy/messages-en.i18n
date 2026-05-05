@@ -1,0 +1,46 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+project-member.strategy.list.title = Strategies
+project-member.strategy.list.ticker = Ticker
+project-member.strategy.list.name = Name
+project-member.strategy.list.description = Description
+project-member.strategy.list.startMoment = Start moment
+project-member.strategy.list.endMoment = End moment
+project-member.strategy.list.moreInfo = More info
+project-member.strategy.list.monthsActive = Months active
+project-member.strategy.list.expectedPercentage = Expected percentage
+project-member.strategy.list.draftMode = Draft
+project-member.strategy.list.draftMode.true = Yes
+project-member.strategy.list.draftMode.false = No
+
+project-member.strategy.list.button.create = Create
+
+project-member.strategy.form.title = Strategy
+project-member.strategy.form.ticker = Ticker
+project-member.strategy.form.name = Name
+project-member.strategy.form.description = Description
+project-member.strategy.form.startMoment = Start moment
+project-member.strategy.form.endMoment = End moment
+project-member.strategy.form.moreInfo = More info (Optional)
+project-member.strategy.form.monthsActive = Months active
+project-member.strategy.form.expectedPercentage = Expected percentage
+project-member.strategy.form.draftMode = Draft
+
+project-member.strategy.form.button.tactics = Tactics
+project-member.strategy.form.button.update = Update
+project-member.strategy.form.button.delete = Delete
+project-member.strategy.form.button.publish = Publish
+project-member.strategy.form.button.create = Create
+
+project-member.strategy.publish.error.no-tactics = Before publishing, the strategy must have at least one tactic
+project-member.strategy.publish.error.end-after-start = The end moment must be after the start moment
+project-member.strategy.publish.error.start-future = The start moment must be in the future
+project-member.strategy.publish.error.end-future = The end moment must be in the future

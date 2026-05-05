@@ -35,7 +35,7 @@ public class ProjectMemberProjectShowService extends AbstractService<ProjectMemb
 		boolean isMember = false;
 		
 		if (this.project != null) {
-			ProjectMember principal = (ProjectMember) super.getRequest().getPrincipal().getActiveRealm();
+			ProjectMember principal = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
 			isMember = principal != null && this.repository.isProjectMemberInProject(this.project.getId(), principal.getId());
 		}
 		

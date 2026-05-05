@@ -1,29 +1,31 @@
 project-member.project.list.title = projects
-project-member.project.list.ticker = Ticker
-project-member.project.list.name = Name
+project-member.project.list.titlestr = Title
 project-member.project.list.description = Description
-project-member.project.list.startMoment = Start moment
-project-member.project.list.endMoment = End moment
-project-member.project.list.moreInfo = More info
 project-member.project.list.draftMode = Draft mode
-project-member.project.list.monthsActive = Months active
-project-member.project.list.cost = Cost
-
-project-member.project.list.button.create = Create
-
-project-member.project.form.title = project
-project-member.project.list.keywords = keywords
-project-member.project.form.description = Description
+project-member.project.list.keywords = key Words
 project-member.project.list.kickOffMoment = Kikc Off Moment
 project-member.project.list.closeOutMoment = Close Out Moment 
-project-member.project.form.draftMode = Draft mode
 project-member.project.list.effort = Effort
+
+project-member.project.form.title = Project
+project-member.project.form.titlestr = Title
+project-member.project.form.keywords = Key Words
+project-member.project.form.description = Description
+project-member.project.form.kickOffMoment = kick Off Moment
+project-member.project.form.closeOutMoment = Close Out Moment 
+project-member.project.form.draftMode = Draft mode
+project-member.project.form.effort = Effort
 
 project-member.project.form.button.parts = Parts
 project-member.project.form.button.update = Update
 project-member.project.form.button.delete = Delete
 project-member.project.form.button.publish = Publish
 project-member.project.form.button.create = Create
+project-member.project.form.button.sponsorships = Sponsorships
+project-member.project.form.button.audit-reports = Audit Reports
+project-member.project.form.button.inventions = Inventions
+project-member.project.form.button.campaigns = Campaigns
+project-member.project.form.button.strategies = Strategies
 
 project-member.project.publish.error.no-parts = Before publishing, the project must have at least one part
 project-member.project.publish.error.end-after-start = The end moment must be after the start moment
