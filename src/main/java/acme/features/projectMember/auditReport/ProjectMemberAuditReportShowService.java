@@ -24,7 +24,11 @@ public class ProjectMemberAuditReportShowService extends AbstractService<Project
 	@Override
 	public void authorise() {
 		boolean status;
-		status = this.auditReport != null && this.auditReport.getAuditor().isPrincipal();
+		ProjectMember principal;
+
+		principal = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
+		status = this.auditReport != null && this.auditReport.getProject() != null && principal != null
+			&& this.repository.isProjectMemberInProject(this.auditReport.getProject().getId(), principal.getId());
 		super.setAuthorised(status);
 
 	}

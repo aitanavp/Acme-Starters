@@ -24,7 +24,11 @@ public class ProjectMemberSponsorshipShowService extends AbstractService<Project
 	@Override
 	public void authorise() {
 		boolean status;
-		status = this.sponsorship != null && this.sponsorship.getSponsor().isPrincipal();
+		ProjectMember principal;
+
+		principal = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
+		status = this.sponsorship != null && this.sponsorship.getProject() != null && principal != null
+			&& this.repository.isProjectMemberInProject(this.sponsorship.getProject().getId(), principal.getId());
 		super.setAuthorised(status);
 	}
 

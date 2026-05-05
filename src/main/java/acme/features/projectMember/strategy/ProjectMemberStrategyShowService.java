@@ -25,13 +25,15 @@ public class ProjectMemberStrategyShowService extends AbstractService<ProjectMem
 	public void authorise() {
 		boolean status;
 		int id;
-		Strategy strategy;
+		ProjectMember principal;
 
 		id = super.getRequest().getData("id", int.class);
-		strategy = this.repository.findStrategyById(id);
+		this.strategy = this.repository.findStrategyById(id);
+		principal = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
 
-		status = strategy != null && strategy.getFundraiser().isPrincipal();
-		super.getResponse().setAuthorised(status);
+		status = this.strategy != null && this.strategy.getProject() != null && principal != null
+			&& this.repository.isProjectMemberInProject(this.strategy.getProject().getId(), principal.getId());
+		super.setAuthorised(status);
 	}
 
 	@Override

@@ -31,7 +31,11 @@ public class ProjectMemberInventionShowService extends AbstractService<ProjectMe
 	@Override
 	public void authorise() {
 		boolean status;
-		status = this.invention != null && this.invention.getInventor().isPrincipal();
+		ProjectMember projectMember;
+
+		projectMember = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
+		status = this.invention != null && this.invention.getProject() != null && projectMember != null
+			&& this.repository.isProjectMemberInProject(this.invention.getProject().getId(), projectMember.getId());
 		super.setAuthorised(status);
 	}
 

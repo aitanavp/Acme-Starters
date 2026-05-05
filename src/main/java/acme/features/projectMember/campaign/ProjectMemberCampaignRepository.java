@@ -22,6 +22,9 @@ public interface ProjectMemberCampaignRepository extends AbstractRepository {
 	@Query("select c from Campaign c where c.id = :id")
 	Campaign findCampaignById(int id);
 
+	@Query("select case when count(pm) > 0 then true else false end from ProjectMembership pm where pm.project.id = :projectId and pm.projectMember.id = :projectMemberId")
+	boolean isProjectMemberInProject(int projectId, int projectMemberId);
+
 	//@Query("select p from Part p where p.invention.id = :inventionId")
 	//Collection<Part> findPartsByInventionId(int inventionId);
 
