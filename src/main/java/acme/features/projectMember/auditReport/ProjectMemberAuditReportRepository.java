@@ -19,7 +19,7 @@ public interface ProjectMemberAuditReportRepository extends AbstractRepository {
 	@Query("select p from Project p where p.id = :id")
 	Project findProjectById(int id);
 
-	@Query("select a from AuditReport a where a.auditor.id = :id")
+	@Query("select a from AuditReport a where a.id = :id")
 	AuditReport findAuditReportById(int id);
 
 	@Query("select case when count(pm) > 0 then true else false end from ProjectMembership pm where pm.project.id = :projectId and pm.projectMember.id = :projectMemberId")
