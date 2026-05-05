@@ -25,8 +25,11 @@ public class ProjectMemberProjectListService extends AbstractService<ProjectMemb
 
 	@Override
 	public void load() {
+		ProjectMember projectMember;
 		int id;
-		id = super.getRequest().getPrincipal().getActiveRealm().getId();
+
+		projectMember = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
+		id = projectMember.getId();
 		this.projects = this.repository.findProjectsByProjectMemberId(id);
 	}
 
