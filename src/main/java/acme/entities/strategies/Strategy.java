@@ -90,22 +90,12 @@ public class Strategy extends AbstractEntity {
 	}
 
 
-	@Transient
-	@Autowired
-	private StrategyRepository repository;
-
 
 	@Mandatory
 	@ValidScore
 	@Transient
 	public Double getExpectedPercentage() {
-		Double result;
-		result = this.repository.computeExpectedPercentage(this.getId());
-		if (result == null)
-			result = 00.00;
-		else
-			result = BigDecimal.valueOf(result).setScale(2, RoundingMode.HALF_UP).doubleValue();
-		return result;
+		return 0.00;
 	}
 
 	// Relationships
@@ -114,10 +104,9 @@ public class Strategy extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Fundraiser fundraiser;
-	
-	@Mandatory
+	private Fundraiser	fundraiser;
+
 	@Valid
-	@ManyToOne(optional = false)
-	private Project project;
+	@ManyToOne(optional = true)
+	private Project		project;
 }

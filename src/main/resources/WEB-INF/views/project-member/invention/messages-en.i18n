@@ -1,0 +1,36 @@
+project-member.invention.list.title = Inventions
+project-member.invention.list.ticker = Ticker
+project-member.invention.list.name = Name
+project-member.invention.list.description = Description
+project-member.invention.list.startMoment = Start moment
+project-member.invention.list.endMoment = End moment
+project-member.invention.list.moreInfo = More info
+project-member.invention.list.draftMode = Draft mode
+project-member.invention.list.monthsActive = Months active
+project-member.invention.list.cost = Cost
+
+project-member.invention.list.button.create = Create
+
+project-member.invention.form.title = Invention
+project-member.invention.form.ticker = Ticker
+project-member.invention.form.name = Name
+project-member.invention.form.description = Description
+project-member.invention.form.startMoment = Start moment
+project-member.invention.form.endMoment = End moment
+project-member.invention.form.moreInfo = More info
+project-member.invention.form.draftMode = Draft mode
+project-member.invention.form.monthsActive = Months active
+project-member.invention.form.cost = Cost
+project-member.invention.form.button.parts = Parts
+project-member.invention.form.button.project-member = project-member
+
+project-member.invention.form.button.parts = Parts
+project-member.invention.form.button.update = Update
+project-member.invention.form.button.delete = Delete
+project-member.invention.form.button.publish = Publish
+project-member.invention.form.button.create = Create
+
+project-member.invention.publish.error.no-parts = Before publishing, the invention must have at least one part
+project-member.invention.publish.error.end-after-start = The end moment must be after the start moment
+project-member.invention.publish.error.start-future = The start moment must be in the future
+project-member.invention.publish.error.end-future = The end moment must be in the future

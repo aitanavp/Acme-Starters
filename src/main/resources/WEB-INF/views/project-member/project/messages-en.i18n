@@ -1,0 +1,33 @@
+project-member.project.list.title = Projects
+project-member.project.list.titlestr = Title
+project-member.project.list.description = Description
+project-member.project.list.draftMode = Draft mode
+project-member.project.list.keywords = key Words
+project-member.project.list.kickOffMoment = Kikc Off Moment
+project-member.project.list.closeOutMoment = Close Out Moment 
+project-member.project.list.effort = Effort
+
+project-member.project.form.title = Project
+project-member.project.form.titlestr = Title
+project-member.project.form.keywords = Key Words
+project-member.project.form.description = Description
+project-member.project.form.kickOffMoment = kick Off Moment
+project-member.project.form.closeOutMoment = Close Out Moment 
+project-member.project.form.draftMode = Draft mode
+project-member.project.form.effort = Effort
+
+project-member.project.form.button.parts = Parts
+project-member.project.form.button.update = Update
+project-member.project.form.button.delete = Delete
+project-member.project.form.button.publish = Publish
+project-member.project.form.button.create = Create
+project-member.project.form.button.sponsorships = Sponsorships
+project-member.project.form.button.audit-reports = Audit Reports
+project-member.project.form.button.inventions = Inventions
+project-member.project.form.button.campaigns = Campaigns
+project-member.project.form.button.strategies = Strategies
+
+project-member.project.publish.error.no-parts = Before publishing, the project must have at least one part
+project-member.project.publish.error.end-after-start = The end moment must be after the start moment
+project-member.project.publish.error.start-future = The start moment must be in the future
+project-member.project.publish.error.end-future = The end moment must be in the future
