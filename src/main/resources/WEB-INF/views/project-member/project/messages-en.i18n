@@ -21,11 +21,24 @@ project-member.project.form.button.update = Update
 project-member.project.form.button.delete = Delete
 project-member.project.form.button.publish = Publish
 project-member.project.form.button.create = Create
+project-member.project.form.button.members = Members
+project-member.project.form.button.add-members = Add Members
+project-member.project.form.button.delete-members = Delete Members
+project-member.project.form.button.back = Back
+project-member.project.form.members.member = Member
 project-member.project.form.button.sponsorships = Sponsorships
 project-member.project.form.button.audit-reports = Audit Reports
 project-member.project.form.button.inventions = Inventions
 project-member.project.form.button.campaigns = Campaigns
 project-member.project.form.button.strategies = Strategies
+
+project-member.membership.form.projectMember = Member
+project-member.membership.form.button.add = Add
+project-member.membership.form.button.delete = Delete
+project-member.membership.form.button.back = Back
+project-member.membership.form.error.duplicate = The selected member is already part of the project
+project-member.membership.form.error.manager = The manager must remain part of the project
+project-member.membership.form.error.not-found = The selected member is not part of the project
 
 project-member.project.publish.error.no-parts = Before publishing, the project must have at least one part
 project-member.project.publish.error.end-after-start = The end moment must be after the start moment
