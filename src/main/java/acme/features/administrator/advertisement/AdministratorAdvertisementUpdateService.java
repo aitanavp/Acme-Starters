@@ -25,6 +25,9 @@ public class AdministratorAdvertisementUpdateService extends AbstractService<Adm
 
 		id = super.getRequest().getData("id", int.class);
 		advertisement = this.repository.findAdvertisementById(id);
+
+		status = advertisement != null;
+		super.setAuthorised(status);
 	}
 
 	@Override

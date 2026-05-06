@@ -40,6 +40,6 @@ public class AdministratorAdvertisementShowService extends AbstractService<Admin
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.advertisement, "slogan", "picture", "target", "draftMode");
+		super.unbindObject(this.advertisement, "slogan", "picture", "target");
 	}
 }

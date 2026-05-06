@@ -12,10 +12,9 @@
 		<jstl:when test="${_command == 'create'}">
 			<acme:submit code="administrator.advertisement.form.button.create" action="/administrator/advertisement/create"/>
 		</jstl:when>
-		<jstl:when test="${acme:anyOf(_command, 'show|update|delete|publish') && draftMode == true}">
-			<acme:submit code="administrator.advertisement.form.button.update" action="/administrator/advertisement/update"/>
-			<acme:submit code="administrator.advertisement.form.button.delete" action="/administrator/advertisement/delete"/>
-			<acme:submit code="administrator.advertisement.form.button.publish" action="/administrator/advertisement/publish"/>
+		<jstl:when test="${acme:anyOf(_command, 'show|update|delete')}">
+			<acme:submit code="administrator.advertisement.form.button.update" action="/administrator/advertisement/update?id=${id}"/>
+			<acme:submit code="administrator.advertisement.form.button.delete" action="/administrator/advertisement/delete?id=${id}"/>
 		</jstl:when>
 	</jstl:choose>
 </acme:form>
