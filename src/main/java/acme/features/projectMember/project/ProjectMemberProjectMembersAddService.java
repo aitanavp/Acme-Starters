@@ -77,6 +77,7 @@ public class ProjectMemberProjectMembersAddService extends AbstractService<Proje
 		org.springframework.data.util.Pair<ProjectMembership, Errors> pair;
 		pair = super.bindObject(ProjectMembership.class, "projectMember");
 		this.membership = pair.getFirst();
+		this.membership.setProject(this.project);
 		// merge local errors into global response errors
 		Errors local = pair.getSecond();
 		Errors global = super.getResponse().getErrors();

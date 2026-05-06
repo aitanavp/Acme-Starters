@@ -76,6 +76,7 @@ public class ProjectMemberProjectMembersDeleteService extends AbstractService<Pr
 		org.springframework.data.util.Pair<ProjectMembership, Errors> pair;
 		pair = super.bindObject(ProjectMembership.class, "projectMember");
 		this.membership = pair.getFirst();
+		this.membership.setProject(this.project);
 		Errors local = pair.getSecond();
 		Errors global = super.getResponse().getErrors();
 		for (java.util.Map.Entry<String, java.util.Set<String>> e : local)

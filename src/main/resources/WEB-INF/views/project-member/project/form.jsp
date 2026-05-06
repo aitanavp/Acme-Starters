@@ -45,14 +45,12 @@
 		<acme:form>
 			<acme:form-select code="project-member.membership.form.projectMember" path="projectMember" choices="${projectMemberChoices}"/>
 			<acme:submit code="project-member.membership.form.button.add" action="/project-member/project/add-members?projectId=${projectId}"/>
-			<acme:button code="project-member.membership.form.button.back" action="/project-member/project/members?projectId=${projectId}"/>
 		</acme:form>
 	</jstl:when>
 	<jstl:when test="${_command == 'delete-members'}">
 		<acme:form>
 			<acme:form-select code="project-member.membership.form.projectMember" path="projectMember" choices="${projectMemberChoices}"/>
 			<acme:submit code="project-member.membership.form.button.delete" action="/project-member/project/delete-members?projectId=${projectId}"/>
-			<acme:button code="project-member.membership.form.button.back" action="/project-member/project/members?projectId=${projectId}"/>
 		</acme:form>
 	</jstl:when>
 </jstl:choose>
