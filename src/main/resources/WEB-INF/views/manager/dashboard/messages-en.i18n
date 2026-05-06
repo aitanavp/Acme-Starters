@@ -1,0 +1,7 @@
+manager.dashboard.form.title = Manager dashboard
+manager.dashboard.form.label.total-number-of-projects =  Total number of projects
+manager.dashboard.form.label.deviation-of-projects =  Deviation of total number of projects
+manager.dashboard.form.label.min-effort =  Minimum effort required by your projects
+manager.dashboard.form.label.max-effort =  Maximum effort required by your projects
+manager.dashboard.form.label.average-effort =  Average effort required by your projects
+manager.dashboard.form.label.deviation-effort =  Deviation of effort required by your projects

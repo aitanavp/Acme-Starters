@@ -1,0 +1,7 @@
+manager.dashboard.form.title = Panel de control del gerente
+manager.dashboard.form.label.total-number-of-projects = Número total de proyectos
+manager.dashboard.form.label.deviation-of-projects = Desviación del número total de proyectos
+manager.dashboard.form.label.min-effort = Esfuerzo mínimo requerido por tus proyectos
+manager.dashboard.form.label.max-effort = Esfuerzo máximo requerido por tus proyectos
+manager.dashboard.form.label.average-effort = Esfuerzo medio requerido por tus proyectos
+manager.dashboard.form.label.deviation-effort = Desviación del esfuerzo requerido por tus proyectos

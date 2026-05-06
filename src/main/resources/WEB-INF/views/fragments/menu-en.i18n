@@ -77,5 +77,11 @@ master.menu.user-account.become-sponsor = Become an sponsor
 master.menu.user-account.sponsor-profile = Sponsor profile
 master.menu.user-account.become-auditor = Become an auditor
 master.menu.user-account.auditor-profile = Auditor profile
+
+# master.menu.projectMember ##########################################################
 master.menu.projectMember = Project Member
 master.menu.projectMember.projects = Projects
+
+# master.menu.manager ##########################################################
+master.menu.manager = Manager
+master.menu.manager.dashboard = Dashboard
