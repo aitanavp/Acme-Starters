@@ -31,12 +31,14 @@ sponsor.sponsorship.form.moreInfo = Mas información (Opcional)
 sponsor.sponsorship.form.monthsActive = Meses activos
 sponsor.sponsorship.form.totalMoney = Dinero total
 sponsor.sponsorship.form.draftMode = Borrador
+sponsor.sponsorship.form.project = Proyecto
 
 sponsor.sponsorship.form.button.donations = Donaciones
 sponsor.sponsorship.form.button.update = Actualizar
 sponsor.sponsorship.form.button.delete = Borrar
 sponsor.sponsorship.form.button.publish = Publicar
 sponsor.sponsorship.form.button.create = Crear
+sponsor.sponsorship.form.button.link = Asociar Proyecto
 
 sponsor.sponsorship.form.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
 sponsor.sponsorship.form.error.start-future = El momento de inicio debe estar en el futuro

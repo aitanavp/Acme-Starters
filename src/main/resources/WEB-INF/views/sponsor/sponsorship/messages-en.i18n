@@ -30,6 +30,7 @@ sponsor.sponsorship.form.endMoment = End moment
 sponsor.sponsorship.form.moreInfo = More info (Optional)
 sponsor.sponsorship.form.monthsActive = Months active
 sponsor.sponsorship.form.totalMoney = Total money
+sponsor.sponsorship.form.project = Project
 sponsor.sponsorship.form.draftMode = Draft
 
 sponsor.sponsorship.form.button.donations = Donations
@@ -37,6 +38,7 @@ sponsor.sponsorship.form.button.update = Update
 sponsor.sponsorship.form.button.delete = Delete
 sponsor.sponsorship.form.button.publish = Publish
 sponsor.sponsorship.form.button.create = Create
+sponsor.sponsorship.form.button.link = Link Project
 
 sponsor.sponsorship.form.error.end-after-start = The end moment must be after the start moment
 sponsor.sponsorship.form.error.start-future = The start moment must be in the future
