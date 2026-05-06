@@ -1,0 +1,13 @@
+administrator.advertisement.list.slogan = Slogan
+administrator.advertisement.list.picture = Picture
+administrator.advertisement.list.target = Target
+administrator.advertisement.list.draftMode = Draft
+administrator.advertisement.list.button.create = Create advertisement
+
+administrator.advertisement.form.slogan = Slogan
+administrator.advertisement.form.picture = Picture
+administrator.advertisement.form.target = Target
+administrator.advertisement.form.button.create = Create
+administrator.advertisement.form.button.update = Update
+administrator.advertisement.form.button.delete = Delete
+administrator.advertisement.form.button.publish = Publish
