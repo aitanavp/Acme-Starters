@@ -1,0 +1,12 @@
+project-member.membership.list.member = Miembro
+project-member.membership.list.button.add = Añadir miembros
+project-member.membership.list.button.delete = Eliminar miembros
+project-member.membership.list.button.project = Volver al proyecto
+
+project-member.membership.form.projectMember = Miembro
+project-member.membership.form.button.add = Añadir
+project-member.membership.form.button.delete = Eliminar
+project-member.membership.form.button.back = Volver
+project-member.membership.form.error.duplicate = Este miembro ya está asignado al proyecto
+project-member.membership.form.error.not-found = Este miembro no está asignado al proyecto
+project-member.membership.form.error.manager = El manager del proyecto no se puede eliminar

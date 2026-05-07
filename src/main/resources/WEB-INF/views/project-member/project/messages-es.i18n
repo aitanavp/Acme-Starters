@@ -21,6 +21,19 @@ project-member.project.form.button.audit-reports = Auditorias
 project-member.project.form.button.inventions = Invenciones
 project-member.project.form.button.campaigns = Campañas
 project-member.project.form.button.strategies = Estrategias
+project-member.project.form.button.members = Miembros
+project-member.project.form.button.add-members = Añadir miembros
+project-member.project.form.button.delete-members = Eliminar miembros
+project-member.project.form.button.back = Volver
+project-member.project.form.members.member = Miembro
+
+project-member.membership.form.projectMember = Miembro
+project-member.membership.form.button.add = Añadir
+project-member.membership.form.button.delete = Eliminar
+project-member.membership.form.button.back = Volver
+project-member.membership.form.error.duplicate = El miembro seleccionado ya pertenece al proyecto
+project-member.membership.form.error.manager = El manager debe permanecer en el proyecto
+project-member.membership.form.error.not-found = El miembro seleccionado no pertenece al proyecto
 
 project-member.project.publish.error.no-parts = Antes de publicar, la invención debe tener al menos una parte
 project-member.project.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio

@@ -1,0 +1,12 @@
+project-member.membership.list.member = Member
+project-member.membership.list.button.add = Add Members
+project-member.membership.list.button.delete = Delete Members
+project-member.membership.list.button.project = Back to project
+
+project-member.membership.form.projectMember = Member
+project-member.membership.form.button.add = Add
+project-member.membership.form.button.delete = Delete
+project-member.membership.form.button.back = Back
+project-member.membership.form.error.duplicate = This member is already assigned to the project
+project-member.membership.form.error.not-found = This member is not assigned to the project
+project-member.membership.form.error.manager = The project manager cannot be removed
