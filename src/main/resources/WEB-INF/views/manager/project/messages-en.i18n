@@ -6,6 +6,7 @@ manager.project.list.keywords = key Words
 manager.project.list.kickOffMoment = Kikc Off Moment
 manager.project.list.closeOutMoment = Close Out Moment 
 manager.project.list.effort = Effort
+manager.project.list.button.create = Create
 
 manager.project.form.title = Project
 manager.project.form.titlestr = Title

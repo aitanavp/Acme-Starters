@@ -6,6 +6,7 @@ manager.project.list.keywords = Palabras claves
 manager.project.list.kickOffMoment = Momento de inicio
 manager.project.list.closeOutMoment = Momento de cierre
 manager.project.list.effort = Esfuerzo
+manager.project.list.button.create = Crear
 
 manager.project.form.title = Proyecto
 manager.project.form.titlestr = Título
