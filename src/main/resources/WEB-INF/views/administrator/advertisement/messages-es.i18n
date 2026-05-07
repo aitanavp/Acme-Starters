@@ -1,12 +1,18 @@
+# List labels
 administrator.advertisement.list.slogan = Eslogan
 administrator.advertisement.list.picture = Imagen
 administrator.advertisement.list.target = Enlace
-administrator.advertisement.list.draftMode = Borrador
+administrator.advertisement.list.title = Anuncios
+administrator.advertisement.form.title = Crear anuncio
+# List buttons
 administrator.advertisement.list.button.create = Crear anuncio
 
+# Form labels
 administrator.advertisement.form.slogan = Eslogan
 administrator.advertisement.form.picture = Imagen
 administrator.advertisement.form.target = Enlace
+
+# Form buttons
 administrator.advertisement.form.button.create = Crear
 administrator.advertisement.form.button.update = Actualizar
 administrator.advertisement.form.button.delete = Eliminar

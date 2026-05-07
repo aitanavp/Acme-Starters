@@ -7,7 +7,6 @@
 	<acme:list-column code="administrator.advertisement.list.slogan" path="slogan" width="30%"/>
 	<acme:list-column code="administrator.advertisement.list.picture" path="picture" width="30%"/>
 	<acme:list-column code="administrator.advertisement.list.target" path="target" width="30%"/>
-	<acme:list-column code="administrator.advertisement.list.draftMode" path="draftMode" width="10%"/>
 </acme:list>
 
 <acme:button code="administrator.advertisement.list.button.create" action="/administrator/advertisement/create"/>
