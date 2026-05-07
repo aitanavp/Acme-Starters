@@ -1,0 +1,39 @@
+project-member.campaign.list.title = Campaigns
+project-member.campaign.list.ticker = Ticker
+project-member.campaign.list.name = Name
+project-member.campaign.list.description = Description
+project-member.campaign.list.startMoment = Start moment
+project-member.campaign.list.endMoment = End moment
+project-member.campaign.list.moreInfo = More info
+project-member.campaign.list.draftMode = Draft mode
+project-member.campaign.list.monthsActive = Months active
+project-member.campaign.list.effort = Effort
+project-member.campaign.list.kind = Kind
+
+project-member.campaign.list.button.create = Create
+
+
+project-member.campaign.form.ticker = Ticker
+project-member.campaign.form.title = Campaign
+project-member.campaign.form.name = Title
+project-member.campaign.form.description = Description
+project-member.campaign.form.effort = Effort
+project-member.campaign.form.startMoment = Start moment
+project-member.campaign.form.endMoment = End moment
+project-member.campaign.form.moreInfo = More info (optional)
+project-member.campaign.form.monthsActive = Months active
+project-member.campaign.form.kind = Kind
+project-member.campaign.form.button.milestones = Milestones
+project-member.campaign.form.button.project-member = project-member
+
+project-member.campaign.form.button.update = Update
+project-member.campaign.form.button.delete = Delete
+project-member.campaign.form.button.publish = Publish
+project-member.campaign.form.button.create = Create
+
+
+
+project-member.campaign.publish.error.no-milestones = Before publishing, the campaign must have at least one milestone
+project-member.campaign.publish.error.end-after-start = The end moment must be after the start moment
+project-member.campaign.publish.error.start-future = The start moment must be in the future
+project-member.campaign.publish.error.end-future = The end moment must be in the future

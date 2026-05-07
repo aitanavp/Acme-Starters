@@ -1,0 +1,34 @@
+project-member.audit-report.list.title = Reportes de project-membería
+project-member.auditReport.list.ticker = Referencia
+project-member.auditReport.list.name = Nombre
+project-member.auditReport.list.description = Descripción
+project-member.auditReport.list.startMoment = Inicio
+project-member.auditReport.list.endMoment = Fin
+project-member.auditReport.list.moreInfo = Más información
+project-member.auditReport.list.monthsActive = Meses activo
+project-member.auditReport.list.hours = Horas
+project-member.auditReport.list.draftMode = Borrador
+
+project-member.auditReport.list.button.create = Crear
+
+project-member.audit-report.form.title = Reporte de project-membería
+project-member.auditReport.form.ticker = Referencia
+project-member.auditReport.form.name = Nombre
+project-member.auditReport.form.description = Descripción
+project-member.auditReport.form.startMoment = Inicio
+project-member.auditReport.form.endMoment = Fin
+project-member.auditReport.form.moreInfo = Más información (Opcional)
+project-member.auditReport.form.monthsActive = Meses activo
+project-member.auditReport.form.hours = Horas
+project-member.auditReport.form.draftMode = Borrador
+
+project-member.auditReport.form.button.auditSections = Secciones de project-membería
+project-member.auditReport.form.button.update = Actualizar
+project-member.auditReport.form.button.delete = Eliminar
+project-member.auditReport.form.button.publish = Publicar
+project-member.auditReport.form.button.create = Crear
+
+project-member.auditReport.publish.error.no-auditSections = Antes de publicar, el reporte de project-membería debe tener al menos una sección de project-membería
+project-member.auditReport.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+project-member.auditReport.publish.error.start-future = El momento de inicio debe estar en el futuro
+project-member.auditReport.publish.error.end-future = El momento de finalización debe estar en el futuro

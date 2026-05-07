@@ -86,3 +86,4 @@ master.menu.projectMember.projects = Projects
 # master.menu.manager ##########################################################
 master.menu.manager = Manager
 master.menu.manager.dashboard = Dashboard
+master.menu.manager.projects = Projects
