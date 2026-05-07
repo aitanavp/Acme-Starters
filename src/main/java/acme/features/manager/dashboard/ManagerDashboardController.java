@@ -17,12 +17,12 @@ import javax.annotation.PostConstruct;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 
-import acme.client.components.principals.Administrator;
 import acme.client.controllers.AbstractController;
 import acme.forms.Dashboard;
+import acme.realms.Manager;
 
 @Controller
-public class ManagerDashboardController extends AbstractController<Administrator, Dashboard> {
+public class ManagerDashboardController extends AbstractController<Manager, Dashboard> {
 
 	// Constructors -----------------------------------------------------------
 

@@ -15,12 +15,12 @@ package acme.features.manager.dashboard;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.client.components.principals.Administrator;
 import acme.client.services.AbstractService;
 import acme.forms.Dashboard;
+import acme.realms.Manager;
 
 @Service
-public class ManagerDashboardShowService extends AbstractService<Administrator, Dashboard> {
+public class ManagerDashboardShowService extends AbstractService<Manager, Dashboard> {
 
 	// Internal state ---------------------------------------------------------
 

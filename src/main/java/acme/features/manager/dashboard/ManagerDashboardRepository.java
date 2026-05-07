@@ -1,14 +1,3 @@
-/*
- * ManagerDashboardRepository.java
- *
- * Copyright (C) 2012-2026 Rafael Corchuelo.
- *
- * In keeping with the traditional purpose of furthering education and research, it is
- * the policy of the copyright owner to permit non-commercial use and redistribution of
- * this software. It has been tested carefully, but it is not guaranteed for any particular
- * purposes. The copyright owner does not offer any warranties or representations, nor do
- * they accept any liabilities with respect to them.
- */
 
 package acme.features.manager.dashboard;
 
@@ -31,11 +20,11 @@ public interface ManagerDashboardRepository extends AbstractRepository {
 
 	@Query("""
 		select min(
-		    (coalesce((select sum(cast(function('timestampdiff', MONTH, s.startMoment, s.endMoment) as double)) from Strategy s where s.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, i.startMoment, i.endMoment) as double)) from Invention i where i.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, c.startMoment, c.endMoment) as double)) from Campaign c where c.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, a.startMoment, a.endMoment) as double)) from AuditReport a where a.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) as double)) from Sponsorship sp where sp.project.id = p.id), 0.0))
+		    (coalesce((select sum(function('timestampdiff', MONTH, s.startMoment, s.endMoment) * 1.0) from Strategy s where s.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, i.startMoment, i.endMoment) * 1.0) from Invention i where i.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, c.startMoment, c.endMoment) * 1.0) from Campaign c where c.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, a.startMoment, a.endMoment) * 1.0) from AuditReport a where a.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) * 1.0) from Sponsorship sp where sp.project.id = p.id), 0.0))
 		    / nullif((select count(pm) from ProjectMembership pm where pm.project.id = p.id), 0)
 		) from Project p where p.manager.id = :managerId
 		""")
@@ -43,11 +32,11 @@ public interface ManagerDashboardRepository extends AbstractRepository {
 
 	@Query("""
 		select max(
-		    (coalesce((select sum(cast(function('timestampdiff', MONTH, s.startMoment, s.endMoment) as double)) from Strategy s where s.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, i.startMoment, i.endMoment) as double)) from Invention i where i.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, c.startMoment, c.endMoment) as double)) from Campaign c where c.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, a.startMoment, a.endMoment) as double)) from AuditReport a where a.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) as double)) from Sponsorship sp where sp.project.id = p.id), 0.0))
+		    (coalesce((select sum(function('timestampdiff', MONTH, s.startMoment, s.endMoment) * 1.0) from Strategy s where s.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, i.startMoment, i.endMoment) * 1.0) from Invention i where i.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, c.startMoment, c.endMoment) * 1.0) from Campaign c where c.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, a.startMoment, a.endMoment) * 1.0) from AuditReport a where a.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) * 1.0) from Sponsorship sp where sp.project.id = p.id), 0.0))
 		    / nullif((select count(pm) from ProjectMembership pm where pm.project.id = p.id), 0)
 		) from Project p where p.manager.id = :managerId
 		""")
@@ -55,11 +44,11 @@ public interface ManagerDashboardRepository extends AbstractRepository {
 
 	@Query("""
 		select avg(
-		    (coalesce((select sum(cast(function('timestampdiff', MONTH, s.startMoment, s.endMoment) as double)) from Strategy s where s.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, i.startMoment, i.endMoment) as double)) from Invention i where i.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, c.startMoment, c.endMoment) as double)) from Campaign c where c.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, a.startMoment, a.endMoment) as double)) from AuditReport a where a.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) as double)) from Sponsorship sp where sp.project.id = p.id), 0.0))
+		    (coalesce((select sum(function('timestampdiff', MONTH, s.startMoment, s.endMoment) * 1.0) from Strategy s where s.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, i.startMoment, i.endMoment) * 1.0) from Invention i where i.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, c.startMoment, c.endMoment) * 1.0) from Campaign c where c.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, a.startMoment, a.endMoment) * 1.0) from AuditReport a where a.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) * 1.0) from Sponsorship sp where sp.project.id = p.id), 0.0))
 		    / nullif((select count(pm) from ProjectMembership pm where pm.project.id = p.id), 0)
 		) from Project p where p.manager.id = :managerId
 		""")
@@ -67,11 +56,11 @@ public interface ManagerDashboardRepository extends AbstractRepository {
 
 	@Query("""
 		select stddev(
-		    (coalesce((select sum(cast(function('timestampdiff', MONTH, s.startMoment, s.endMoment) as double)) from Strategy s where s.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, i.startMoment, i.endMoment) as double)) from Invention i where i.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, c.startMoment, c.endMoment) as double)) from Campaign c where c.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, a.startMoment, a.endMoment) as double)) from AuditReport a where a.project.id = p.id), 0.0)
-		    + coalesce((select sum(cast(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) as double)) from Sponsorship sp where sp.project.id = p.id), 0.0))
+		    (coalesce((select sum(function('timestampdiff', MONTH, s.startMoment, s.endMoment) * 1.0) from Strategy s where s.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, i.startMoment, i.endMoment) * 1.0) from Invention i where i.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, c.startMoment, c.endMoment) * 1.0) from Campaign c where c.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, a.startMoment, a.endMoment) * 1.0) from AuditReport a where a.project.id = p.id), 0.0)
+		    + coalesce((select sum(function('timestampdiff', MONTH, sp.startMoment, sp.endMoment) * 1.0) from Sponsorship sp where sp.project.id = p.id), 0.0))
 		    / nullif((select count(pm) from ProjectMembership pm where pm.project.id = p.id), 0)
 		) from Project p where p.manager.id = :managerId
 		""")

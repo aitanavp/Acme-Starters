@@ -20,6 +20,7 @@ auditor.auditReport.form.endMoment = End moment
 auditor.auditReport.form.moreInfo = More info (Optional)
 auditor.auditReport.form.monthsActive = Months active
 auditor.auditReport.form.hours = Hours
+auditor.auditReport.form.project = Project
 auditor.auditReport.form.draftMode = Draft
 
 auditor.auditReport.form.button.auditSections = Audit Sections
@@ -27,6 +28,7 @@ auditor.auditReport.form.button.update = Update
 auditor.auditReport.form.button.delete = Delete
 auditor.auditReport.form.button.publish = Publish
 auditor.auditReport.form.button.create = Create
+auditor.auditReport.form.button.link = Link Project
 
 auditor.auditReport.publish.error.no-auditSections = Before publishing, the audit Report must have at least one audit section
 auditor.auditReport.publish.error.end-after-start = The end moment must be after the start moment
