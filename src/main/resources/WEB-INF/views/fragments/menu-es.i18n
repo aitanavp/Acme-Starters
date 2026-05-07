@@ -85,3 +85,4 @@ master.menu.projectMember.projects = Proyectos
 # master.menu.manager ##########################################################
 master.menu.manager = Gerente
 master.menu.manager.dashboard = Panel de control
+master.menu.manager.projects = Proyectos

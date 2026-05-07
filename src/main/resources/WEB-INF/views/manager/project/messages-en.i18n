@@ -1,0 +1,36 @@
+manager.project.list.title = Projects
+manager.project.list.titlestr = Title
+manager.project.list.description = Description
+manager.project.list.draftMode = Draft mode
+manager.project.list.keywords = key Words
+manager.project.list.kickOffMoment = Kikc Off Moment
+manager.project.list.closeOutMoment = Close Out Moment 
+manager.project.list.effort = Effort
+manager.project.list.button.create = Create
+
+manager.project.form.title = Project
+manager.project.form.titlestr = Title
+manager.project.form.keywords = Key Words
+manager.project.form.description = Description
+manager.project.form.kickOffMoment = kick Off Moment
+manager.project.form.closeOutMoment = Close Out Moment 
+manager.project.form.draftMode = Draft mode
+manager.project.form.effort = Effort
+
+manager.project.form.button.parts = Parts
+manager.project.form.button.update = Update
+manager.project.form.button.delete = Delete
+manager.project.form.button.publish = Publish
+manager.project.form.button.create = Create
+manager.project.form.button.sponsorships = Sponsorships
+manager.project.form.button.audit-reports = Audit Reports
+manager.project.form.button.inventions = Inventions
+manager.project.form.button.campaigns = Campaigns
+manager.project.form.button.strategies = Strategies
+manager.project.form.button.publish = Publish
+
+manager.project.publish.error.no-inventions = Before publishing, the project must have at least one invention
+manager.project.publish.error.no-parts = Before publishing, the project must have at least one part
+manager.project.publish.error.end-after-start = The end moment must be after the start moment
+manager.project.publish.error.start-future = The start moment must be in the future
+manager.project.publish.error.end-future = The end moment must be in the future
