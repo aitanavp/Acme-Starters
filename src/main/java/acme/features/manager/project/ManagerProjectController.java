@@ -1,3 +1,4 @@
+
 package acme.features.manager.project;
 
 import javax.annotation.PostConstruct;
@@ -12,13 +13,15 @@ import acme.realms.Manager;
 @Controller
 public class ManagerProjectController extends AbstractController<Manager, Project> {
 
-    @PostConstruct
-    protected void initialise() {
-        super.setMediaType(MediaType.TEXT_HTML);
+	@PostConstruct
+	protected void initialise() {
+		super.setMediaType(MediaType.TEXT_HTML);
 
-        super.addBasicCommand("create", ManagerProjectCreateService.class);
-        super.addBasicCommand("update", ManagerProjectUpdateService.class);
-        super.addBasicCommand("delete", ManagerProjectDeleteService.class);
-    }
+		super.addBasicCommand("list", ManagerProjectListService.class);
+		super.addBasicCommand("show", ManagerProjectShowService.class);
+		super.addBasicCommand("create", ManagerProjectCreateService.class);
+		super.addBasicCommand("update", ManagerProjectUpdateService.class);
+		super.addBasicCommand("delete", ManagerProjectDeleteService.class);
+	}
 
 }
