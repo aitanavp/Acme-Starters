@@ -25,7 +25,8 @@ public class ManagerProjectCreateService extends AbstractService<Manager, Projec
 
     @Override
     public void authorise() {
-        super.setAuthorised(true);
+        Manager principal = (Manager) super.getRequest().getPrincipal().getRealmOfType(Manager.class);
+        super.setAuthorised(principal != null);
     }
 
     @Override

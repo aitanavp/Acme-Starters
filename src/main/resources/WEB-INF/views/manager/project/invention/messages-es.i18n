@@ -1,0 +1,34 @@
+project-member.invention.list.title = Inventos 
+project-member.invention.list.ticker = Ticker
+project-member.invention.list.name = Nombre
+project-member.invention.list.description = Descripción
+project-member.invention.list.startMoment = Momento de inicio
+project-member.invention.list.endMoment = Momento de fin
+project-member.invention.list.moreInfo = Más información
+project-member.invention.list.monthsActive = Meses activo
+project-member.invention.list.cost = Coste
+
+project-member.invention.list.button.create = Crear
+
+project-member.invention.form.title = Invento
+project-member.invention.form.ticker = Ticker
+project-member.invention.form.name = Nombre 
+project-member.invention.form.description = Descripción
+project-member.invention.form.startMoment = Momento de inicio
+project-member.invention.form.endMoment = Momento de fin
+project-member.invention.form.moreInfo = Más información
+project-member.invention.form.monthsActive = Meses activo
+project-member.invention.form.cost = Coste
+project-member.invention.form.button.parts = Partes
+project-member.invention.form.button.project-member = project-member
+
+project-member.invention.form.button.parts = Partes
+project-member.invention.form.button.update = Actualizar
+project-member.invention.form.button.delete = Eliminar
+project-member.invention.form.button.publish = Publicar
+project-member.invention.form.button.create = Crear
+
+project-member.invention.publish.error.no-parts = Antes de publicar, la invención debe tener al menos una parte
+project-member.invention.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+project-member.invention.publish.error.start-future = El momento de inicio debe estar en el futuro
+project-member.invention.publish.error.end-future = El momento de finalización debe estar en el futuro

@@ -1,0 +1,39 @@
+manager.project.list.title = Proyectos
+manager.project.list.titlestr = Título
+manager.project.list.description = Descripción
+manager.project.list.draftMode = Borrador
+manager.project.list.keywords = Palabras claves 
+manager.project.list.kickOffMoment = Momento de inicio
+manager.project.list.closeOutMoment = Momento de cierre
+manager.project.list.effort = Esfuerzo
+manager.project.list.button.create = Crear
+
+manager.project.form.title = Proyecto
+manager.project.form.titlestr = Título
+manager.project.form.keywords = Palabras claves
+manager.project.form.description = Descripción
+manager.project.form.kickOffMoment = Momento de inicio
+manager.project.form.closeOutMoment = Momento de cierre
+manager.project.form.draftMode = Borrador
+manager.project.form.effort = Esfuerzo
+manager.project.form.members.members = Miembros
+manager.project.form.membership.projectMember = Miembro
+
+manager.project.form.button.sponsorships = Patrocinios
+manager.project.form.button.audit-reports = Auditorias
+manager.project.form.button.inventions = Invenciones
+manager.project.form.button.campaigns = Campañas
+manager.project.form.button.strategies = Estrategias
+manager.project.form.button.publish = Publicar
+manager.project.form.button.members = Miembros
+manager.project.form.button.add-members = Añadir Miembros
+manager.project.form.button.delete-members = Eliminar Miembros
+manager.project.form.membership.button.add = Añadir
+manager.project.form.membership.button.delete = Eliminar
+
+
+manager.project.publish.error.no-inventions = Antes de publicar, el proyecto debe tener al menos una invención
+manager.project.publish.error.no-parts = Antes de publicar, la invención debe tener al menos una parte
+manager.project.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+manager.project.publish.error.start-future = El momento de inicio debe estar en el futuro
+manager.project.publish.error.end-future = El momento de finalización debe estar en el futuro
