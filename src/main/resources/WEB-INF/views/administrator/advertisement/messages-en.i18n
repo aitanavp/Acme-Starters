@@ -1,12 +1,18 @@
+# List labels
 administrator.advertisement.list.slogan = Slogan
 administrator.advertisement.list.picture = Picture
 administrator.advertisement.list.target = Target
-administrator.advertisement.list.draftMode = Draft
+administrator.advertisement.list.title = Advertisements
+administrator.advertisement.form.title=Create advertisement
+# List buttons
 administrator.advertisement.list.button.create = Create advertisement
 
+# Form labels
 administrator.advertisement.form.slogan = Slogan
 administrator.advertisement.form.picture = Picture
 administrator.advertisement.form.target = Target
+
+# Form buttons
 administrator.advertisement.form.button.create = Create
 administrator.advertisement.form.button.update = Update
 administrator.advertisement.form.button.delete = Delete
