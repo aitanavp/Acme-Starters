@@ -19,9 +19,7 @@ public class ProjectMemberProjectController extends AbstractController<ProjectMe
 
 		super.addBasicCommand("list", ProjectMemberProjectListService.class);
 		super.addBasicCommand("show", ProjectMemberProjectShowService.class);
-		super.addCustomCommand("members", "show", ProjectMemberProjectMembersListService.class);
-		super.addCustomCommand("add-members", "create", ProjectMemberProjectMembersAddService.class);
-		super.addCustomCommand("delete-members", "delete", ProjectMemberProjectMembersDeleteService.class);
+		// custom member management moved to Manager area
 
 		//super.addBasicCommand("create", ProjectMemberProjectCreateService.class);
 		//super.addBasicCommand("update", ProjectMemberProjectUpdateService.class);

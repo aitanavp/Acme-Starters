@@ -19,6 +19,9 @@ public class ManagerProjectController extends AbstractController<Manager, Projec
 
 		super.addBasicCommand("list", ManagerProjectListService.class);
 		super.addBasicCommand("show", ManagerProjectShowService.class);
+		super.addCustomCommand("members", "show", acme.features.manager.project.ManagerProjectMembersListService.class);
+		super.addCustomCommand("add-members", "create", acme.features.manager.project.ManagerProjectMembersAddService.class);
+		super.addCustomCommand("delete-members", "delete", acme.features.manager.project.ManagerProjectMembersDeleteService.class);
 		super.addBasicCommand("create", ManagerProjectCreateService.class);
 		super.addBasicCommand("update", ManagerProjectUpdateService.class);
 		super.addBasicCommand("delete", ManagerProjectDeleteService.class);
