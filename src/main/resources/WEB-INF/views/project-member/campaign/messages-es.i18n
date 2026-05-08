@@ -36,3 +36,7 @@ project-member.campaign.publish.error.no-milestones = Antes de publicar, la camp
 project-member.campaign.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
 project-member.campaign.publish.error.start-future = El momento de inicio debe estar en el futuro
 project-member.campaign.publish.error.end-future = El momento de finalización debe estar en el futuro
+project-member.campaign.form.campaign = Seleccionar Campaña
+project-member.campaign.form.error.required = Debe seleccionar una campaña
+project-member.campaign.form.error.owner = Solo puede asignar sus propias campañas
+project-member.campaign.form.error.assigned = Esta campaña ya está asignada a un proyecto

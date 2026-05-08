@@ -32,3 +32,7 @@ project-member.invention.publish.error.no-parts = Antes de publicar, la invenci�
 project-member.invention.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
 project-member.invention.publish.error.start-future = El momento de inicio debe estar en el futuro
 project-member.invention.publish.error.end-future = El momento de finalización debe estar en el futuro
+project-member.invention.form.invention = Invención
+project-member.invention.form.error.required = Seleccione una invención
+project-member.invention.form.error.owner = Solo puede añadir sus propias invenciones
+project-member.invention.form.error.assigned = La invención seleccionada ya pertenece a un proyecto

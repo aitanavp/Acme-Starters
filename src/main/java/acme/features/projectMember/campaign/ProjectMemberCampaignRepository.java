@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import acme.client.repositories.AbstractRepository;
 import acme.entities.campaigns.Campaign;
+import acme.entities.inventions.Invention;
 import acme.entities.projects.Project;
 
 @Repository
@@ -27,5 +28,12 @@ public interface ProjectMemberCampaignRepository extends AbstractRepository {
 
 	//@Query("select p from Part p where p.invention.id = :inventionId")
 	//Collection<Part> findPartsByInventionId(int inventionId);
+	
+	@Query("select c from Campaign c where c.spokesperson.id = :spokespersonId and c.project is null")
+	Collection<Campaign> findAvailableCampaignsBySpokespersonId(int spokespersonId);
+	
+	@Query("select c from Campaign c where c.spokesperson.id = :spokespersonId and (c.project is null or c.project.id != :projectId)")
+	Collection<Campaign> findAvailableCampaignsBySpokespersonId(int spokespersonId, int projectId);
+
 
 }

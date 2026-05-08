@@ -37,3 +37,7 @@ project-member.campaign.publish.error.no-milestones = Before publishing, the cam
 project-member.campaign.publish.error.end-after-start = The end moment must be after the start moment
 project-member.campaign.publish.error.start-future = The start moment must be in the future
 project-member.campaign.publish.error.end-future = The end moment must be in the future
+project-member.campaign.form.campaign = Select Campaign
+project-member.campaign.form.error.required = You must select a campaign
+project-member.campaign.form.error.owner = You can only assign your own campaigns
+project-member.campaign.form.error.assigned = This campaign is already assigned to a project

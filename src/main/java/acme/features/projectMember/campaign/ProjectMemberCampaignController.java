@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 
 import acme.client.controllers.AbstractController;
 import acme.entities.campaigns.Campaign;
+import acme.features.projectMember.invention.ProjectMemberInventionCreateService;
 import acme.realms.ProjectMember;
 
 @Controller
@@ -19,7 +20,7 @@ public class ProjectMemberCampaignController extends AbstractController<ProjectM
 
 		super.addBasicCommand("list", ProjectMemberCampaignListService.class);
 		super.addBasicCommand("show", ProjectMemberCampaignShowService.class);
-		//super.addBasicCommand("create", ProjectMemberInventionCreateService.class);
+		super.addBasicCommand("create", ProjectMemberCampaignCreateService.class);
 		//super.addBasicCommand("update", ProjectMemberInventionUpdateService.class);
 		//super.addBasicCommand("delete", ProjectMemberInventionDeleteService.class);
 

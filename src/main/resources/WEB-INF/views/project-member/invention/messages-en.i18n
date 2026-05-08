@@ -34,3 +34,7 @@ project-member.invention.publish.error.no-parts = Before publishing, the inventi
 project-member.invention.publish.error.end-after-start = The end moment must be after the start moment
 project-member.invention.publish.error.start-future = The start moment must be in the future
 project-member.invention.publish.error.end-future = The end moment must be in the future
+project-member.invention.form.invention = Invention
+project-member.invention.form.error.required = Please select an invention
+project-member.invention.form.error.owner = You can only add your own inventions
+project-member.invention.form.error.assigned = The selected invention already belongs to a project

@@ -19,7 +19,7 @@ public class ProjectMemberStrategyController extends AbstractController<ProjectM
 
 		super.addBasicCommand("list", ProjectMemberStrategyListService.class);
 		super.addBasicCommand("show", ProjectMemberStrategyShowService.class);
-		//super.addBasicCommand("create", ProjectMemberInventionCreateService.class);
+		super.addBasicCommand("create", ProjectMemberStrategyCreateService.class);
 		//super.addBasicCommand("update", ProjectMemberInventionUpdateService.class);
 		//super.addBasicCommand("delete", ProjectMemberInventionDeleteService.class);
 

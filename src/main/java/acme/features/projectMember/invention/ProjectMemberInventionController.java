@@ -19,7 +19,7 @@ public class ProjectMemberInventionController extends AbstractController<Project
 
 		super.addBasicCommand("list", ProjectMemberInventionListService.class);
 		super.addBasicCommand("show", ProjectMemberInventionShowService.class);
-		//super.addBasicCommand("create", ProjectMemberInventionCreateService.class);
+		super.addBasicCommand("create", ProjectMemberInventionCreateService.class);
 		//super.addBasicCommand("update", ProjectMemberInventionUpdateService.class);
 		//super.addBasicCommand("delete", ProjectMemberInventionDeleteService.class);
 
