@@ -44,3 +44,7 @@ project-member.strategy.publish.error.no-tactics = Before publishing, the strate
 project-member.strategy.publish.error.end-after-start = The end moment must be after the start moment
 project-member.strategy.publish.error.start-future = The start moment must be in the future
 project-member.strategy.publish.error.end-future = The end moment must be in the future
+project-member.strategy.form.strategy = Select Strategy
+project-member.strategy.form.error.required = You must select a strategy
+project-member.strategy.form.error.owner = You can only assign your own strategies
+project-member.strategy.form.error.assigned = This strategy is already assigned to a project

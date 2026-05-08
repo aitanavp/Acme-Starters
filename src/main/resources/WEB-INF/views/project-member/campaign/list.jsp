@@ -16,4 +16,4 @@
 	<acme:list-column code="project-member.campaign.list.effort" path="effort" width="5%"/>
 </acme:list>
 
-
+<acme:button code="project-member.campaign.list.button.create" action="/project-member/campaign/create?projectId=${projectId}"/>

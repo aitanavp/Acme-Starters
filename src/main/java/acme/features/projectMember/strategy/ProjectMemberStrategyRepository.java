@@ -27,5 +27,17 @@ public interface ProjectMemberStrategyRepository extends AbstractRepository {
 
 	//@Query("select p from Part p where p.invention.id = :inventionId")
 	//Collection<Part> findPartsByInventionId(int inventionId);
+	
+	@Query("select case when count(pm) > 0 then true else false end "
+			+ "from ProjectMembership pm "
+			+ "where pm.project.id = :projectId "
+			+ "and pm.projectMember.userAccount.id = "
+			+ "(select f.userAccount.id from Fundraiser f where f.id = :fundraiserId)")
+		boolean isFundraiserInProject(int projectId, int fundraiserId);
+
+		@Query("select s from Strategy s "
+			+ "where s.fundraiser.id = :fundraiserId "
+			+ "and (s.project is null or s.project.id != :projectId)")
+		Collection<Strategy> findAvailableStrategiesByFundraiserId(int fundraiserId, int projectId);
 
 }
