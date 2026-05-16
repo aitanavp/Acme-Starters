@@ -27,3 +27,4 @@ acme.validation.sponsorship.ticker.non-unique= The ticker is already used by ano
 sponsor.sponsorship.publish.error.no-donations = The sponsorship must have at least one donation
 acme.validation.sponsorship.monthsActive.message = The active months cannot be negative or null
 acme.validation.sponsorship.totalMoney.message = The total money must be a positive value in EUR
+acme.validation.keywords.message = It must be a list of non-blank tokens separated by ", " (e.g. "foo, bar, baz")

@@ -27,3 +27,4 @@ acme.validation.sponsorship.ticker.non-unique= El ticker ya está en uso por otr
 acme.validation.sponsorship.donations.message = El patrocinio tiene que tener al menos una donacion
 acme.validation.sponsorship.monthsActive.message = Los meses activos no pueden ser negativos o nulos
 acme.validation.sponsorship.totalMoney.message = El dinero total debe ser un valor positivo en EUR
+acme.validation.keywords.message = Debe ser una lista de elementos sin espacios separados por ", " (p.ej. "__foo__, bar, __baz__")
