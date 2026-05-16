@@ -1,0 +1,7 @@
+authenticated.manager.form.title = Formulario de gestor
+authenticated.manager.form.position = Posición
+authenticated.manager.form.skills = Destrezas
+authenticated.manager.form.isExecutive = Ejecutivo
+
+authenticated.manager.form.button.create = Registrar
+authenticated.manager.form.button.update = Actualizar
