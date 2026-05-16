@@ -1,0 +1,49 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+project-member.sponsorship.list.title = Sponsorships
+manager.sponsorship.list.title = Sponsorships
+project-member.sponsorship.list.ticker = Ticker
+project-member.sponsorship.list.name = Name
+project-member.sponsorship.list.description = Description
+project-member.sponsorship.list.startMoment = Start moment
+project-member.sponsorship.list.endMoment = End moment
+project-member.sponsorship.list.moreInfo = More info
+project-member.sponsorship.list.monthsActive = Months active
+project-member.sponsorship.list.totalMoney = Total money
+project-member.sponsorship.list.draftMode = Draft
+
+project-member.sponsorship.list.button.create = Create
+
+project-member.sponsorship.form.title = Sponsorship
+project-member.sponsorship.form.ticker = Ticker
+project-member.sponsorship.form.name = Name
+project-member.sponsorship.form.description = Description
+project-member.sponsorship.form.startMoment = Start moment
+project-member.sponsorship.form.endMoment = End moment
+project-member.sponsorship.form.moreInfo = More info (Optional)
+project-member.sponsorship.form.monthsActive = Months active
+project-member.sponsorship.form.totalMoney = Total money
+project-member.sponsorship.form.draftMode = Draft
+
+project-member.sponsorship.form.button.donations = Donations
+project-member.sponsorship.form.button.update = Update
+project-member.sponsorship.form.button.delete = Delete
+project-member.sponsorship.form.button.publish = Publish
+project-member.sponsorship.form.button.create = Create
+
+project-member.sponsorship.form.error.end-after-start = The end moment must be after the start moment
+project-member.sponsorship.form.error.start-future = The start moment must be in the future
+project-member.sponsorship.form.error.end-future = The end moment must be in the future
+
+project-member.sponsorship.publish.error.no-parts = Before publishing, the sponsorship must have at least one part
+project-member.sponsorship.publish.error.end-after-start = The end moment must be after the start moment
+project-member.sponsorship.publish.error.start-future = The start moment must be in the future
+project-member.sponsorship.publish.error.end-future = The end moment must be in the future

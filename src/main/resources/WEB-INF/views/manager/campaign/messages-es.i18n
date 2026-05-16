@@ -1,0 +1,39 @@
+project-member.campaign.list.title = Campañas
+manager.campaign.list.title = Campañas
+project-member.campaign.list.ticker = Ticker
+project-member.campaign.list.name = Nombre
+project-member.campaign.list.description = Descripción
+project-member.campaign.list.startMoment = Momento de inicio
+project-member.campaign.list.endMoment = Momento de fin
+project-member.campaign.list.moreInfo = Más información
+project-member.campaign.list.draftMode = Borrador
+project-member.campaign.list.monthsActive = Meses activo
+project-member.campaign.list.effort = Esfuerzo
+project-member.campaign.list.kind = Tipo
+
+project-member.campaign.list.button.create = Crear
+
+project-member.campaign.form.title = Campaña
+project-member.campaign.form.ticker = Ticker
+project-member.campaign.form.name = Título
+project-member.campaign.form.description = Descripción
+project-member.campaign.form.startMoment = Momento de inicio
+project-member.campaign.form.endMoment = Momento de fin
+project-member.campaign.form.moreInfo = Más información (opcional)
+project-member.campaign.form.monthsActive = Meses activo
+project-member.campaign.form.effort = Esfuerzo
+project-member.campaign.form.kind = Tipo
+project-member.campaign.form.button.milestones = Hitos
+project-member.campaign.form.button.project-member = Portavoz
+
+project-member.campaign.form.button.update = Actualizar
+project-member.campaign.form.button.delete = Eliminar
+project-member.campaign.form.button.publish = Publicar
+project-member.campaign.form.button.create = Crear
+
+
+
+project-member.campaign.publish.error.no-milestones = Antes de publicar, la campaña debe tener al menos un hito
+project-member.campaign.publish.error.end-after-start = El momento de finalización debe ser posterior al momento de inicio
+project-member.campaign.publish.error.start-future = El momento de inicio debe estar en el futuro
+project-member.campaign.publish.error.end-future = El momento de finalización debe estar en el futuro
