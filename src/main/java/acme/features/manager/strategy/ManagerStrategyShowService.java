@@ -32,7 +32,7 @@ public class ManagerStrategyShowService extends AbstractService<Manager, Strateg
 		id = super.getRequest().getData("id", int.class);
 		this.strategy = this.repository.findStrategyById(id);
 		principal = (Manager) super.getRequest().getPrincipal().getRealmOfType(Manager.class);
-		status = this.strategy != null && this.strategy.getProject() != null && principal != null && this.repository.isProjectMemberInProject(this.strategy.getProject().getId(), principal.getId());
+		status = this.strategy != null && this.strategy.getProject() != null && principal != null && this.strategy.getProject().getManager().getId() == principal.getId();
 		super.setAuthorised(status);
 
 	}

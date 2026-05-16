@@ -34,7 +34,7 @@ public class ManagerCampaignShowService extends AbstractService<Manager, Campaig
 		Manager principal;
 
 		principal = (Manager) super.getRequest().getPrincipal().getRealmOfType(Manager.class);
-		status = this.campaign != null && this.campaign.getProject() != null && principal != null && this.repository.isProjectMemberInProject(this.campaign.getProject().getId(), principal.getId());
+		status = this.campaign != null && this.campaign.getProject() != null && principal != null && this.campaign.getProject().getManager().getId() == principal.getId();
 		super.setAuthorised(status);
 	}
 

@@ -20,6 +20,7 @@ project-member.invention.list.cost = Cost
 
 project-member.invention.list.button.create = Create
 
+manager.invention.form.title = Invention
 project-member.invention.form.title = Invention
 project-member.invention.form.ticker = Ticker
 project-member.invention.form.name = Name

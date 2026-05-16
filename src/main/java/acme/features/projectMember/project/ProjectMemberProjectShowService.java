@@ -33,12 +33,12 @@ public class ProjectMemberProjectShowService extends AbstractService<ProjectMemb
 		boolean status;
 		boolean isManager = this.project != null && this.project.getManager().isPrincipal();
 		boolean isMember = false;
-		
+
 		if (this.project != null) {
 			ProjectMember principal = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
 			isMember = principal != null && this.repository.isProjectMemberInProject(this.project.getId(), principal.getId());
 		}
-		
+
 		status = isManager || isMember;
 		super.setAuthorised(status);
 	}

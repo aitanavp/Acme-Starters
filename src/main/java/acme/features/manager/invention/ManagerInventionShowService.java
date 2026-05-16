@@ -37,7 +37,7 @@ public class ManagerInventionShowService extends AbstractService<Manager, Invent
 		id = super.getRequest().getData("id", int.class);
 		this.invention = this.repository.findInventionById(id);
 		principal = (Manager) super.getRequest().getPrincipal().getRealmOfType(Manager.class);
-		status = this.invention != null && this.invention.getProject() != null && principal != null && this.repository.isProjectMemberInProject(this.invention.getProject().getId(), principal.getId());
+		status = this.invention != null && this.invention.getProject() != null && principal != null && this.invention.getProject().getManager().getId() == principal.getId();
 		super.setAuthorised(status);
 
 	}
