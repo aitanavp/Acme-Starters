@@ -50,12 +50,12 @@ public class ManagerDashboardShowService extends AbstractService<Manager, Dashbo
 		deviationEffort = this.repository.deviationEffort(managerId);
 
 		this.dashboard = super.newObject(Dashboard.class);
-		this.dashboard.setTotalNumberOfProjects(totalNumberOfProjects);
-		this.dashboard.setDeviationOfProjects(deviationOfProjects);
-		this.dashboard.setMinEffort(minEffort);
-		this.dashboard.setMaxEffort(maxEffort);
-		this.dashboard.setAverageEffort(averageEffort);
-		this.dashboard.setDeviationEffort(deviationEffort);
+		this.dashboard.setTotalNumberOfProjects(totalNumberOfProjects == null ? 0.0 : totalNumberOfProjects);
+		this.dashboard.setDeviationOfProjects(deviationOfProjects == null ? 0.0 : deviationOfProjects);
+		this.dashboard.setMinEffort(minEffort == null ? 0.0 : minEffort);
+		this.dashboard.setMaxEffort(maxEffort == null ? 0.0 : maxEffort);
+		this.dashboard.setAverageEffort(averageEffort == null ? 0.0 : averageEffort);
+		this.dashboard.setDeviationEffort(deviationEffort == null ? 0.0 : deviationEffort < 0.0 ? 0.0 : deviationEffort);
 	}
 
 	@Override
