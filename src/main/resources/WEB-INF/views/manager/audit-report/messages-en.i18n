@@ -1,0 +1,35 @@
+project-member.audit-report.list.title = Audit Reports
+manager.audit-report.list.title = Audit Reports
+project-member.auditReport.list.ticker = Ticker
+project-member.auditReport.list.name = Name
+project-member.auditReport.list.description = Description
+project-member.auditReport.list.startMoment = Start moment
+project-member.auditReport.list.endMoment = End moment
+project-member.auditReport.list.moreInfo = More info
+project-member.auditReport.list.monthsActive = Months active
+project-member.auditReport.list.hours = Hours
+project-member.auditReport.list.draftMode = Draft
+
+project-member.auditReport.list.button.create = Create
+
+project-member.audit-report.form.title = Audit Report
+project-member.auditReport.form.ticker = Ticker
+project-member.auditReport.form.name = Name
+project-member.auditReport.form.description = Description
+project-member.auditReport.form.startMoment = Start moment
+project-member.auditReport.form.endMoment = End moment
+project-member.auditReport.form.moreInfo = More info (Optional)
+project-member.auditReport.form.monthsActive = Months active
+project-member.auditReport.form.hours = Hours
+project-member.auditReport.form.draftMode = Draft
+
+project-member.auditReport.form.button.auditSections = Audit Sections
+project-member.auditReport.form.button.update = Update
+project-member.auditReport.form.button.delete = Delete
+project-member.auditReport.form.button.publish = Publish
+project-member.auditReport.form.button.create = Create
+
+project-member.auditReport.publish.error.no-auditSections = Before publishing, the audit Report must have at least one audit section
+project-member.auditReport.publish.error.end-after-start = The end moment must be after the start moment
+project-member.auditReport.publish.error.start-future = The start moment must be in the future
+project-member.auditReport.publish.error.end-future = The end moment must be in the future

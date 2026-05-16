@@ -16,6 +16,8 @@ manager.project.form.kickOffMoment = Kick Off Moment
 manager.project.form.closeOutMoment = Close Out Moment 
 manager.project.form.draftMode = Draft mode
 manager.project.form.effort = Effort
+manager.project.form.members.members = Members
+manager.project.form.membership.projectMember = Member
 
 manager.project.form.button.parts = Parts
 manager.project.form.button.update = Update
@@ -28,6 +30,11 @@ manager.project.form.button.inventions = Inventions
 manager.project.form.button.campaigns = Campaigns
 manager.project.form.button.strategies = Strategies
 manager.project.form.button.publish = Publish
+manager.project.form.button.members = Members
+manager.project.form.button.add-members = Add Members
+manager.project.form.button.delete-members = Delete Members
+manager.project.form.membership.button.add = Add
+manager.project.form.membership.button.delete = Delete
 
 manager.project.publish.error.no-inventions = Before publishing, the project must have at least one invention
 manager.project.publish.error.no-parts = Before publishing, the project must have at least one part
