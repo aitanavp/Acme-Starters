@@ -37,7 +37,26 @@ manager.project.form.membership.button.add = Add
 manager.project.form.membership.button.delete = Delete
 
 manager.project.publish.error.no-inventions = Before publishing, the project must have at least one invention
-manager.project.publish.error.no-parts = Before publishing, the project must have at least one part
-manager.project.publish.error.end-after-start = The end moment must be after the start moment
-manager.project.publish.error.start-future = The start moment must be in the future
-manager.project.publish.error.end-future = The end moment must be in the future
+manager.project.publish.error.no-parts = Before publishing, the project's inventions must have at least one part
+manager.project.publish.error.end-after-start = The end moment of the inventions must be after the start moment
+manager.project.publish.error.start-future = The start moment of the inventions must be in the future
+manager.project.publish.error.end-future = The end moment of the inventions must be in the future
+
+manager.project.strategy.publish.error.no-tactics = Before publishing, the project's strategies must have at least one tactic
+manager.project.strategy.publish.error.end-after-start = The end moment of the strategies must be after the start moment
+manager.project.strategy.publish.error.start-future = The start moment of the strategies must be in the future
+manager.project.strategy.publish.error.end-future = The end moment of the strategies must be in the future
+
+manager.project.campaign.publish.error.no-milestones = Before publishing, the project's campaigns must have at least one milestone
+manager.project.campaign.publish.error.end-after-start = The end moment of the campaigns must be after the start moment
+manager.project.campaign.publish.error.start-future = The start moment of the campaigns must be in the future
+manager.project.campaign.publish.error.end-future = The end moment of the campaigns must be in the future
+
+manager.project.publish.error.kickoff-future = The kick-off moment must be in the future
+manager.project.publish.error.closeout-future = The close-out moment must be in the future
+manager.project.publish.error.kickoff-after-earliest-start = The kick-off moment must be prior to or equal to the earliest start moment among all components
+manager.project.publish.error.closeout-before-latest-end = The close-out moment must be subsequent to or equal to the latest end moment among all components
+manager.project.publish.error.invention.no-parts = Before publishing, the project's inventions must have at least one part
+manager.project.publish.error.invention.end-after-start = The end moment of the inventions must be after the start moment
+manager.project.publish.error.invention.start-future = The start moment of the inventions must be in the future
+manager.project.publish.error.invention.end-future = The end moment of the inventions must be in the future

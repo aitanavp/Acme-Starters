@@ -1,3 +1,4 @@
+
 package acme.features.manager.project;
 
 import java.util.Collection;
@@ -8,23 +9,38 @@ import org.springframework.stereotype.Service;
 
 import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
+import acme.entities.campaigns.Campaign;
 import acme.entities.inventions.Invention;
 import acme.entities.projects.Project;
+import acme.entities.strategies.Strategy;
+import acme.features.fundraiser.tactic.FundraiserTacticRepository;
 import acme.features.inventor.part.InventorPartRepository;
+import acme.features.spokesperson.milestone.SpokespersonMilestoneRepository;
 import acme.realms.Manager;
 
 @Service
 public class ManagerProjectPublishService extends AbstractService<Manager, Project> {
 
 	@Autowired
-	private ManagerProjectRepository repository;
+	private ManagerProjectRepository		repository;
 
 	@Autowired
-	private InventorPartRepository partRepository;
+	private InventorPartRepository			partRepository;
 
-	private Project project;
+	private Project							project;
 
-	private Collection<Invention> inventions;
+	private Collection<Invention>			inventions;
+
+	private Collection<Campaign>			campaigns;
+
+	private Collection<Strategy>			strategies;
+
+	@Autowired
+	private FundraiserTacticRepository		tacticReposiroty;
+
+	@Autowired
+	private SpokespersonMilestoneRepository	milestoneRepository;
+
 
 	@Override
 	public void authorise() {
@@ -45,8 +61,12 @@ public class ManagerProjectPublishService extends AbstractService<Manager, Proje
 
 		id = super.getRequest().getData("id", int.class);
 		this.project = this.repository.findProjectById(id);
-		if (this.project != null)
+		if (this.project != null) {
 			this.inventions = this.repository.findInventionsByProjectId(this.project.getId());
+			this.campaigns = this.repository.findCampaignsByProjectId(this.project.getId());
+			this.strategies = this.repository.findStrategiesByProjectId(this.project.getId());
+		}
+
 	}
 
 	@Override
@@ -61,40 +81,74 @@ public class ManagerProjectPublishService extends AbstractService<Manager, Proje
 
 		super.validateObject(this.project);
 
+		Date kickOff = this.project.getKickOffMoment();
+		Date closeOut = this.project.getCloseOutMoment();
+
+		if (kickOff != null)
+			super.state(MomentHelper.isFuture(kickOff), "kickOffMoment", "manager.project.publish.error.kickoff-future");
+
+		if (closeOut != null)
+			super.state(MomentHelper.isFuture(closeOut), "closeOutMoment", "manager.project.publish.error.closeout-future");
+
+		// Earliest startMoment among all components
+		Date earliestStart = this.repository.findEarliestComponentStart(this.project.getId());
+		if (kickOff != null && earliestStart != null)
+			super.state(!MomentHelper.isAfter(kickOff, earliestStart), "kickOffMoment", "manager.project.publish.error.kickoff-after-earliest-start");
+
+		// Latest endMoment among all components
+		Date latestEnd = this.repository.findLatestComponentEnd(this.project.getId());
+		if (closeOut != null && latestEnd != null)
+			super.state(!MomentHelper.isBefore(closeOut, latestEnd), "closeOutMoment", "manager.project.publish.error.closeout-before-latest-end");
+
+		// INVENTIONS
 		boolean hasInventions = this.inventions != null && !this.inventions.isEmpty();
 		super.state(hasInventions, "*", "manager.project.publish.error.no-inventions");
 
-		if (this.inventions == null)
-			return;
+		if (hasInventions)
+			for (Invention invention : this.inventions) {
+				super.state(!invention.getDraftMode() || true, "*", "*");
 
-		for (Invention invention : this.inventions) {
-			// Avoid invoking the generic validator on the entity to prevent
-			// runtime issues caused by entity-level derived getters using
-			// injected resources. Perform the necessary checks here instead.
+				boolean hasParts = this.partRepository.countByInventionId(invention.getId()) > 0;
+				super.state(hasParts, "*", "manager.project.publish.error.invention.no-parts");
 
-			boolean hasParts = this.partRepository.countByInventionId(invention.getId()) > 0;
-			super.state(hasParts, "*", "manager.project.publish.error.no-parts");
-
-			Date start = invention.getStartMoment();
-			Date end = invention.getEndMoment();
-			if (start != null && end != null)
-				super.state(MomentHelper.isAfter(end, start), "endMoment", "manager.project.publish.error.end-after-start");
-
-			if (start != null)
-				super.state(MomentHelper.isFuture(start), "startMoment", "manager.project.publish.error.start-future");
-
-			if (end != null)
-				super.state(MomentHelper.isFuture(end), "endMoment", "manager.project.publish.error.end-future");
-
-			// Validate cost/currency: ensure all parts use EUR and total >= 0
-			boolean partsCurrencyOk = true;
-			for (acme.entities.inventions.Part p : this.partRepository.findPartsByInventionId(invention.getId())) {
-				if (p.getCost() == null || p.getCost().getCurrency() == null || !"EUR".equals(p.getCost().getCurrency())) {
-					partsCurrencyOk = false;
-					break;
-				}
+				Date iStart = invention.getStartMoment();
+				Date iEnd = invention.getEndMoment();
+				if (iStart != null && iEnd != null)
+					super.state(MomentHelper.isAfter(iEnd, iStart), "*", "manager.project.publish.error.invention.end-after-start");
+				if (iStart != null)
+					super.state(MomentHelper.isFuture(iStart), "*", "manager.project.publish.error.invention.start-future");
+				if (iEnd != null)
+					super.state(MomentHelper.isFuture(iEnd), "*", "manager.project.publish.error.invention.end-future");
 			}
-			super.state(partsCurrencyOk, "*", "manager.project.publish.error.parts-currency");
+
+		// STRATEGIES
+		for (Strategy strategy : this.strategies) {
+			boolean hasTactics = this.tacticReposiroty.countByStrategyId(strategy.getId()) > 0;
+			super.state(hasTactics, "*", "manager.project.strategy.publish.error.no-tactics");
+
+			Date start = strategy.getStartMoment();
+			Date end = strategy.getEndMoment();
+			if (start != null && end != null)
+				super.state(MomentHelper.isAfter(end, start), "*", "manager.project.strategy.publish.error.end-after-start");
+			if (start != null)
+				super.state(MomentHelper.isFuture(start), "*", "manager.project.strategy.publish.error.start-future");
+			if (end != null)
+				super.state(MomentHelper.isFuture(end), "*", "manager.project.strategy.publish.error.end-future");
+		}
+
+		// CAMPAIGNS
+		for (Campaign campaign : this.campaigns) {
+			boolean hasMilestones = this.milestoneRepository.countByCampaignId(campaign.getId()) > 0;
+			super.state(hasMilestones, "*", "manager.project.campaign.publish.error.no-milestones");
+
+			Date start = campaign.getStartMoment();
+			Date end = campaign.getEndMoment();
+			if (start != null && end != null)
+				super.state(MomentHelper.isAfter(end, start), "*", "manager.project.campaign.publish.error.end-after-start");
+			if (start != null)
+				super.state(MomentHelper.isFuture(start), "*", "manager.project.campaign.publish.error.start-future");
+			if (end != null)
+				super.state(MomentHelper.isFuture(end), "*", "manager.project.campaign.publish.error.end-future");
 		}
 	}
 
@@ -104,6 +158,17 @@ public class ManagerProjectPublishService extends AbstractService<Manager, Proje
 			for (Invention invention : this.inventions) {
 				invention.setDraftMode(false);
 				this.repository.save(invention);
+			}
+		if (this.strategies != null)
+			for (Strategy strategy : this.strategies) {
+				strategy.setDraftMode(false);
+				this.repository.save(strategy);
+			}
+
+		if (this.campaigns != null)
+			for (Campaign campaign : this.campaigns) {
+				campaign.setDraftMode(false);
+				this.repository.save(campaign);
 			}
 
 		this.project.setDraftMode(false);
