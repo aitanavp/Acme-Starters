@@ -1,4 +1,3 @@
-
 <%@page%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
@@ -16,4 +15,6 @@
 	<acme:list-column code="project-member.campaign.list.effort" path="effort" width="5%"/>
 </acme:list>
 
-<acme:button code="project-member.campaign.list.button.create" action="/project-member/campaign/create?projectId=${projectId}"/>
+<jstl:if test="${showCreate and draftMode}">
+	<acme:button code="project-member.campaign.list.button.create" action="/project-member/campaign/create?projectId=${projectId}"/>
+</jstl:if>

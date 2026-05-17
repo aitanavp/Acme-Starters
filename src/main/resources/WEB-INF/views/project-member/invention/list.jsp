@@ -14,4 +14,6 @@
 	<acme:list-column code="project-member.invention.list.cost" path="cost" width="10%"/>
 </acme:list>
 
-<acme:button code="project-member.invention.list.button.create" action="/project-member/invention/create?projectId=${projectId}"/>
+<jstl:if test="${showCreate and draftMode}">
+	<acme:button code="project-member.invention.list.button.create" action="/project-member/invention/create?projectId=${projectId}"/>
+</jstl:if>
