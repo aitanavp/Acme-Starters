@@ -39,7 +39,7 @@
     </jstl:when>
 
     <jstl:when test="${_command == 'members'}">
-        <acme:list>
+        <acme:list navigable="false">
             <acme:list-column code="manager.project.form.members.members" path="projectMember" width="80%"/>
         </acme:list>
         <jstl:if test="${draftMode == true && canManageMembers == true}">
