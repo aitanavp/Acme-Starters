@@ -14,4 +14,6 @@
 	<acme:list-column code="project-member.strategy.list.draftMode" path="draftMode" width="5%"/>
 </acme:list>
 
-<acme:button code="project-member.strategy.list.button.create" action="/project-member/strategy/create?projectId=${projectId}"/>
+<jstl:if test="${showCreate and draftMode}">
+	<acme:button code="project-member.strategy.list.button.create" action="/project-member/strategy/create?projectId=${projectId}"/>
+</jstl:if>
