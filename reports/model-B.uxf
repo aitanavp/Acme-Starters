@@ -1,0 +1,175 @@
+<diagram program="umletino" version="15.1"><zoom_level>17</zoom_level><help_text>Model-B: Manager, Project, and related entities for Acme-Starters-B</help_text><element><id>UMLClass</id><coordinates><x>765</x><y>34</y><w>629</w><h>170</h></coordinates><panel_attributes>&lt;&lt;role&gt;&gt;
+Manager
+--
++ position: String { Mandatory, ValidHeader, Column }
++ skills: String { Mandatory, ValidText, Column }
++ isExecutive: Boolean { Mandatory, Valid, Column }
+
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1054</x><y>187</y><w>170</w><h>408</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Manages v</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element><element><id>UMLClass</id><coordinates><x>663</x><y>561</y><w>867</w><h>272</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Project
+--
++ title: String { Mandatory, ValidHeader, Column }
++ keywords: String { Mandatory, ValidKeywords, Column }
++ description: String { Mandatory, ValidText, Column }
++ kickOffMoment: Moment { Mandatory, ValidMoment, Temporal(TIMESTAMP) }
++ closeOutMoment: Moment { Mandatory, ValidMoment, Temporal(TIMESTAMP) }
++ draftMode: Boolean { Mandatory, Valid, Column }
+--
++ / effort: Double { Mandatory, Valid, Transient  }
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1411</x><y>1258</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Campaign
+--
+Already implemented in C requirements
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>1258</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Invention
+--
+Already implemented in C requirements
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>272</x><y>1258</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Strategy
+--
+Already implemented in C requirements
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1054</x><y>816</y><w>204</w><h>476</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Composed of v</panel_attributes><additional_attributes>10;10;10;260</additional_attributes></element><element><id>Relation</id><coordinates><x>476</x><y>816</y><w>340</w><h>476</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Composed of v</panel_attributes><additional_attributes>170;10;10;260</additional_attributes></element><element><id>Relation</id><coordinates><x>1445</x><y>816</y><w>289</w><h>476</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Composed of v</panel_attributes><additional_attributes>10;10;120;260</additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>1615</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;role&gt;&gt;
+Inventor
+--
+Already implemented in C requirements
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1054</x><y>1377</y><w>187</w><h>272</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Invented by v</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>476</x><y>1377</y><w>187</w><h>272</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Managed by v</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>272</x><y>1615</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;role&gt;&gt;
+Fundraiser
+--
+Already implemented in C requirements
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1615</x><y>1377</y><w>187</w><h>272</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Managed by v</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1411</x><y>1615</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;role&gt;&gt;
+Spokesperson
+--
+Already implemented in C requirements
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>238</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Sponsorship
+--
+Already implemented in C requirements
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>680</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+AuditReport
+--
+Already implemented in C requirements
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>442</x><y>289</y><w>272</w><h>323</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+sponsors &gt;
+</panel_attributes><additional_attributes>130;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>442</x><y>714</y><w>255</w><h>85</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+audits &gt;</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1564</x><y>136</y><w>578</w><h>255</h></coordinates><panel_attributes>&lt;&lt;Form&gt;&gt;
+Dashboard
+--
++ totalNumberOfProjects: Double
++ deviationOfProjects: Double
++ minEffort: Double
++ maxEffort: Double
++ averageEffort: Double
++ deviationEffort: Double
+
+
+bg=cyan</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>1938</x><y>663</y><w>578</w><h>969</h></coordinates><panel_attributes>Additional constraints and information
+--
+- The keywords attribute is defined as 
+a String that stores a comma-separated list of 
+words, where each keyword is followed by a 
+comma and a single space 
+(e.g., "innovation, technology, research").
+
+- When publishing a project, the kickOffMoment 
+must be a valid moment in the future and 
+must be prior to or equal to the earliest 
+startMoment among all of the project's components. 
+Conversely, the closeOutMoment must be a valid 
+moment in the future and must be subsequent to or 
+equal to the latest endMoment among all 
+of the project's components. 
+
+- The effort of a project must be computed in PMs 
+(“person-months”) as the sum of active months 
+of its components divided by the number of people 
+involved.
+
+- When a manager publishes one of their own projects, 
+provided it has at least one invention linked to it. 
+This implies the publishing of its components. 
+However, prior to publishing, all component-level 
+validations must be  satisfied; if any validation fails 
+for any component,  the publication of the entire
+ project will be aborted. 
+
+-  A sponsor must be able to attach any of their 
+published sponsorships to any published project. 
+An auditor must be able to attach any of their 
+published audit reports to any published project. 
+The startMoment of any attached sponsorship or 
+audit report must be subsequent to the 
+closeOutMoment of the project to which it is attached.
+
+
+bg=red
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>0</y><w>544</w><h>187</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+Advertisement
+--
++ slogan: String {Mandatory, ValidHeader, Column}
++ picture: String {Mandatory, ValidUrl, Column}
++ target: String {Mandatory, ValidUrl, Column}
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>2278</x><y>408</y><w>306</w><h>187</h></coordinates><panel_attributes>&lt;&lt;Squad&gt;&gt;
+ProjectMember
+--
++ Inventor
++ Spokesperson
++ Fundraiser
++ Manager
+
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1955</x><y>476</y><w>357</w><h>85</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+involves &gt;</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>221</x><y>357</y><w>204</w><h>187</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Registered by v</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>510</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;role&gt;&gt;
+Sponsor
+--
+Already implemented in C requirements
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>221</x><y>799</y><w>170</w><h>187</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+Written by v</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>952</y><w>459</w><h>136</h></coordinates><panel_attributes>&lt;&lt;role&gt;&gt;
+Auditor
+--
+Already implemented in C requirements
+bg=ORANGE</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1700</x><y>459</y><w>272</w><h>85</h></coordinates><panel_attributes>&lt;&lt;Entity&gt;&gt;
+ProjectMembership
+--
+
+bg=GREEN</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1513</x><y>493</y><w>221</w><h>221</h></coordinates><panel_attributes>lt=&lt;-x
+m1=1
+m2=*
+has &gt;</panel_attributes><additional_attributes>10;110;110;10</additional_attributes></element></diagram>
