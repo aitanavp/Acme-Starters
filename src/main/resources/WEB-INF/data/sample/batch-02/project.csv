@@ -1,0 +1,6 @@
+key,version,title,keywords,description,kickOffMoment,closeOutMoment,draftMode,key:manager
+
+# manager1
+project-36,1,"OTHER-PUB-PROJECT","prueba, teste","prueba","2025/01/02 00:00","2025/01/03 00:00",false,manager-01
+project-37,1,"OTHER-UNP-PROJECT","prueba, teste","prueba","2025/01/02 00:00","2025/01/03 00:00",true,manager-01
+
