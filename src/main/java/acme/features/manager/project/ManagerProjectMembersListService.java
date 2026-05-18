@@ -14,7 +14,7 @@ import acme.features.projectMember.membership.ProjectMemberMembershipRepository;
 import acme.realms.Manager;
 
 @Service
-public class ManagerProjectMembersListService extends AbstractService<Manager, ProjectMembership> {
+public class ManagerProjectMembersListService extends AbstractService<Manager, Project> {
 
 	@Autowired
 	private ProjectMemberMembershipRepository	repository;
@@ -48,10 +48,18 @@ public class ManagerProjectMembersListService extends AbstractService<Manager, P
 
 	@Override
 	public void unbind() {
+
 		for (ProjectMembership membership : this.memberships) {
-			Tuple tuple = super.unbindObject(membership, "id", "version");
+
+			Tuple tuple = new Tuple();
+
+			tuple.put("id", membership.getId());
+			tuple.put("version", membership.getVersion());
 			tuple.put("projectMember", membership.getProjectMember().getUserAccount().getUsername());
+
+			super.getResponse().addData(tuple);
 		}
+
 		super.unbindGlobal("projectId", this.project.getId());
 		super.unbindGlobal("draftMode", this.project.getDraftMode());
 		super.unbindGlobal("canManageMembers", this.project.getDraftMode() && this.project.getManager().isPrincipal());
