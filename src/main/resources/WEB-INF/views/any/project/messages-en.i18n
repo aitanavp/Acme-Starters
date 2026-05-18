@@ -1,0 +1,18 @@
+any.project.list.title = Projects
+any.project.list.titlestr = Title
+any.project.list.description = Description
+any.project.list.draftMode = Draft mode
+any.project.list.keywords = Key Words
+any.project.list.kickOffMoment = Kick Off Moment
+any.project.list.closeOutMoment = Close Out Moment 
+any.project.list.effort = Effort
+any.project.list.button.create = Create
+
+any.project.form.title = Project
+any.project.form.titlestr = Title
+any.project.form.keywords = Key Words
+any.project.form.description = Description
+any.project.form.kickOffMoment = Kick Off Moment
+any.project.form.closeOutMoment = Close Out Moment 
+any.project.form.draftMode = Draft mode
+any.project.form.effort = Effort

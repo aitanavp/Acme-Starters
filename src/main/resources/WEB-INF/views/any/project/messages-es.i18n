@@ -1,0 +1,20 @@
+any.project.list.title = Proyectos
+any.project.list.titlestr = Título
+any.project.list.description = Descripción
+any.project.list.draftMode = Borrador
+any.project.list.keywords = Palabras clave
+any.project.list.kickOffMoment = Momento de inicio
+any.project.list.closeOutMoment = Momento de cierre
+any.project.list.effort = Esfuerzo
+any.project.list.button.create = Crear
+
+any.project.form.title = Proyecto
+any.project.form.titlestr = Título
+any.project.form.keywords = Palabras clave
+any.project.form.description = Descripción
+any.project.form.kickOffMoment = Momento de inicio
+any.project.form.closeOutMoment = Momento de cierre
+any.project.form.draftMode = Borrador
+any.project.form.effort = Esfuerzo
+any.project.form.members.members = Miembros
+any.project.form.membership.projectMember = Miembro
