@@ -20,32 +20,35 @@ import acme.realms.Manager;
 @Service
 public class ManagerStrategyListService extends AbstractService<Manager, Strategy> {
 
-	// Internal state ---------------------------------------------------------
-
 	@Autowired
 	private ManagerStrategyRepository	repository;
-
 	@Autowired
 	private StrategyRepository			strategyRepository;
-
 	private Collection<Strategy>		strategies;
-
 	private Project						project;
-
 	private Map<Integer, Double>		expectedPercentages;
 
-	// AbstractService interface ---------------------------------------------
 
+	@Override
+	public void authorise() {
+		boolean status;
+		int projectId;
+		Project project;
+
+		projectId = super.getRequest().getData("projectId", int.class);
+		project = this.repository.findProjectById(projectId);
+		status = project != null && project.getManager().isPrincipal();
+		super.setAuthorised(status);
+	}
 
 	@Override
 	public void load() {
 		int projectId;
 
-		if (this.project == null) {
-			projectId = super.getRequest().getData("projectId", int.class);
-			this.project = this.repository.findProjectById(projectId);
-		}
-
+		projectId = super.getRequest().getData("projectId", int.class);
+		this.project = this.repository.findProjectById(projectId);
+		if (this.project == null)
+			return;
 		this.strategies = this.repository.findStrategiesByProjectId(this.project.getId());
 		this.expectedPercentages = new HashMap<>();
 		for (Strategy strategy : this.strategies) {
@@ -60,16 +63,12 @@ public class ManagerStrategyListService extends AbstractService<Manager, Strateg
 	}
 
 	@Override
-	public void authorise() {
-		super.setAuthorised(true);
-	}
-
-	@Override
 	public void unbind() {
+		if (this.strategies == null)
+			return;
 		for (Strategy strategy : this.strategies) {
 			Tuple tuple = super.unbindObject(strategy, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "draftMode");
 			tuple.put("expectedPercentage", this.expectedPercentages.get(strategy.getId()));
 		}
 	}
-
 }

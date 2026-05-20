@@ -14,38 +14,39 @@ import acme.realms.Manager;
 @Service
 public class ManagerSponsorshipListService extends AbstractService<Manager, Sponsorship> {
 
-	// Internal state ---------------------------------------------------------
-
 	@Autowired
 	private ManagerSponsorshipRepository	repository;
-
 	private Collection<Sponsorship>			sponsorships;
-
 	private Project							project;
 
-	// AbstractService interface ---------------------------------------------
 
+	@Override
+	public void authorise() {
+		boolean status;
+		int projectId;
+		Project project;
+
+		projectId = super.getRequest().getData("projectId", int.class);
+		project = this.repository.findProjectById(projectId);
+		status = project != null && project.getManager().isPrincipal();
+		super.setAuthorised(status);
+	}
 
 	@Override
 	public void load() {
 		int projectId;
 
-		if (this.project == null) {
-			projectId = super.getRequest().getData("projectId", int.class);
-			this.project = this.repository.findProjectById(projectId);
-		}
-
+		projectId = super.getRequest().getData("projectId", int.class);
+		this.project = this.repository.findProjectById(projectId);
+		if (this.project == null)
+			return;
 		this.sponsorships = this.repository.findSponsorshipsByProjectId(this.project.getId());
 	}
 
 	@Override
-	public void authorise() {
-		super.setAuthorised(true);
-	}
-
-	@Override
 	public void unbind() {
+		if (this.sponsorships == null)
+			return;
 		super.unbindObjects(this.sponsorships, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "totalMoney", "draftMode");
 	}
-
 }

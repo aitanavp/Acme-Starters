@@ -27,24 +27,32 @@ public class ManagerInventionListService extends AbstractService<Manager, Invent
 
 
 	@Override
+	public void authorise() {
+		boolean status;
+		int projectId;
+		Project project;
+
+		projectId = super.getRequest().getData("projectId", int.class);
+		project = this.repository.findProjectById(projectId);
+		status = project != null && project.getManager().isPrincipal();
+		super.setAuthorised(status);
+	}
+
+	@Override
 	public void load() {
 		int projectId;
 
-		if (this.project == null) {
-			projectId = super.getRequest().getData("projectId", int.class);
-			this.project = this.repository.findProjectById(projectId);
-		}
-
+		projectId = super.getRequest().getData("projectId", int.class);
+		this.project = this.repository.findProjectById(projectId);
+		if (this.project == null)
+			return;
 		this.inventions = this.repository.findInventionsByProjectId(this.project.getId());
 	}
 
 	@Override
-	public void authorise() {
-		super.setAuthorised(true);
-	}
-
-	@Override
 	public void unbind() {
+		if (this.inventions == null)
+			return;
 		super.unbindObjects(this.inventions, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "cost", "draftMode");
 	}
 

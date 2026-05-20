@@ -14,38 +14,39 @@ import acme.realms.Manager;
 @Service
 public class ManagerAuditReportListService extends AbstractService<Manager, AuditReport> {
 
-	// Internal state ---------------------------------------------------------
-
 	@Autowired
 	private ManagerAuditReportRepository	repository;
+	private Collection<AuditReport>			auditReports;
+	private Project							project;
 
-	private Collection<AuditReport>				auditReports;
 
-	private Project								project;
+	@Override
+	public void authorise() {
+		boolean status;
+		int projectId;
+		Project project;
 
-	// AbstractService interface ---------------------------------------------
-
+		projectId = super.getRequest().getData("projectId", int.class);
+		project = this.repository.findProjectById(projectId);
+		status = project != null && project.getManager().isPrincipal();
+		super.setAuthorised(status);
+	}
 
 	@Override
 	public void load() {
 		int projectId;
 
-		if (this.project == null) {
-			projectId = super.getRequest().getData("projectId", int.class);
-			this.project = this.repository.findProjectById(projectId);
-		}
-
+		projectId = super.getRequest().getData("projectId", int.class);
+		this.project = this.repository.findProjectById(projectId);
+		if (this.project == null)
+			return;
 		this.auditReports = this.repository.findAuditReportsByProjectId(this.project.getId());
 	}
 
 	@Override
-	public void authorise() {
-		super.setAuthorised(true);
-	}
-
-	@Override
 	public void unbind() {
+		if (this.auditReports == null)
+			return;
 		super.unbindObjects(this.auditReports, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours", "draftMode");
 	}
-
 }
