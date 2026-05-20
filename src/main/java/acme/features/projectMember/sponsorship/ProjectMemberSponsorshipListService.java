@@ -14,38 +14,42 @@ import acme.realms.ProjectMember;
 @Service
 public class ProjectMemberSponsorshipListService extends AbstractService<ProjectMember, Sponsorship> {
 
-	// Internal state ---------------------------------------------------------
-
 	@Autowired
 	private ProjectMemberSponsorshipRepository	repository;
-
 	private Collection<Sponsorship>				sponsorships;
-
 	private Project								project;
-
-	// AbstractService interface ---------------------------------------------
 
 
 	@Override
-	public void load() {
+	public void authorise() {
+		boolean status;
 		int projectId;
+		ProjectMember projectMember;
 
-		if (this.project == null) {
-			projectId = super.getRequest().getData("projectId", int.class);
-			this.project = this.repository.findProjectById(projectId);
+		projectId = super.getRequest().getData("projectId", int.class);
+		this.project = this.repository.findProjectById(projectId);
+		try {
+			projectMember = (ProjectMember) super.getRequest().getPrincipal().getRealmOfType(ProjectMember.class);
+		} catch (final Throwable e) {
+			projectMember = null;
 		}
+		status = this.project != null && projectMember != null && this.repository.isProjectMemberInProject(this.project.getId(), projectMember.getId());
+		super.setAuthorised(status);
+	}
 
+	@Override
+	public void load() {
+		if (this.project == null)
+			this.project = this.repository.findProjectById(super.getRequest().getData("projectId", int.class));
+		if (this.project == null)
+			return;
 		this.sponsorships = this.repository.findSponsorshipsByProjectId(this.project.getId());
 	}
 
 	@Override
-	public void authorise() {
-		super.setAuthorised(true);
-	}
-
-	@Override
 	public void unbind() {
+		if (this.sponsorships == null)
+			return;
 		super.unbindObjects(this.sponsorships, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "totalMoney", "draftMode");
 	}
-
 }
