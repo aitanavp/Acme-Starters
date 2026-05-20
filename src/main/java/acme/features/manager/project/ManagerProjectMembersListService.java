@@ -20,7 +20,6 @@ public class ManagerProjectMembersListService extends AbstractService<Manager, P
 	private ProjectMemberMembershipRepository	repository;
 
 	private Collection<ProjectMembership>		memberships;
-
 	private Project								project;
 
 
@@ -37,26 +36,19 @@ public class ManagerProjectMembersListService extends AbstractService<Manager, P
 
 	@Override
 	public void load() {
-		int projectId;
+		if (this.project == null)
+			this.project = this.repository.findProjectById(super.getRequest().getData("projectId", int.class));
 
-		projectId = super.getRequest().getData("projectId", int.class);
-
-		this.project = this.repository.findProjectById(projectId);
-
-		this.memberships = this.repository.findAllProjectMembershipsByProjectId(projectId);
+		this.memberships = this.repository.findAllProjectMembershipsByProjectId(this.project.getId());
 	}
 
 	@Override
 	public void unbind() {
-
 		for (ProjectMembership membership : this.memberships) {
-
 			Tuple tuple = new Tuple();
-
 			tuple.put("id", membership.getId());
 			tuple.put("version", membership.getVersion());
 			tuple.put("projectMember", membership.getProjectMember().getUserAccount().getUsername());
-
 			super.getResponse().addData(tuple);
 		}
 
@@ -64,5 +56,4 @@ public class ManagerProjectMembersListService extends AbstractService<Manager, P
 		super.unbindGlobal("draftMode", this.project.getDraftMode());
 		super.unbindGlobal("canManageMembers", this.project.getDraftMode() && this.project.getManager().isPrincipal());
 	}
-
 }

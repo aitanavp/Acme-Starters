@@ -91,12 +91,29 @@ public class ManagerProjectPublishService extends AbstractService<Manager, Proje
 			super.state(MomentHelper.isFuture(closeOut), "closeOutMoment", "manager.project.publish.error.closeout-future");
 
 		// Earliest startMoment among all components
-		Date earliestStart = this.repository.findEarliestComponentStart(this.project.getId());
+		Date earliestStart = null;
+		Date s1 = this.repository.findEarliestStrategyStart(this.project.getId());
+		Date s2 = this.repository.findEarliestInventionStart(this.project.getId());
+		Date s3 = this.repository.findEarliestCampaignStart(this.project.getId());
+		for (Date d : new Date[] {
+			s1, s2, s3
+		})
+			if (d != null && (earliestStart == null || d.before(earliestStart)))
+				earliestStart = d;
+
 		if (kickOff != null && earliestStart != null)
 			super.state(!MomentHelper.isAfter(kickOff, earliestStart), "kickOffMoment", "manager.project.publish.error.kickoff-after-earliest-start");
 
 		// Latest endMoment among all components
-		Date latestEnd = this.repository.findLatestComponentEnd(this.project.getId());
+		Date latestEnd = null;
+		Date e1 = this.repository.findLatestStrategyEnd(this.project.getId());
+		Date e2 = this.repository.findLatestInventionEnd(this.project.getId());
+		Date e3 = this.repository.findLatestCampaignEnd(this.project.getId());
+		for (Date d : new Date[] {
+			e1, e2, e3
+		})
+			if (d != null && (latestEnd == null || d.after(latestEnd)))
+				latestEnd = d;
 		if (closeOut != null && latestEnd != null)
 			super.state(!MomentHelper.isBefore(closeOut, latestEnd), "closeOutMoment", "manager.project.publish.error.closeout-before-latest-end");
 
